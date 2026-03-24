@@ -4,16 +4,16 @@ import { collection, getDocs, orderBy, query } from 'firebase/firestore';
 import { db } from '../config/firebase';
 
 export default function Home() {
-  const [chapters, setChapters] = useState([]);
+  const [chapters, setChapters] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
   useEffect(() => {
     const fetchChapters = async () => {
       try {
-        const q = query(collection(db, 'chapters'), orderBy('chapterNumber'));
-        const querySnapshot = await getDocs(q);
-        const chaptersData = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+        const chapterQuery = query(collection(db, 'chapters'), orderBy('name'));
+        const chapterSnapshot = await getDocs(chapterQuery);
+        const chaptersData = chapterSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
         
         // Group chapters
         const grouped = chaptersData.reduce((acc, chapter) => {
@@ -54,7 +54,11 @@ export default function Home() {
 
   return (
     <div>
-      <h1>Japanese Vocabulary Chapters</h1>
+      <h1>Japanese Vocabulary</h1>
+      <p className="home-intro">
+        This website is for students registered in the JPSE course. However, students who are not
+        registered are also welcome to use it.
+      </p>
       {Object.keys(chapters).length === 0 && <p>No chapters found.</p>}
       {groupOrder.map(groupName => (
         chapters[groupName] && (
@@ -62,11 +66,7 @@ export default function Home() {
             <h2>{groupName}</h2>
             <div className="chapter-grid">
               {chapters[groupName].map(chapter => (
-                <Link 
-                  key={chapter.id} 
-                  to={`/chapter/${chapter.id}`}
-                  className="chapter-card"
-                >
+                <Link key={chapter.id} to={`/chapter/${chapter.id}`} className="chapter-card">
                   {chapter.name}
                 </Link>
               ))}

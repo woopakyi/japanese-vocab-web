@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { collection, getDocs, query, where, doc, getDoc } from 'firebase/firestore';
+import { collection, getDocs, query, orderBy, doc, getDoc } from 'firebase/firestore';
 import { db } from '../config/firebase';
 
 export default function Exercise() {
@@ -31,10 +31,12 @@ export default function Exercise() {
 
         // 2. Fetch vocabulary for the exercise
         const vocabCollectionRef = collection(db, 'chapters', chapterId, 'vocabularies');
-        const q = query(vocabCollectionRef, where('type', '==', vocabType));
+        const q = query(vocabCollectionRef, orderBy('originalOrder'));
         const querySnapshot = await getDocs(q);
-        
-        const questionsData = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+
+        const questionsData = querySnapshot.docs
+          .map(doc => ({ id: doc.id, ...doc.data() }))
+          .filter((item) => item.type === vocabType);
         setQuestions(questionsData);
 
         // Initialize userAnswers state
@@ -119,6 +121,9 @@ export default function Exercise() {
       <div>
         <h1>Exercise for {chapterId.replace('ch', 'Chapter ')}</h1>
         <p>There is no vocabulary for this exercise type in this chapter.</p>
+        <button type="button" onClick={() => navigate(-1)} style={{ marginRight: '0.6rem' }}>
+          Go Back
+        </button>
         <button onClick={() => navigate(`/chapter/${chapterId}`)}>Back to Chapter</button>
       </div>
     );
@@ -126,6 +131,9 @@ export default function Exercise() {
 
   return (
     <div className="center-card">
+      <button type="button" onClick={() => navigate(-1)} style={{ marginBottom: '0.9rem' }}>
+        Go Back
+      </button>
       <h1>{`Exercise Type ${vocabType} for ${chapterId.replace('ch', 'Chapter ')}`}</h1>
       <p>{vocabType === 1 ? 'Convert Kanji to Hiragana' : 'Convert Meaning to Katakana'}</p>
       

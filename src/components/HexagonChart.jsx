@@ -19,33 +19,60 @@ ChartJS.register(
   Legend
 );
 
-export default function HexagonChart({ scoreData }) {
+export default function HexagonChart({ scoreData, fullMarkData }) {
   // The order must be consistent
-  const labels = ["Japanese I", "Japanese II", "Japanese III", "Japanese IV", "Japanese V", "Japanese VI"];
+  const groupLabels = ["Japanese I", "Japanese II", "Japanese III", "Japanese IV", "Japanese V", "Japanese VI"];
+  const labels = groupLabels.map((group) => {
+    const gained = scoreData?.[group] || 0;
+    const full = fullMarkData?.[group] || 0;
+    return [group, `${gained}/${full}`];
+  });
+  const progressRatios = groupLabels.map((group) => {
+    const gained = scoreData?.[group] || 0;
+    const full = fullMarkData?.[group] || 0;
+    if (!full) {
+      return 0;
+    }
+    return (gained / full) * 100;
+  });
   
   const data = {
     labels: labels,
     datasets: [
       {
-        label: 'Total Score per Group',
-        data: labels.map(label => scoreData[label] || 0), // Use the data for each label
-        backgroundColor: 'rgba(54, 162, 235, 0.2)',
-        borderColor: 'rgba(54, 162, 235, 1)',
-        borderWidth: 1,
+        label: 'Overall Progress',
+        data: progressRatios,
+        backgroundColor: 'rgba(45, 90, 163, 0.20)',
+        borderColor: 'rgba(45, 90, 163, 1)',
+        borderWidth: 2,
+        pointRadius: 0,
       },
     ],
   };
 
   const options = {
+    plugins: {
+      legend: {
+        display: false,
+      },
+    },
     scales: {
       r: {
         beginAtZero: true,
+        min: 0,
+        max: 100,
         ticks: {
-           stepSize: 10, // Adjust this based on expected scores
-        }
-      }
-    }
-  }
+          display: false,
+          stepSize: 20,
+        },
+        pointLabels: {
+          font: {
+            size: 11,
+          },
+        },
+      },
+    },
+  };
 
   return <Radar data={data} options={options} />;
 }

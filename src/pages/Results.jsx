@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { useLocation, useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 import { db } from '../config/firebase';
@@ -8,6 +8,7 @@ export default function Results() {
   const location = useLocation();
   const navigate = useNavigate();
   const { user } = useAuth(); // Get current user status
+  const hasSaved = useRef(false);
 
   // Get results passed from Exercise.jsx
   const { finalResult } = location.state || {};
@@ -16,7 +17,8 @@ export default function Results() {
   useEffect(() => {
     if (!finalResult) {
       navigate('/');
-    } else {
+    } else if (!hasSaved.current) {
+      hasSaved.current = true;
       saveRecord();
     }
   }, [finalResult, navigate, user]);

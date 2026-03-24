@@ -1,19 +1,43 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { collection, getDocs, query, orderBy } from 'firebase/firestore';
+import { collection, getDocs, query, orderBy, where } from 'firebase/firestore';
 import { db } from '../config/firebase';
+import { useAuth } from '../hooks/useAuth';
 
 export default function Chapter() {
   const { chapterId } = useParams();
+  const { user } = useAuth();
   const [vocab, setVocab] = useState([]);
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState('all'); // 'all', 'kanji', 'katakana'
+  const [bestScores, setBestScores] = useState({ ex1: null, ex2: null });
   const [error, setError] = useState('');
 
   useEffect(() => {
     const fetchVocab = async () => {
       setLoading(true);
       try {
+        let records = [];
+        if (user) {
+          const recordQuery = query(
+            collection(db, 'exerciseRecords'),
+            where('userId', '==', user.uid),
+            where('chapterId', '==', chapterId)
+          );
+          const recordsSnapshot = await getDocs(recordQuery);
+          records = recordsSnapshot.docs.map(doc => doc.data());
+        } else {
+          records = (JSON.parse(localStorage.getItem('exerciseRecords') || '[]'))
+            .filter((record) => record.chapterId === chapterId);
+        }
+
+        const ex1Scores = records.filter((record) => record.exerciseType === 1).map((record) => record.score);
+        const ex2Scores = records.filter((record) => record.exerciseType === 2).map((record) => record.score);
+        setBestScores({
+          ex1: ex1Scores.length ? Math.max(...ex1Scores) : null,
+          ex2: ex2Scores.length ? Math.max(...ex2Scores) : null,
+        });
+
         const vocabCollectionRef = collection(db, 'chapters', chapterId, 'vocabularies');
         const q = query(vocabCollectionRef, orderBy('originalOrder'));
         const querySnapshot = await getDocs(q);
@@ -32,7 +56,7 @@ export default function Chapter() {
     };
 
     fetchVocab();
-  }, [chapterId]);
+  }, [chapterId, user]);
 
   const filteredVocab = useMemo(() => {
     if (filter === 'kanji') {
@@ -55,11 +79,17 @@ export default function Chapter() {
   return (
     <div>
       <h1>Vocabulary for {chapterId.replace('ch', 'Chapter ')}</h1>
+
+      <div className="action-row">
+        <strong>Highest Marks:</strong>
+        <span>Exercise 1: {bestScores.ex1 ?? <span className="placeholder-mark">--</span>}</span>
+        <span>Exercise 2: {bestScores.ex2 ?? <span className="placeholder-mark">--</span>}</span>
+      </div>
       
       <div className="action-row">
         <strong>Exercises:</strong>
-        <Link className="pill-link" to={`/exercise/${chapterId}/1`}>Kanji to Hiragana (Type 1)</Link>
-        <Link className="pill-link" to={`/exercise/${chapterId}/2`}>Meaning to Katakana (Type 2)</Link>
+        <Link className="exercise-link exercise-link-grey" to={`/exercise/${chapterId}/1`}>Exercise 1: Kanji to Hiragana</Link>
+        <Link className="exercise-link exercise-link-grey" to={`/exercise/${chapterId}/2`}>Exercise 2: Meaning to Katakana</Link>
       </div>
 
       <div className="action-row">
@@ -72,8 +102,8 @@ export default function Chapter() {
       <table>
         <thead>
           <tr>
-            <th>Hiragana / Katakana</th>
-            <th>Kanji</th>
+            <th>{filter === 'katakana' ? 'Katakana' : 'Hiragana / Katakana'}</th>
+            {filter !== 'katakana' && <th>Kanji</th>}
             <th>Meaning</th>
           </tr>
         </thead>
@@ -81,7 +111,7 @@ export default function Chapter() {
           {filteredVocab.map(v => (
             <tr key={v.id}>
               <td>{v.word}</td>
-              <td>{v.kanji}</td>
+              {filter !== 'katakana' && <td>{v.kanji}</td>}
               <td>{v.meaning}</td>
             </tr>
           ))}
