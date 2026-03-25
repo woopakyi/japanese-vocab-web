@@ -3,6 +3,8 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 import { db } from '../config/firebase';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
+import { removeCachedValue } from '../utils/cache';
+import { updateUserBestScoreSummary } from '../utils/userSummary';
 
 export default function Results() {
   const location = useLocation();
@@ -45,6 +47,10 @@ export default function Results() {
           userId: user.uid,
           completedAt: serverTimestamp() // Use Firestore's server time
         });
+        await updateUserBestScoreSummary(user.uid, [record]);
+        removeCachedValue(`records:${user.uid}:all`);
+        removeCachedValue(`records:${user.uid}:chapter:${record.chapterId}`);
+        removeCachedValue(`summary:${user.uid}:best`);
         console.log("Record saved to Firestore.");
       } catch (error) {
         console.error("Error saving record to Firestore:", error);
@@ -55,6 +61,7 @@ export default function Results() {
         const localRecords = JSON.parse(localStorage.getItem('exerciseRecords')) || [];
         localRecords.push(record);
         localStorage.setItem('exerciseRecords', JSON.stringify(localRecords));
+        removeCachedValue('profile:guest:summary');
         console.log("Record saved to Local Storage.");
       } catch (error) {
         console.error("Error saving record to Local Storage:", error);

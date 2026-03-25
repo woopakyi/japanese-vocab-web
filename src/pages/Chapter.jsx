@@ -1,8 +1,13 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { collection, getDocs, query, orderBy, where } from 'firebase/firestore';
+import { collection, getDocs, query, orderBy } from 'firebase/firestore';
 import { db } from '../config/firebase';
 import { useAuth } from '../hooks/useAuth';
+import { getCachedValue, setCachedValue } from '../utils/cache';
+import { getUserBestScoreSummary } from '../utils/userSummary';
+
+const VOCAB_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
+const USER_SUMMARY_CACHE_TTL_MS = 60 * 1000;
 
 export default function Chapter() {
   const { chapterId } = useParams();
@@ -17,31 +22,44 @@ export default function Chapter() {
     const fetchVocab = async () => {
       setLoading(true);
       try {
-        let records = [];
         if (user) {
-          const recordQuery = query(
-            collection(db, 'exerciseRecords'),
-            where('userId', '==', user.uid),
-            where('chapterId', '==', chapterId)
-          );
-          const recordsSnapshot = await getDocs(recordQuery);
-          records = recordsSnapshot.docs.map(doc => doc.data());
+          const summaryCacheKey = `summary:${user.uid}:best`;
+          const cachedSummary = getCachedValue(summaryCacheKey, USER_SUMMARY_CACHE_TTL_MS);
+          const summary = cachedSummary || await (async () => {
+            const data = await getUserBestScoreSummary(user.uid);
+            setCachedValue(summaryCacheKey, data);
+            return data;
+          })();
+
+          const ex1 = summary?.[`${chapterId}-1`]?.score;
+          const ex2 = summary?.[`${chapterId}-2`]?.score;
+
+          setBestScores({
+            ex1: Number.isFinite(ex1) ? ex1 : null,
+            ex2: Number.isFinite(ex2) ? ex2 : null,
+          });
         } else {
-          records = (JSON.parse(localStorage.getItem('exerciseRecords') || '[]'))
+          const records = (JSON.parse(localStorage.getItem('exerciseRecords') || '[]'))
             .filter((record) => record.chapterId === chapterId);
+
+          const ex1Scores = records.filter((record) => record.exerciseType === 1).map((record) => record.score);
+          const ex2Scores = records.filter((record) => record.exerciseType === 2).map((record) => record.score);
+          setBestScores({
+            ex1: ex1Scores.length ? Math.max(...ex1Scores) : null,
+            ex2: ex2Scores.length ? Math.max(...ex2Scores) : null,
+          });
         }
 
-        const ex1Scores = records.filter((record) => record.exerciseType === 1).map((record) => record.score);
-        const ex2Scores = records.filter((record) => record.exerciseType === 2).map((record) => record.score);
-        setBestScores({
-          ex1: ex1Scores.length ? Math.max(...ex1Scores) : null,
-          ex2: ex2Scores.length ? Math.max(...ex2Scores) : null,
-        });
-
-        const vocabCollectionRef = collection(db, 'chapters', chapterId, 'vocabularies');
-        const q = query(vocabCollectionRef, orderBy('originalOrder'));
-        const querySnapshot = await getDocs(q);
-        const vocabData = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+        const vocabCacheKey = `chapter:${chapterId}:vocab`;
+        const cachedVocab = getCachedValue(vocabCacheKey, VOCAB_CACHE_TTL_MS);
+        const vocabData = cachedVocab || await (async () => {
+          const vocabCollectionRef = collection(db, 'chapters', chapterId, 'vocabularies');
+          const q = query(vocabCollectionRef, orderBy('originalOrder'));
+          const querySnapshot = await getDocs(q);
+          const data = querySnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+          setCachedValue(vocabCacheKey, data);
+          return data;
+        })();
         setVocab(vocabData);
       } catch (error) {
         console.error("Error fetching vocabulary:", error);

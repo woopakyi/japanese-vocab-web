@@ -4,6 +4,8 @@ import {
 } from 'firebase/auth';
 import { auth, googleProvider, db } from '../config/firebase';
 import { collection, addDoc, doc, setDoc, getDoc, serverTimestamp } from 'firebase/firestore';
+import { removeCachedValue } from '../utils/cache';
+import { updateUserBestScoreSummary } from '../utils/userSummary';
 
 // This function will sync local data to Firestore on login
 const syncLocalRecordsToFirestore = async (userId) => {
@@ -26,6 +28,8 @@ const syncLocalRecordsToFirestore = async (userId) => {
       completedAt: serverTimestamp(),
     });
   }
+
+  await updateUserBestScoreSummary(userId, records);
 
   localStorage.removeItem('exerciseRecords');
 };
@@ -53,6 +57,8 @@ export default function Auth({ closeModal }) {
         });
       }
       await syncLocalRecordsToFirestore(user.uid);
+      removeCachedValue(`records:${user.uid}:all`);
+      removeCachedValue(`summary:${user.uid}:best`);
       closeModal();
     } catch (err) {
       setError(err.message);

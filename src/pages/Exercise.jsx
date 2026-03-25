@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { collection, getDocs, query, orderBy, doc, getDoc } from 'firebase/firestore';
 import { db } from '../config/firebase';
+import { getCachedValue, setCachedValue } from '../utils/cache';
+
+const CHAPTER_META_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
+const VOCAB_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 
 export default function Exercise() {
   const { chapterId, exerciseType } = useParams();
@@ -21,21 +25,32 @@ export default function Exercise() {
       setLoading(true);
       try {
         // 1. Fetch chapter details (like its group name)
-        const chapterDocRef = doc(db, 'chapters', chapterId);
-        const chapterDocSnap = await getDoc(chapterDocRef);
-        if (chapterDocSnap.exists()) {
-          setChapterData(chapterDocSnap.data());
-        } else {
-          throw new Error("Chapter not found!");
-        }
+        const chapterMetaCacheKey = `chapter:${chapterId}:meta`;
+        const cachedChapterMeta = getCachedValue(chapterMetaCacheKey, CHAPTER_META_CACHE_TTL_MS);
+        const chapterMeta = cachedChapterMeta || await (async () => {
+          const chapterDocRef = doc(db, 'chapters', chapterId);
+          const chapterDocSnap = await getDoc(chapterDocRef);
+          if (!chapterDocSnap.exists()) {
+            throw new Error('Chapter not found!');
+          }
+          const data = chapterDocSnap.data();
+          setCachedValue(chapterMetaCacheKey, data);
+          return data;
+        })();
+        setChapterData(chapterMeta);
 
         // 2. Fetch vocabulary for the exercise
-        const vocabCollectionRef = collection(db, 'chapters', chapterId, 'vocabularies');
-        const q = query(vocabCollectionRef, orderBy('originalOrder'));
-        const querySnapshot = await getDocs(q);
+        const vocabCacheKey = `chapter:${chapterId}:vocab`;
+        const allVocab = getCachedValue(vocabCacheKey, VOCAB_CACHE_TTL_MS) || await (async () => {
+          const vocabCollectionRef = collection(db, 'chapters', chapterId, 'vocabularies');
+          const q = query(vocabCollectionRef, orderBy('originalOrder'));
+          const querySnapshot = await getDocs(q);
+          const data = querySnapshot.docs.map((docItem) => ({ id: docItem.id, ...docItem.data() }));
+          setCachedValue(vocabCacheKey, data);
+          return data;
+        })();
 
-        const questionsData = querySnapshot.docs
-          .map(doc => ({ id: doc.id, ...doc.data() }))
+        const questionsData = allVocab
           .filter((item) => item.type === vocabType);
         setQuestions(questionsData);
 

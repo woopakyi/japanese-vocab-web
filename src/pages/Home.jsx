@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { collection, getDocs, orderBy, query } from 'firebase/firestore';
 import { db } from '../config/firebase';
+import { getCachedValue, setCachedValue } from '../utils/cache';
+
+const CHAPTERS_CACHE_KEY = 'chapters:meta';
+const CHAPTERS_CACHE_TTL_MS = 6 * 60 * 60 * 1000;
 
 export default function Home() {
   const [chapters, setChapters] = useState({});
@@ -11,9 +15,14 @@ export default function Home() {
   useEffect(() => {
     const fetchChapters = async () => {
       try {
-        const chapterQuery = query(collection(db, 'chapters'), orderBy('name'));
-        const chapterSnapshot = await getDocs(chapterQuery);
-        const chaptersData = chapterSnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+        const cachedChapters = getCachedValue(CHAPTERS_CACHE_KEY, CHAPTERS_CACHE_TTL_MS);
+        const chaptersData = cachedChapters || await (async () => {
+          const chapterQuery = query(collection(db, 'chapters'), orderBy('chapterNumber'));
+          const chapterSnapshot = await getDocs(chapterQuery);
+          const data = chapterSnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+          setCachedValue(CHAPTERS_CACHE_KEY, data);
+          return data;
+        })();
         
         // Group chapters
         const grouped = chaptersData.reduce((acc, chapter) => {

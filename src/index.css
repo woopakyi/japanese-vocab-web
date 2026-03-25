@@ -464,6 +464,15 @@ tr:nth-child(even) td {
   flex: 1;
 }
 
+#profileDisplayName {
+  margin-bottom: 0;
+}
+
+.profile-name-row button {
+  align-self: flex-end;
+  white-space: nowrap;
+}
+
 .profile-chart-wrap {
   margin-top: 1.4rem;
 }

@@ -103,6 +103,89 @@ Main collections used by the app:
 
 Auth setup lives in [src/config/firebase.js](src/config/firebase.js) and [src/components/Auth.jsx](src/components/Auth.jsx).
 
+## Firestore Read Cost Optimization
+
+The app uses two strategies to minimize daily Firestore read quota consumption on the Spark plan:
+
+### 1. Client-Side Caching with LocalStorage
+
+A time-based cache layer ([src/utils/cache.js](src/utils/cache.js)) stores Firestore reads in localStorage, reducing repeated document fetches:
+
+- **Chapter metadata & vocabularies**: cached for 24 hours
+  - Chapters list: reused across Home, Chapter, Exercise pages
+  - Chapter metadata (type counts): used by Profile without per-chapter vocab scans
+- **User best-score summaries**: cached for 1 minute
+  - Allows stale score display with rapid cache invalidation after new results
+- **User exercise records**: cached for 5 minutes (Records page)
+
+Cache is automatically invalidated when:
+- A new exercise result is saved
+- A user signs in (syncing local records to Firestore)
+- User navigates to specific cache-aware pages
+
+### 2. Per-User Best-Score Summary Document
+
+Instead of reading all exerciseRecords to compute best scores, the app maintains a lightweight summary in each user doc:
+
+- **Location**: `users/{uid}.bestScoresByChapterType`
+- **Format**: map of `"chapterId-exerciseType"` to `{ score, totalQuestions, ... }`
+- **Updated**: automatically when a new result is saved or local records are synced during sign-in
+
+This single-doc read replaces full exerciseRecords collection scans:
+- **Profile page**: reads 1 doc (user summary) + 1 doc (chapters meta) instead of ~38 vocab subcollections + exerciseRecords collection
+- **Chapter page**: reads 1 doc (user summary) instead of filtered exerciseRecords query
+
+### 3. Chapter Vocabulary Counts in Metadata
+
+When uploading chapters via [scripts/upload.js](scripts/upload.js), the script now stores `type1Count` and `type2Count` on each chapter doc. This avoids Profile needing to scan vocabulary subcollections for full-mark totals.
+
+If your vocabulary CSVs are stable and you want to pre-calculate max marks once, run:
+
+```bash
+cd scripts
+npm install
+npm run upload:score-metadata
+```
+
+This uploads pre-calculated values from CSV to Firestore:
+
+- Per chapter (`chapters/{chapterId}`):
+    - `type1Count`
+    - `type2Count`
+    - `exercise1Max`
+    - `exercise2Max`
+    - `chapterMaxScore`
+- Global totals (`appMeta/scoreTotals`):
+    - `totalExercise1Max`
+    - `totalExercise2Max`
+    - `totalChapterMaxScore`
+    - `groupTotals`
+
+### Migration for Existing Users
+
+To backfill summary docs for users with existing exercise records:
+
+```bash
+cd scripts
+npm install
+node backfillUserSummaries.js
+```
+
+This one-time script creates `bestScoresByChapterType` summaries from all historical exerciseRecords without changing user data.
+
+### Expected Read Reduction
+
+With these optimizations:
+- **Home page**: ~1 read (cached chapters, rarely invalidated)
+- **Chapter page**: ~2 reads instead of ~38+ (meta cache + user summary cache)
+- **Exercise page**: ~2 reads (vocab cached, no record reads during exercise)
+- **Profile page**: ~2 reads instead of ~100+ (meta + summary, no per-chapter vocab scans)
+- **Results page**: 1 write to exerciseRecords + 1 write to user summary (no extra reads)
+
+Total estimated daily savings: ~50–70% reduction in read count vs. full-record queries.
+
+Note: On the website, record-based score updates may take up to 1 minute to appear because of summary cache refresh.
+
 ## Optional: Upload Chapter CSV Data
 
 The scripts folder includes a Node script that uploads chapter and vocabulary data from CSV files.

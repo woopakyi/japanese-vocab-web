@@ -3,6 +3,9 @@ import { collection, getDocs, query, where } from 'firebase/firestore';
 import { useSearchParams } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 import { db } from '../config/firebase';
+import { getCachedValue, setCachedValue } from '../utils/cache';
+
+const USER_RECORDS_CACHE_TTL_MS = 5 * 60 * 1000;
 
 function formatCompletedAt(value) {
   if (!value) return '--';
@@ -55,12 +58,21 @@ export default function Records() {
       setError('');
       try {
         if (user) {
-          const recordsQuery = query(
-            collection(db, 'exerciseRecords'),
-            where('userId', '==', user.uid)
-          );
-          const snapshot = await getDocs(recordsQuery);
-          setRecords(snapshot.docs.map((docItem) => ({ id: docItem.id, ...docItem.data() })));
+          const userRecordsCacheKey = `records:${user.uid}:all`;
+          const cachedRecords = getCachedValue(userRecordsCacheKey, USER_RECORDS_CACHE_TTL_MS);
+
+          if (cachedRecords) {
+            setRecords(cachedRecords);
+          } else {
+            const recordsQuery = query(
+              collection(db, 'exerciseRecords'),
+              where('userId', '==', user.uid)
+            );
+            const snapshot = await getDocs(recordsQuery);
+            const data = snapshot.docs.map((docItem) => ({ id: docItem.id, ...docItem.data() }));
+            setCachedValue(userRecordsCacheKey, data);
+            setRecords(data);
+          }
         } else {
           const local = JSON.parse(localStorage.getItem('exerciseRecords') || '[]');
           setRecords(Array.isArray(local) ? local : []);

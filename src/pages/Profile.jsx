@@ -2,8 +2,18 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../hooks/useAuth';
 import { auth, db } from '../config/firebase';
 import { updateProfile } from 'firebase/auth';
-import { collection, query, where, getDocs, orderBy, doc, setDoc } from 'firebase/firestore';
+import { collection, getDocs, orderBy, query, where, doc, setDoc } from 'firebase/firestore';
 import HexagonChart from '../components/HexagonChart';
+import { getCachedValue, setCachedValue } from '../utils/cache';
+import { getUserBestScoreSummary, updateUserBestScoreSummary } from '../utils/userSummary';
+
+const USER_SUMMARY_CACHE_TTL_MS = 60 * 1000;
+const CHAPTERS_CACHE_TTL_MS = 6 * 60 * 60 * 1000;
+
+function toPositiveCount(value) {
+  const count = Number(value);
+  return Number.isFinite(count) && count > 0 ? count : 0;
+}
 
 export default function Profile() {
   const { user, loading: authLoading } = useAuth();
@@ -38,23 +48,61 @@ export default function Profile() {
 
     const fetchScores = async () => {
       try {
+        setWarning('');
         const groupOrder = ["Japanese I", "Japanese II", "Japanese III", "Japanese IV", "Japanese V", "Japanese VI"];
 
-        let userRecords = [];
+        let bestRecords = [];
         if (user) {
-          const recordsQuery = query(collection(db, 'exerciseRecords'), where('userId', '==', user.uid));
-          const recordsSnapshot = await getDocs(recordsQuery);
-          userRecords = recordsSnapshot.docs.map(docItem => docItem.data());
+          const summaryCacheKey = `summary:${user.uid}:best`;
+          const cachedSummary = getCachedValue(summaryCacheKey, USER_SUMMARY_CACHE_TTL_MS);
+          const summary = cachedSummary || await (async () => {
+            const data = await getUserBestScoreSummary(user.uid);
+            setCachedValue(summaryCacheKey, data);
+            return data;
+          })();
+
+          bestRecords = Object.values(summary || {});
+
+          if (bestRecords.length === 0) {
+            const recordsQuery = query(collection(db, 'exerciseRecords'), where('userId', '==', user.uid));
+            const recordsSnapshot = await getDocs(recordsQuery);
+            const historicalRecords = recordsSnapshot.docs.map((docItem) => ({ id: docItem.id, ...docItem.data() }));
+
+            if (historicalRecords.length > 0) {
+              const historicalBestByChapterExercise = {};
+              historicalRecords.forEach((record) => {
+                const key = `${record.chapterId}-${record.exerciseType}`;
+                if (!historicalBestByChapterExercise[key] || record.score > historicalBestByChapterExercise[key].score) {
+                  historicalBestByChapterExercise[key] = record;
+                }
+              });
+
+              bestRecords = Object.values(historicalBestByChapterExercise);
+              await updateUserBestScoreSummary(user.uid, historicalRecords);
+              const refreshedSummary = await getUserBestScoreSummary(user.uid);
+              setCachedValue(summaryCacheKey, refreshedSummary);
+            }
+          }
         } else {
-          userRecords = JSON.parse(localStorage.getItem('exerciseRecords') || '[]');
+          const localRecords = JSON.parse(localStorage.getItem('exerciseRecords') || '[]');
+          const bestByChapterExercise = {};
+
+          localRecords.forEach((record) => {
+            const key = `${record.chapterId}-${record.exerciseType}`;
+            if (!bestByChapterExercise[key] || record.score > bestByChapterExercise[key].score) {
+              bestByChapterExercise[key] = record;
+            }
+          });
+
+          bestRecords = Object.values(bestByChapterExercise);
         }
 
         const chapterMeta = {};
         let chapters = [];
-        let fullByChapterType = {};
+        const fullByChapterType = {};
 
         const fullByChapterTypeFromRecords = {};
-        userRecords.forEach((record) => {
+        bestRecords.forEach((record) => {
           const chapterId = record.chapterId;
           const exerciseType = record.exerciseType;
           if (!fullByChapterTypeFromRecords[chapterId]) {
@@ -69,38 +117,48 @@ export default function Profile() {
         });
 
         try {
-          const chaptersQuery = query(collection(db, 'chapters'), orderBy('chapterNumber'));
-          const chaptersSnapshot = await getDocs(chaptersQuery);
-          chapters = chaptersSnapshot.docs.map(docItem => ({ id: docItem.id, ...docItem.data() }));
+          const chapterCacheKey = 'chapters:meta';
+          const cachedChapters = getCachedValue(chapterCacheKey, CHAPTERS_CACHE_TTL_MS);
+
+          if (cachedChapters) {
+            chapters = cachedChapters;
+          } else {
+            const chaptersQuery = query(collection(db, 'chapters'), orderBy('chapterNumber'));
+            const chaptersSnapshot = await getDocs(chaptersQuery);
+            chapters = chaptersSnapshot.docs.map((docItem) => ({ id: docItem.id, ...docItem.data() }));
+            setCachedValue(chapterCacheKey, chapters);
+          }
 
           chapters.forEach((chapter) => {
             chapterMeta[chapter.id] = chapter;
+          }, {});
+
+          chapters.forEach((chapter) => {
+            const type1FromMeta = toPositiveCount(chapter.type1Count) || toPositiveCount(chapter.exercise1Total);
+            const type2FromMeta = toPositiveCount(chapter.type2Count) || toPositiveCount(chapter.exercise2Total);
+            const fallback = fullByChapterTypeFromRecords[chapter.id] || { 1: 0, 2: 0 };
+            fullByChapterType[chapter.id] = {
+              1: type1FromMeta || fallback[1],
+              2: type2FromMeta || fallback[2],
+            };
           });
 
-          const vocabCountResults = await Promise.all(
-            chapters.map(async (chapter) => {
-              const vocabSnapshot = await getDocs(collection(db, 'chapters', chapter.id, 'vocabularies'));
-              const vocabList = vocabSnapshot.docs.map(docItem => docItem.data());
-              return {
-                chapterId: chapter.id,
-                type1: vocabList.filter(item => item.type === 1).length,
-                type2: vocabList.filter(item => item.type === 2).length,
-              };
-            })
-          );
+          const hasMissingMetaCounts = chapters.some((chapter) => {
+            const full = fullByChapterType[chapter.id] || { 1: 0, 2: 0 };
+            return full[1] === 0 && full[2] === 0;
+          });
 
-          fullByChapterType = vocabCountResults.reduce((acc, item) => {
-            acc[item.chapterId] = { 1: item.type1, 2: item.type2 };
-            return acc;
-          }, {});
+          if (hasMissingMetaCounts) {
+            setWarning('Some full-mark totals are estimated from your own records. Run scripts/uploadScoreMetadata.js to upload pre-calculated chapter max scores from CSV.');
+          }
         } catch (chapterError) {
           console.error('Warning: chapter metadata could not be loaded.', chapterError);
           setWarning('Some profile totals are estimated from your records because full chapter data is unavailable.');
-          fullByChapterType = fullByChapterTypeFromRecords;
+          Object.assign(fullByChapterType, fullByChapterTypeFromRecords);
         }
 
         const bestByChapterExercise = {};
-        userRecords.forEach((record) => {
+        bestRecords.forEach((record) => {
           const key = `${record.chapterId}-${record.exerciseType}`;
           if (!bestByChapterExercise[key] || record.score > bestByChapterExercise[key].score) {
             bestByChapterExercise[key] = record;
@@ -147,7 +205,7 @@ export default function Profile() {
           });
         } else {
           const detailsFromRecords = {};
-          userRecords.forEach((record) => {
+          bestRecords.forEach((record) => {
             const key = record.chapterId;
             if (!detailsFromRecords[key]) {
               detailsFromRecords[key] = {
@@ -265,6 +323,7 @@ export default function Profile() {
       )}
 
       <h2>Total Score Across All Chapters: {totalScore}/{totalFullScore}</h2>
+      <p>Record updates may take up to 1 minute to appear.</p>
       
       <div className="profile-chart-wrap">
         <h3>Progress by Japanese Group</h3>

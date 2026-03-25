@@ -37,10 +37,11 @@ function getChapterGroup(chapterNumber) {
 async function uploadChapterData(chapterNumber) {
   const chapterId = `ch${chapterNumber}`;
   const csvFilePath = path.join(__dirname, 'data', `${chapterId}.csv`);
+  const group = getChapterGroup(chapterNumber);
 
   if (!fs.existsSync(csvFilePath)) {
     console.log(`Skipping ${chapterId}: CSV file not found.`);
-    return;
+    return null;
   }
 
   console.log(`Processing ${chapterId}...`);
@@ -50,7 +51,7 @@ async function uploadChapterData(chapterNumber) {
   await chapterRef.set({
     name: `Chapter ${chapterNumber}`,
     chapterNumber: chapterNumber,
-    group: getChapterGroup(chapterNumber),
+    group,
   });
   console.log(`  - Upserted document in 'chapters' collection for ${chapterId}.`);
 
@@ -67,6 +68,8 @@ async function uploadChapterData(chapterNumber) {
   return new Promise((resolve, reject) => {
     const vocabularies = [];
     let order = 0;
+    let type1Count = 0;
+    let type2Count = 0;
     fs.createReadStream(csvFilePath)
       .pipe(
         csv({
@@ -82,8 +85,10 @@ async function uploadChapterData(chapterNumber) {
         let type = 0; // Default: Type 0 (Hiragana only)
         if (row.kanji && row.kanji.trim() !== '') {
           type = 1; // Type 1 (Kanji)
+          type1Count += 1;
         } else if (row.katakana === '1') {
           type = 2; // Type 2 (Katakana)
+          type2Count += 1;
         }
 
         vocabularies.push({
@@ -106,8 +111,28 @@ async function uploadChapterData(chapterNumber) {
           });
 
           await batch.commit();
+
+          await chapterRef.set(
+            {
+              type1Count,
+              type2Count,
+              exercise1Max: type1Count,
+              exercise2Max: type2Count,
+              chapterMaxScore: type1Count + type2Count,
+              totalVocabularyCount: vocabularies.length,
+            },
+            { merge: true }
+          );
+
           console.log(`  - Successfully uploaded ${vocabularies.length} vocabulary words for ${chapterId}.`);
-          resolve();
+          resolve({
+            chapterId,
+            chapterNumber,
+            group,
+            type1Count,
+            type2Count,
+            chapterMaxScore: type1Count + type2Count,
+          });
         } catch (error) {
           reject(error);
         }
@@ -119,10 +144,53 @@ async function uploadChapterData(chapterNumber) {
 // --- EXECUTION ---
 async function main() {
   console.log("Starting Firestore data upload...");
+  const groupTotals = Object.keys(chapterGroups).reduce((acc, groupName) => {
+    acc[groupName] = {
+      exercise1Max: 0,
+      exercise2Max: 0,
+      chapterMaxScore: 0,
+      chapterCount: 0,
+    };
+    return acc;
+  }, {});
+
+  let totalExercise1Max = 0;
+  let totalExercise2Max = 0;
+  let totalChapterMaxScore = 0;
+  let totalChapters = 0;
+
   // Loop through all 38 chapters
   for (let i = 1; i <= 38; i++) {
-    await uploadChapterData(i);
+    const chapterMeta = await uploadChapterData(i);
+    if (!chapterMeta) {
+      continue;
+    }
+
+    totalExercise1Max += chapterMeta.type1Count;
+    totalExercise2Max += chapterMeta.type2Count;
+    totalChapterMaxScore += chapterMeta.chapterMaxScore;
+    totalChapters += 1;
+
+    if (groupTotals[chapterMeta.group]) {
+      groupTotals[chapterMeta.group].exercise1Max += chapterMeta.type1Count;
+      groupTotals[chapterMeta.group].exercise2Max += chapterMeta.type2Count;
+      groupTotals[chapterMeta.group].chapterMaxScore += chapterMeta.chapterMaxScore;
+      groupTotals[chapterMeta.group].chapterCount += 1;
+    }
   }
+
+  await db.collection('appMeta').doc('scoreTotals').set(
+    {
+      totalExercise1Max,
+      totalExercise2Max,
+      totalChapterMaxScore,
+      totalChapters,
+      groupTotals,
+      updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+    },
+    { merge: true }
+  );
+
   console.log("Data upload process finished. It may take a few moments for all asynchronous operations to complete.");
 }
 
