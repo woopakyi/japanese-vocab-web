@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { collection, getDocs, orderBy, query } from 'firebase/firestore';
-import { db } from '../config/firebase';
 import { getCachedValue, setCachedValue } from '../utils/cache';
+import { loadStaticChapters } from '../utils/staticContent';
 
 const CHAPTERS_CACHE_KEY = 'chapters:meta';
 const CHAPTERS_CACHE_TTL_MS = 6 * 60 * 60 * 1000;
@@ -17,9 +16,7 @@ export default function Home() {
       try {
         const cachedChapters = getCachedValue(CHAPTERS_CACHE_KEY, CHAPTERS_CACHE_TTL_MS);
         const chaptersData = cachedChapters || await (async () => {
-          const chapterQuery = query(collection(db, 'chapters'), orderBy('chapterNumber'));
-          const chapterSnapshot = await getDocs(chapterQuery);
-          const data = chapterSnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+          const data = await loadStaticChapters();
           setCachedValue(CHAPTERS_CACHE_KEY, data);
           return data;
         })();
@@ -37,11 +34,7 @@ export default function Home() {
         setChapters(grouped);
       } catch (error) {
         console.error("Error fetching chapters:", error);
-        if (error?.code === 'permission-denied') {
-          setError('Cannot load chapters: Firestore rules currently block public read access.');
-        } else {
-          setError('Cannot load chapters right now. Please try again later.');
-        }
+        setError('Cannot load chapter content right now. Please try again later.');
       } finally {
         setLoading(false);
       }

@@ -107,6 +107,29 @@ Auth setup lives in [src/config/firebase.js](src/config/firebase.js) and [src/co
 
 The app uses two strategies to minimize daily Firestore read quota consumption on the Spark plan:
 
+### 0. Static Content from CSV (Recommended when CSV rarely changes)
+
+Since chapter/vocabulary content is stable, the app can serve learning content from static JSON files in [public/data](public/data) instead of Firestore.
+
+Generate static files from CSV:
+
+```bash
+cd scripts
+npm install
+npm run generate:static-data
+```
+
+This creates:
+
+- [public/data/chapters.json](public/data/chapters.json)
+- [public/data/scoreTotals.json](public/data/scoreTotals.json)
+- [public/data/vocab](public/data/vocab) (one JSON file per chapter)
+
+Runtime behavior after this setup:
+
+- Home/Chapter/Exercise read chapter content from static files.
+- Firestore is used mainly for user data (auth, exercise records, user summaries).
+
 ### 1. Client-Side Caching with LocalStorage
 
 A time-based cache layer ([src/utils/cache.js](src/utils/cache.js)) stores Firestore reads in localStorage, reducing repeated document fetches:
@@ -160,6 +183,9 @@ This uploads pre-calculated values from CSV to Firestore:
     - `totalExercise2Max`
     - `totalChapterMaxScore`
     - `groupTotals`
+    - `chapterTotals`
+    - `groupTotals[*].shareOfTotalPct`
+    - `chapterTotals[*].shareOfTotalPct`
 
 ### Migration for Existing Users
 

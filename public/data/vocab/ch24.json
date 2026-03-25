@@ -1,0 +1,146 @@
+[
+  {
+    "id": "0",
+    "word": "くれます",
+    "kanji": "",
+    "meaning": "give (me)",
+    "type": 0,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "なおします",
+    "kanji": "直します",
+    "meaning": "repair",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "つれていきます",
+    "kanji": "連れて行きます",
+    "meaning": "take (someone) along",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "つれてきます",
+    "kanji": "連れて来ます",
+    "meaning": "bring (someone) along",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "おくります",
+    "kanji": "送ります",
+    "meaning": "escort, go with (人に～)",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "しょうかいします",
+    "kanji": "紹介します",
+    "meaning": "introduce",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "あんないします",
+    "kanji": "案内します",
+    "meaning": "show around, show the way",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "せつめいします",
+    "kanji": "説明します",
+    "meaning": "explain",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "おじいさん／おじいちゃん",
+    "kanji": "",
+    "meaning": "grandfather, old man",
+    "type": 0,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "おばあさん／おばあちゃん",
+    "kanji": "",
+    "meaning": "grandmother, old woman",
+    "type": 0,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "じゅんび",
+    "kanji": "準備",
+    "meaning": "preparation (～[を]します)",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "ひっこし",
+    "kanji": "引っ越し",
+    "meaning": "moving (～[を]します)",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "おかし",
+    "kanji": "お菓子",
+    "meaning": "sweets, snacks",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "ホームステイ",
+    "kanji": "",
+    "meaning": "homestay",
+    "type": 2,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "ぜんぶ",
+    "kanji": "全部",
+    "meaning": "all",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "じぶんで",
+    "kanji": "自分で",
+    "meaning": "by oneself",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "ほかに",
+    "kanji": "",
+    "meaning": "besides",
+    "type": 0,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "ははのひ",
+    "kanji": "母の日",
+    "meaning": "mother’s Day",
+    "type": 1,
+    "originalOrder": 17
+  }
+]

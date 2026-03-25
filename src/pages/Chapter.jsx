@@ -1,10 +1,9 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { collection, getDocs, query, orderBy } from 'firebase/firestore';
-import { db } from '../config/firebase';
 import { useAuth } from '../hooks/useAuth';
 import { getCachedValue, setCachedValue } from '../utils/cache';
 import { getUserBestScoreSummary } from '../utils/userSummary';
+import { loadStaticChapterVocab } from '../utils/staticContent';
 
 const VOCAB_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 const USER_SUMMARY_CACHE_TTL_MS = 60 * 1000;
@@ -53,21 +52,14 @@ export default function Chapter() {
         const vocabCacheKey = `chapter:${chapterId}:vocab`;
         const cachedVocab = getCachedValue(vocabCacheKey, VOCAB_CACHE_TTL_MS);
         const vocabData = cachedVocab || await (async () => {
-          const vocabCollectionRef = collection(db, 'chapters', chapterId, 'vocabularies');
-          const q = query(vocabCollectionRef, orderBy('originalOrder'));
-          const querySnapshot = await getDocs(q);
-          const data = querySnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+          const data = await loadStaticChapterVocab(chapterId);
           setCachedValue(vocabCacheKey, data);
           return data;
         })();
         setVocab(vocabData);
       } catch (error) {
         console.error("Error fetching vocabulary:", error);
-        if (error?.code === 'permission-denied') {
-          setError('Cannot load chapter vocabulary: Firestore rules block public read access.');
-        } else {
-          setError('Cannot load chapter vocabulary right now.');
-        }
+        setError('Cannot load chapter vocabulary right now.');
       } finally {
         setLoading(false);
       }

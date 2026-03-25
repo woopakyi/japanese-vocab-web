@@ -1,0 +1,178 @@
+[
+  {
+    "id": "0",
+    "word": "おきます",
+    "kanji": "置きます",
+    "meaning": "put, place",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "つくります",
+    "kanji": "作ります、造ります",
+    "meaning": "make, produce",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "うります",
+    "kanji": "売ります",
+    "meaning": "sell",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "しります",
+    "kanji": "知ります",
+    "meaning": "get to know",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "すみます",
+    "kanji": "住みます",
+    "meaning": "be going to live",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "けんきゅうします",
+    "kanji": "研究します",
+    "meaning": "do research",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "しりょう",
+    "kanji": "資料",
+    "meaning": "materials, data",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "カタログ",
+    "kanji": "",
+    "meaning": "catalogue",
+    "type": 2,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "じこくひょう",
+    "kanji": "時刻表",
+    "meaning": "timetable",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "ふく",
+    "kanji": "服",
+    "meaning": "clothes",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "せいひん",
+    "kanji": "製品",
+    "meaning": "products",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "ソフト",
+    "kanji": "",
+    "meaning": "software",
+    "type": 2,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "でんしじしょ",
+    "kanji": "電子辞書",
+    "meaning": "Electronic dictionary",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "けいざい",
+    "kanji": "経済",
+    "meaning": "economy, business",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "しやくしょ",
+    "kanji": "市役所",
+    "meaning": "city office",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "こうこう",
+    "kanji": "高校",
+    "meaning": "senior high school",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "はいしゃ",
+    "kanji": "歯医者",
+    "meaning": "dentist, dentist’s",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "どくしん",
+    "kanji": "独身",
+    "meaning": "single, unmarried",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "おもいだします",
+    "kanji": "思い出します",
+    "meaning": "remember, recollect",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "みなさん",
+    "kanji": "皆さん",
+    "meaning": "everybody, Ladies and gentlemen.",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "にっぽんばし",
+    "kanji": "日本橋",
+    "meaning": "Nipponbashi (commercial area in Osaka)",
+    "type": 1,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "インタビュー",
+    "kanji": "",
+    "meaning": "interview",
+    "type": 2,
+    "originalOrder": 21
+  }
+]

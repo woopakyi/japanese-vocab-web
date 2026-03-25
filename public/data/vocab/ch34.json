@@ -1,0 +1,394 @@
+[
+  {
+    "id": "0",
+    "word": "みがきます",
+    "kanji": "磨きます",
+    "meaning": "brush (歯を～)",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "くみたてます",
+    "kanji": "組み立てます",
+    "meaning": "assemble",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "おります",
+    "kanji": "折ります",
+    "meaning": "fold, break",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "気がつきます",
+    "kanji": "気がつきます",
+    "meaning": "notice (忘れ物に～)",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "つけます",
+    "kanji": "",
+    "meaning": "attach (醤油を～)",
+    "type": 0,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "みつかります",
+    "kanji": "見つかります",
+    "meaning": "be found (かぎが～)",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "しつもんします",
+    "kanji": "質問します",
+    "meaning": "ask a question",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "さします",
+    "kanji": "",
+    "meaning": "open (傘を～)",
+    "type": 0,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "スポーツクラブ",
+    "kanji": "",
+    "meaning": "sports club",
+    "type": 2,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "おしろ",
+    "kanji": "お城",
+    "meaning": "castle",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "せつめいしょ",
+    "kanji": "説明書",
+    "meaning": "instruction manual, explanatory document",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "せん",
+    "kanji": "線",
+    "meaning": "line",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "やじるし",
+    "kanji": "矢印",
+    "meaning": "arrow (mark)",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "くろ",
+    "kanji": "黒",
+    "meaning": "black",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "しろ",
+    "kanji": "白",
+    "meaning": "white",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "あか",
+    "kanji": "赤",
+    "meaning": "red",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "あお",
+    "kanji": "青",
+    "meaning": "blue",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "こん",
+    "kanji": "紺",
+    "meaning": "navy blue",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "きいろ",
+    "kanji": "黄色",
+    "meaning": "yellow",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "ちゃいろ",
+    "kanji": "茶色",
+    "meaning": "brown",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "しょうゆ",
+    "kanji": "",
+    "meaning": "soy sauce",
+    "type": 0,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "ソース",
+    "kanji": "",
+    "meaning": "sauce",
+    "type": 2,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "おちゃく",
+    "kanji": "お客さん",
+    "meaning": "guest, customer",
+    "type": 1,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "～か～",
+    "kanji": "",
+    "meaning": "or",
+    "type": 0,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "ゆうべ",
+    "kanji": "",
+    "meaning": "last night",
+    "type": 0,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "さっき",
+    "kanji": "",
+    "meaning": "a little while ago",
+    "type": 0,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "さどう",
+    "kanji": "茶道",
+    "meaning": "tea ceremony",
+    "type": 1,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "おちゃをたてます",
+    "kanji": "お茶をたてます",
+    "meaning": "to make tea (for a tea ceremony)",
+    "type": 1,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "さきに",
+    "kanji": "先に",
+    "meaning": "ahead, first",
+    "type": 1,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "のせます",
+    "kanji": "載せます",
+    "meaning": "put on, place on",
+    "type": 1,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "これでいいですか",
+    "kanji": "",
+    "meaning": "Is this okay?",
+    "type": 0,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "いかがですか",
+    "kanji": "",
+    "meaning": "How is it? (polite)",
+    "type": 0,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "にがい",
+    "kanji": "苦い",
+    "meaning": "bitter",
+    "type": 1,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "おやこどんぶり",
+    "kanji": "親子丼",
+    "meaning": "chicken and egg bowl (dish)",
+    "type": 1,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "ざいりょう",
+    "kanji": "材料",
+    "meaning": "ingredients",
+    "type": 1,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "ぶん",
+    "kanji": "...分",
+    "meaning": "...portion",
+    "type": 1,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "グラム",
+    "kanji": "",
+    "meaning": "...gram",
+    "type": 2,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "こ",
+    "kanji": "...個",
+    "meaning": "... pieces",
+    "type": 1,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "たまねぎ",
+    "kanji": "",
+    "meaning": "onion",
+    "type": 0,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "よんぶんのいち",
+    "kanji": "4分の1",
+    "meaning": "one-quarter (1/4)",
+    "type": 1,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "ちょうみりょう",
+    "kanji": "調味料",
+    "meaning": "seasoning",
+    "type": 1,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "てきとうなおおきさに",
+    "kanji": "適当な大きさに",
+    "meaning": "appropriate size",
+    "type": 1,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "なべ",
+    "kanji": "",
+    "meaning": "pot",
+    "type": 0,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "ひ",
+    "kanji": "火",
+    "meaning": "fire, flame",
+    "type": 1,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "かけます",
+    "kanji": "かけます",
+    "meaning": "put on (火に～)",
+    "type": 1,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
+    "word": "にます",
+    "kanji": "煮ます",
+    "meaning": "boil",
+    "type": 1,
+    "originalOrder": 45
+  },
+  {
+    "id": "46",
+    "word": "にえます",
+    "kanji": "煮えます",
+    "meaning": "done the boiling",
+    "type": 1,
+    "originalOrder": 46
+  },
+  {
+    "id": "47",
+    "word": "どんぶり",
+    "kanji": "",
+    "meaning": "bowl (for rice with toppings)",
+    "type": 0,
+    "originalOrder": 47
+  },
+  {
+    "id": "48",
+    "word": "たちます",
+    "kanji": "",
+    "meaning": "pass of time",
+    "type": 0,
+    "originalOrder": 48
+  }
+]

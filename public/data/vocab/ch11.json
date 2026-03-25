@@ -1,0 +1,442 @@
+[
+  {
+    "id": "0",
+    "word": "います",
+    "kanji": "",
+    "meaning": "stay (子どもが～)",
+    "type": 0,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "います",
+    "kanji": "",
+    "meaning": "stay (日本に～)",
+    "type": 0,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "かかります",
+    "kanji": "かかります",
+    "meaning": "take a time",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "やすみます",
+    "kanji": "休みます",
+    "meaning": "take a day off (会社を～)",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "ひとつ",
+    "kanji": "1 つ",
+    "meaning": "one, single item or matters",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "ふたつ",
+    "kanji": "2 つ",
+    "meaning": "two items or matters",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "みっつ",
+    "kanji": "3 つ",
+    "meaning": "three items or matters",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "よっつ",
+    "kanji": "4 つ",
+    "meaning": "four items or matters",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "いつつ",
+    "kanji": "5 つ",
+    "meaning": "five items or matters",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "むっつ",
+    "kanji": "6 つ",
+    "meaning": "six items or matters",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "ななつ",
+    "kanji": "7 つ",
+    "meaning": "seven items or matters",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "やっつ",
+    "kanji": "8 つ",
+    "meaning": "eight items or matters",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "ここのつ",
+    "kanji": "9 つ",
+    "meaning": "nine items or matters",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "とお",
+    "kanji": "10",
+    "meaning": "ten items or matters",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "ひとり",
+    "kanji": "1人",
+    "meaning": "one person",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "ふたり",
+    "kanji": "2人",
+    "meaning": "two people",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "にん",
+    "kanji": "...人",
+    "meaning": "...person (for 3 or more people)",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "だい",
+    "kanji": "...台",
+    "meaning": "...item (to count machine, furniture etc.)",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "まい",
+    "kanji": "...枚",
+    "meaning": "...piece (to count thin object such as paper, shirt etc.)",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "かい",
+    "kanji": "...回",
+    "meaning": "...times (to count the number of times something happens)",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "りんご",
+    "kanji": "",
+    "meaning": "apple",
+    "type": 0,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "みかん",
+    "kanji": "",
+    "meaning": "mandarin orange",
+    "type": 0,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "サンドイッチ",
+    "kanji": "",
+    "meaning": "sandwich",
+    "type": 2,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "カレーライス",
+    "kanji": "",
+    "meaning": "curry rice",
+    "type": 2,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "アイスクリーム",
+    "kanji": "",
+    "meaning": "ice cream",
+    "type": 2,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "きって",
+    "kanji": "切手",
+    "meaning": "postage stamp",
+    "type": 1,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "はがき",
+    "kanji": "",
+    "meaning": "post card",
+    "type": 0,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "ふうとう",
+    "kanji": "封筒",
+    "meaning": "envelope",
+    "type": 1,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "りょうしん",
+    "kanji": "両親",
+    "meaning": "(my) parents",
+    "type": 1,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "きょうだい",
+    "kanji": "兄弟",
+    "meaning": "brothers, brothers & sisters",
+    "type": 1,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "あに",
+    "kanji": "兄",
+    "meaning": "my elder brother",
+    "type": 1,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "おにいさん",
+    "kanji": "お兄さん",
+    "meaning": "elder brother",
+    "type": 1,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "あね",
+    "kanji": "姉",
+    "meaning": "my elder sister",
+    "type": 1,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "おねえさん",
+    "kanji": "お姉さん",
+    "meaning": "elder sister",
+    "type": 1,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "おとうと",
+    "kanji": "弟",
+    "meaning": "my younger brother",
+    "type": 1,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "おとうとさん",
+    "kanji": "弟さん",
+    "meaning": "(someone else’s) younger brother",
+    "type": 1,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "いもうと",
+    "kanji": "妹",
+    "meaning": "my younger sister",
+    "type": 1,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "いもうとさん",
+    "kanji": "妹さん",
+    "meaning": "(someone else’s) younger sister",
+    "type": 1,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "がいこく",
+    "kanji": "外国",
+    "meaning": "foreign country",
+    "type": 1,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "りゅうがくせい",
+    "kanji": "留学生",
+    "meaning": "exchange student, overseas student",
+    "type": 1,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "クラス",
+    "kanji": "",
+    "meaning": "class",
+    "type": 2,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "じかん",
+    "kanji": "...時間",
+    "meaning": "...hours",
+    "type": 1,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "しゅうかん",
+    "kanji": "...週間",
+    "meaning": "...weeks",
+    "type": 1,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "かげつ",
+    "kanji": "...か月",
+    "meaning": "...months",
+    "type": 1,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "ねん",
+    "kanji": "...年",
+    "meaning": "...years",
+    "type": 1,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
+    "word": "～ぐらい",
+    "kanji": "",
+    "meaning": "about",
+    "type": 0,
+    "originalOrder": 45
+  },
+  {
+    "id": "46",
+    "word": "どのくらい",
+    "kanji": "",
+    "meaning": "how long (much, far, many…)",
+    "type": 0,
+    "originalOrder": 46
+  },
+  {
+    "id": "47",
+    "word": "ぜんぶで",
+    "kanji": "全部で",
+    "meaning": "in total",
+    "type": 1,
+    "originalOrder": 47
+  },
+  {
+    "id": "48",
+    "word": "みんな",
+    "kanji": "",
+    "meaning": "all, everything",
+    "type": 0,
+    "originalOrder": 48
+  },
+  {
+    "id": "49",
+    "word": "～だけ",
+    "kanji": "",
+    "meaning": "only～",
+    "type": 0,
+    "originalOrder": 49
+  },
+  {
+    "id": "50",
+    "word": "おでかけですか",
+    "kanji": "お出かけ",
+    "meaning": "go out",
+    "type": 1,
+    "originalOrder": 50
+  },
+  {
+    "id": "51",
+    "word": "ふなびん",
+    "kanji": "船便",
+    "meaning": "sea mail",
+    "type": 1,
+    "originalOrder": 51
+  },
+  {
+    "id": "52",
+    "word": "こうくうびん",
+    "kanji": "航空便",
+    "meaning": "airmail",
+    "type": 1,
+    "originalOrder": 52
+  },
+  {
+    "id": "53",
+    "word": "エアメール",
+    "kanji": "",
+    "meaning": "airmail",
+    "type": 2,
+    "originalOrder": 53
+  },
+  {
+    "id": "54",
+    "word": "オーストラリア",
+    "kanji": "",
+    "meaning": "Australia",
+    "type": 2,
+    "originalOrder": 54
+  }
+]

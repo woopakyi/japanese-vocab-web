@@ -1,0 +1,362 @@
+[
+  {
+    "id": "0",
+    "word": "つけます",
+    "kanji": "",
+    "meaning": "turn on",
+    "type": 0,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "けします",
+    "kanji": "消します",
+    "meaning": "turn off",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "あけます",
+    "kanji": "開けます",
+    "meaning": "open",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "しめます",
+    "kanji": "閉めます",
+    "meaning": "close, shut",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "いそぎます",
+    "kanji": "急ぎます",
+    "meaning": "hurry",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "まちます",
+    "kanji": "待ちます",
+    "meaning": "wait",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "もちます",
+    "kanji": "持ちます",
+    "meaning": "hold",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "とります",
+    "kanji": "取ります",
+    "meaning": "take, pass",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "てつだいます",
+    "kanji": "手伝います",
+    "meaning": "help",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "よびます",
+    "kanji": "呼びます",
+    "meaning": "call",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "はなします",
+    "kanji": "話します",
+    "meaning": "speak, talk",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "つかいます",
+    "kanji": "使います",
+    "meaning": "use",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "とめます",
+    "kanji": "止めます",
+    "meaning": "stop, park",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "みせます",
+    "kanji": "見せます",
+    "meaning": "show",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "おしえます",
+    "kanji": "教えます",
+    "meaning": "tell, teach (住所を～)",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "すわります",
+    "kanji": "座ります",
+    "meaning": "sit",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "たちます",
+    "kanji": "立ちます",
+    "meaning": "stand up",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "はいります",
+    "kanji": "入ります",
+    "meaning": "enter, go in (喫茶店に～)",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "でます",
+    "kanji": "出ます",
+    "meaning": "leave, go out (喫茶店を～)",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "ふります",
+    "kanji": "降ります",
+    "meaning": "rain (雨が～)",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "コピーします",
+    "kanji": "",
+    "meaning": "copy",
+    "type": 2,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "でんき",
+    "kanji": "電気",
+    "meaning": "electricity, electric light",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "エアコン",
+    "kanji": "",
+    "meaning": "air conditioner",
+    "type": 2,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "パスポート",
+    "kanji": "",
+    "meaning": "passport",
+    "type": 2,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "なまえ",
+    "kanji": "名前",
+    "meaning": "name",
+    "type": 1,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "じゅうしょ",
+    "kanji": "住所",
+    "meaning": "address",
+    "type": 1,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "ちず",
+    "kanji": "地図",
+    "meaning": "map",
+    "type": 1,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "しお",
+    "kanji": "塩",
+    "meaning": "salt",
+    "type": 1,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "さとう",
+    "kanji": "砂糖",
+    "meaning": "sugar",
+    "type": 1,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "もんだい",
+    "kanji": "問題",
+    "meaning": "question",
+    "type": 1,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "こたえ",
+    "kanji": "答え",
+    "meaning": "answer",
+    "type": 1,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "よみかた",
+    "kanji": "読み方",
+    "meaning": "How to read, way of reading",
+    "type": 1,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "かた",
+    "kanji": "～方",
+    "meaning": "way of V-ing",
+    "type": 1,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "まっすぐ",
+    "kanji": "",
+    "meaning": "straight",
+    "type": 0,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "ゆっくり",
+    "kanji": "",
+    "meaning": "slowly, leisurely",
+    "type": 0,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "すぐ",
+    "kanji": "",
+    "meaning": "immediately",
+    "type": 0,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "また",
+    "kanji": "",
+    "meaning": "again",
+    "type": 0,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "あとで",
+    "kanji": "",
+    "meaning": "later",
+    "type": 0,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "もうすこし",
+    "kanji": "もう少し",
+    "meaning": "more, another",
+    "type": 1,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "もう～",
+    "kanji": "",
+    "meaning": "more～",
+    "type": 0,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "しんごう",
+    "kanji": "信号",
+    "meaning": "traffic light",
+    "type": 1,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "みぎ",
+    "kanji": "右",
+    "meaning": "right",
+    "type": 1,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "まがります",
+    "kanji": "曲がります",
+    "meaning": "turn",
+    "type": 1,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "おつり",
+    "kanji": "お釣り",
+    "meaning": "change, money",
+    "type": 1,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "ちょう",
+    "kanji": "町",
+    "meaning": "town",
+    "type": 1,
+    "originalOrder": 44
+  }
+]

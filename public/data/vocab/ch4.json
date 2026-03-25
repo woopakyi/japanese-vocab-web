@@ -1,0 +1,466 @@
+[
+  {
+    "id": "0",
+    "word": "おきます",
+    "kanji": "起きます",
+    "meaning": "get up, wake up",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "ねます",
+    "kanji": "寝ます",
+    "meaning": "sleep, go to bed",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "はたらきます",
+    "kanji": "働きます",
+    "meaning": "work",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "やすみます",
+    "kanji": "休みます",
+    "meaning": "take a rest, take a holiday",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "おわります",
+    "kanji": "終わります",
+    "meaning": "finish",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "べんきょうします",
+    "kanji": "勉強します",
+    "meaning": "study",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "デパート",
+    "kanji": "",
+    "meaning": "department store",
+    "type": 2,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "ぎんこう",
+    "kanji": "銀行",
+    "meaning": "bank",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "ゆうびんきょく",
+    "kanji": "郵便局",
+    "meaning": "post office",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "としょかん",
+    "kanji": "図書館",
+    "meaning": "library",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "びじゅつかん",
+    "kanji": "美術館",
+    "meaning": "art museum",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "いま",
+    "kanji": "今",
+    "meaning": "now",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "じ",
+    "kanji": "...時",
+    "meaning": "...o’clock",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "ふん",
+    "kanji": "...分",
+    "meaning": "...minutes",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "はん",
+    "kanji": "半",
+    "meaning": "half",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "なんじ",
+    "kanji": "何時",
+    "meaning": "what time",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "なんぷん",
+    "kanji": "何分",
+    "meaning": "what minute",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "ごぜん",
+    "kanji": "午前",
+    "meaning": "a.m., morning",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "ごご",
+    "kanji": "午後",
+    "meaning": "p.m., afternoon",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "あさ",
+    "kanji": "朝",
+    "meaning": "morning",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "ひる",
+    "kanji": "昼",
+    "meaning": "daytime, noon",
+    "type": 1,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "ばん",
+    "kanji": "晩",
+    "meaning": "night, evening",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "よる",
+    "kanji": "夜",
+    "meaning": "night, evening",
+    "type": 1,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "おととい",
+    "kanji": "",
+    "meaning": "the day before yesterday",
+    "type": 0,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "きのう",
+    "kanji": "",
+    "meaning": "yesterday",
+    "type": 0,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "きょう",
+    "kanji": "",
+    "meaning": "today",
+    "type": 0,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "あした",
+    "kanji": "",
+    "meaning": "tomorrow",
+    "type": 0,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "あさって",
+    "kanji": "",
+    "meaning": "the day after tomorrow",
+    "type": 0,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "けさ",
+    "kanji": "",
+    "meaning": "this morning",
+    "type": 0,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "こんばん",
+    "kanji": "今晩",
+    "meaning": "this evening, tonight",
+    "type": 1,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "やすみ",
+    "kanji": "休み",
+    "meaning": "rest, a holiday, a day off",
+    "type": 1,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "ひるやすみ",
+    "kanji": "昼休み",
+    "meaning": "lunchtime",
+    "type": 1,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "しけん",
+    "kanji": "試験",
+    "meaning": "examination",
+    "type": 1,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "かいぎ",
+    "kanji": "会議",
+    "meaning": "meeting (～をします)",
+    "type": 1,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "えいが",
+    "kanji": "映画",
+    "meaning": "cinema, movie",
+    "type": 1,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "まいあさ",
+    "kanji": "毎朝",
+    "meaning": "every morning",
+    "type": 1,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "まいばん",
+    "kanji": "毎晩",
+    "meaning": "every night",
+    "type": 1,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "まいにち",
+    "kanji": "毎日",
+    "meaning": "every day",
+    "type": 1,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "げつようび",
+    "kanji": "月曜日",
+    "meaning": "Monday",
+    "type": 1,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "かようび",
+    "kanji": "火曜日",
+    "meaning": "Tuesday",
+    "type": 1,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "すいようび",
+    "kanji": "水曜日",
+    "meaning": "Wednesday",
+    "type": 1,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "もくようび",
+    "kanji": "木曜日",
+    "meaning": "Thursday",
+    "type": 1,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "きんようび",
+    "kanji": "金曜日",
+    "meaning": "Friday",
+    "type": 1,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "どようび",
+    "kanji": "土曜日",
+    "meaning": "Saturday",
+    "type": 1,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "にちようび",
+    "kanji": "日曜日",
+    "meaning": "Sunday",
+    "type": 1,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
+    "word": "なんようび",
+    "kanji": "何曜日",
+    "meaning": "what day of the week",
+    "type": 1,
+    "originalOrder": 45
+  },
+  {
+    "id": "46",
+    "word": "～から",
+    "kanji": "",
+    "meaning": "from",
+    "type": 0,
+    "originalOrder": 46
+  },
+  {
+    "id": "47",
+    "word": "～まで",
+    "kanji": "",
+    "meaning": "up to, until",
+    "type": 0,
+    "originalOrder": 47
+  },
+  {
+    "id": "48",
+    "word": "～と～",
+    "kanji": "",
+    "meaning": "and",
+    "type": 0,
+    "originalOrder": 48
+  },
+  {
+    "id": "49",
+    "word": "ばんごう",
+    "kanji": "番号",
+    "meaning": "number",
+    "type": 1,
+    "originalOrder": 49
+  },
+  {
+    "id": "50",
+    "word": "なんばん",
+    "kanji": "何番",
+    "meaning": "what number",
+    "type": 1,
+    "originalOrder": 50
+  },
+  {
+    "id": "51",
+    "word": "そちら",
+    "kanji": "",
+    "meaning": "there, on your end, your side",
+    "type": 0,
+    "originalOrder": 51
+  },
+  {
+    "id": "52",
+    "word": "たいへん",
+    "kanji": "大変",
+    "meaning": "tough job",
+    "type": 1,
+    "originalOrder": 52
+  },
+  {
+    "id": "53",
+    "word": "ニューヨーク",
+    "kanji": "",
+    "meaning": "New York (city in USA)",
+    "type": 2,
+    "originalOrder": 53
+  },
+  {
+    "id": "54",
+    "word": "ペキン",
+    "kanji": "",
+    "meaning": "Beijing (city in PRC)",
+    "type": 2,
+    "originalOrder": 54
+  },
+  {
+    "id": "55",
+    "word": "ロサンゼルス",
+    "kanji": "",
+    "meaning": "Los Angels (city in USA)",
+    "type": 2,
+    "originalOrder": 55
+  },
+  {
+    "id": "56",
+    "word": "ロンドン",
+    "kanji": "",
+    "meaning": "London (city in UK)",
+    "type": 2,
+    "originalOrder": 56
+  },
+  {
+    "id": "57",
+    "word": "アップル",
+    "kanji": "",
+    "meaning": "apple",
+    "type": 2,
+    "originalOrder": 57
+  }
+]

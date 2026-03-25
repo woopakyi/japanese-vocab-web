@@ -1,0 +1,442 @@
+[
+  {
+    "id": "0",
+    "word": "のります",
+    "kanji": "乗ります",
+    "meaning": "get on (電車に～)",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "おります",
+    "kanji": "降ります",
+    "meaning": "get off (電車を～)",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "のりかえます",
+    "kanji": "乗り換えます",
+    "meaning": "change",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "あびます",
+    "kanji": "浴びます",
+    "meaning": "take (a shower)",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "いれます",
+    "kanji": "入れます",
+    "meaning": "insert, put in",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "だします",
+    "kanji": "出します",
+    "meaning": "take out, withdraw",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "おろします",
+    "kanji": "下ろします",
+    "meaning": "withdraw (お金を～)",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "はいります",
+    "kanji": "入ります",
+    "meaning": "enter (大学に～)",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "でます",
+    "kanji": "出ます",
+    "meaning": "graduate (大学を～)",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "おします",
+    "kanji": "押します",
+    "meaning": "push, press",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "のみます",
+    "kanji": "飲みます",
+    "meaning": "drink",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "はじめます",
+    "kanji": "始めます",
+    "meaning": "start",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "けんがくします",
+    "kanji": "見学します",
+    "meaning": "observe, visit, take a study tour",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "でんわします",
+    "kanji": "電話します",
+    "meaning": "make a phone call",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "わかい",
+    "kanji": "若い",
+    "meaning": "young",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "ながい",
+    "kanji": "長い",
+    "meaning": "long",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "みじかい",
+    "kanji": "短い",
+    "meaning": "short",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "あかるい",
+    "kanji": "明るい",
+    "meaning": "bright, light",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "くらい",
+    "kanji": "暗い",
+    "meaning": "dark",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "からだ",
+    "kanji": "体",
+    "meaning": "body",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "あたま",
+    "kanji": "頭",
+    "meaning": "head",
+    "type": 1,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "かみ",
+    "kanji": "髪",
+    "meaning": "hair",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "かお",
+    "kanji": "顔",
+    "meaning": "face",
+    "type": 1,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "め",
+    "kanji": "目",
+    "meaning": "eye",
+    "type": 1,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "みみ",
+    "kanji": "耳",
+    "meaning": "ear",
+    "type": 1,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "はな",
+    "kanji": "鼻",
+    "meaning": "nose",
+    "type": 1,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "くち",
+    "kanji": "口",
+    "meaning": "mouth",
+    "type": 1,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "は",
+    "kanji": "歯",
+    "meaning": "tooth",
+    "type": 1,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "おなか",
+    "kanji": "",
+    "meaning": "stomach",
+    "type": 0,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "せ",
+    "kanji": "背",
+    "meaning": "body height",
+    "type": 1,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "あし",
+    "kanji": "足",
+    "meaning": "foot, leg",
+    "type": 1,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "サービス",
+    "kanji": "",
+    "meaning": "service",
+    "type": 2,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "ジョギング",
+    "kanji": "",
+    "meaning": "jogging",
+    "type": 2,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "シャワー",
+    "kanji": "",
+    "meaning": "shower",
+    "type": 2,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "みどり",
+    "kanji": "緑",
+    "meaning": "green",
+    "type": 1,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "おてら",
+    "kanji": "お寺",
+    "meaning": "Buddhist shrine",
+    "type": 1,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "じんじゃ",
+    "kanji": "神社",
+    "meaning": "Shinto shrine",
+    "type": 1,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "ばん",
+    "kanji": "...番",
+    "meaning": "number…",
+    "type": 1,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "どうやって",
+    "kanji": "",
+    "meaning": "how, in what way",
+    "type": 0,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "どの～",
+    "kanji": "",
+    "meaning": "Which~(of three or more)",
+    "type": 0,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "どれ",
+    "kanji": "",
+    "meaning": "which (of three or more)",
+    "type": 0,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "ひきだします",
+    "kanji": "引き出します",
+    "meaning": "withdrawal",
+    "type": 1,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "まず",
+    "kanji": "",
+    "meaning": "first of all",
+    "type": 0,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "つぎに",
+    "kanji": "次に",
+    "meaning": "next",
+    "type": 1,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "キャッシュカード",
+    "kanji": "",
+    "meaning": "cash dispensing card",
+    "type": 2,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
+    "word": "あんしょうばんごう",
+    "kanji": "暗証番号",
+    "meaning": "personal identification number, PIN",
+    "type": 1,
+    "originalOrder": 45
+  },
+  {
+    "id": "46",
+    "word": "きんがく",
+    "kanji": "金額",
+    "meaning": "amount of money",
+    "type": 1,
+    "originalOrder": 46
+  },
+  {
+    "id": "47",
+    "word": "かくにん",
+    "kanji": "確認",
+    "meaning": "confirmation (～します)",
+    "type": 1,
+    "originalOrder": 47
+  },
+  {
+    "id": "48",
+    "word": "ボタン",
+    "kanji": "",
+    "meaning": "button",
+    "type": 2,
+    "originalOrder": 48
+  },
+  {
+    "id": "49",
+    "word": "ジェーアール",
+    "kanji": "JR",
+    "meaning": "JR",
+    "type": 1,
+    "originalOrder": 49
+  },
+  {
+    "id": "50",
+    "word": "ゆきまつり",
+    "kanji": "雪祭り",
+    "meaning": "snow festival",
+    "type": 1,
+    "originalOrder": 50
+  },
+  {
+    "id": "51",
+    "word": "バンドン",
+    "kanji": "",
+    "meaning": "Bandung (city in Indonesia)",
+    "type": 2,
+    "originalOrder": 51
+  },
+  {
+    "id": "52",
+    "word": "フランケン",
+    "kanji": "",
+    "meaning": "Franken (city in Germany)",
+    "type": 2,
+    "originalOrder": 52
+  },
+  {
+    "id": "53",
+    "word": "ベラクルス",
+    "kanji": "",
+    "meaning": "Veracruz (city in Mexico)",
+    "type": 2,
+    "originalOrder": 53
+  },
+  {
+    "id": "54",
+    "word": "うめだ",
+    "kanji": "梅田",
+    "meaning": "Umeda (city in Osaka)",
+    "type": 1,
+    "originalOrder": 54
+  }
+]

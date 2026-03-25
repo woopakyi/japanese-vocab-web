@@ -1,0 +1,466 @@
+[
+  {
+    "id": "0",
+    "word": "いきます",
+    "kanji": "行きます",
+    "meaning": "go",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "かえります",
+    "kanji": "帰ります",
+    "meaning": "go home, return",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "きます",
+    "kanji": "来ます",
+    "meaning": "come",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "がっこう",
+    "kanji": "学校",
+    "meaning": "school",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "スーパー",
+    "kanji": "",
+    "meaning": "supermarket",
+    "type": 2,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "えき",
+    "kanji": "駅",
+    "meaning": "station",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "ひこうき",
+    "kanji": "飛行機",
+    "meaning": "airplane",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "ふね",
+    "kanji": "船",
+    "meaning": "ship",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "でんしゃ",
+    "kanji": "電車",
+    "meaning": "electric train",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "ちかてつ",
+    "kanji": "地下鉄",
+    "meaning": "subway, underground",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "しんかんせん",
+    "kanji": "新幹線",
+    "meaning": "Shinkansen, the bullet train",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "バス",
+    "kanji": "",
+    "meaning": "bus",
+    "type": 2,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "タクシー",
+    "kanji": "",
+    "meaning": "taxi",
+    "type": 2,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "じてんしゃ",
+    "kanji": "自転車",
+    "meaning": "bicycle",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "あるいて",
+    "kanji": "歩いて",
+    "meaning": "on foot",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "ひと",
+    "kanji": "人",
+    "meaning": "person, people",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "ともだち",
+    "kanji": "友達",
+    "meaning": "friend",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "かれ",
+    "kanji": "彼",
+    "meaning": "he, boyfriend, lover",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "かのじょ",
+    "kanji": "彼女",
+    "meaning": "she, girlfriend, lover",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "かぞく",
+    "kanji": "家族",
+    "meaning": "family",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "ひとりで",
+    "kanji": "一人で",
+    "meaning": "alone, by oneself",
+    "type": 1,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "せんしゅう",
+    "kanji": "先週",
+    "meaning": "last week",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "こんしゅう",
+    "kanji": "今週",
+    "meaning": "this week",
+    "type": 1,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "らいしゅう",
+    "kanji": "来週",
+    "meaning": "next week",
+    "type": 1,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "せんげつ",
+    "kanji": "先月",
+    "meaning": "last month",
+    "type": 1,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "こんげつ",
+    "kanji": "今月",
+    "meaning": "this month",
+    "type": 1,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "らいげつ",
+    "kanji": "来月",
+    "meaning": "next month",
+    "type": 1,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "きょねん",
+    "kanji": "去年",
+    "meaning": "last year",
+    "type": 1,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "ことし",
+    "kanji": "",
+    "meaning": "this year",
+    "type": 0,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "らいねん",
+    "kanji": "来年",
+    "meaning": "next year",
+    "type": 1,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "ねん",
+    "kanji": "...年",
+    "meaning": "...year",
+    "type": 1,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "なんねん",
+    "kanji": "何年",
+    "meaning": "what year, how many years",
+    "type": 1,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "がつ",
+    "kanji": "...月",
+    "meaning": "...month",
+    "type": 1,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "なんがつ",
+    "kanji": "何月",
+    "meaning": "what month",
+    "type": 1,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "ついたち",
+    "kanji": "１日",
+    "meaning": "First day of the month",
+    "type": 1,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "ふつか",
+    "kanji": "２日",
+    "meaning": "second, two days",
+    "type": 1,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "みっか",
+    "kanji": "３日",
+    "meaning": "third, three days",
+    "type": 1,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "よっか",
+    "kanji": "４日",
+    "meaning": "fourth, four days",
+    "type": 1,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "いつか",
+    "kanji": "５日",
+    "meaning": "fifth, five days",
+    "type": 1,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "むいか",
+    "kanji": "６日",
+    "meaning": "sixth, six days",
+    "type": 1,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "なのか",
+    "kanji": "７日",
+    "meaning": "seventh, seven days",
+    "type": 1,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "ようか",
+    "kanji": "８日",
+    "meaning": "eighth, eight days",
+    "type": 1,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "ここのか",
+    "kanji": "９日",
+    "meaning": "ninth, nine days",
+    "type": 1,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "とおか",
+    "kanji": "10日",
+    "meaning": "tenth, ten days",
+    "type": 1,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "じゅうよっか",
+    "kanji": "14日",
+    "meaning": "fourteenth, fourteen days",
+    "type": 1,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
+    "word": "はつか",
+    "kanji": "20日",
+    "meaning": "twentieth, twenty days",
+    "type": 1,
+    "originalOrder": 45
+  },
+  {
+    "id": "46",
+    "word": "にじゅうよっか",
+    "kanji": "24日",
+    "meaning": "twenty fourth, twenty four days",
+    "type": 1,
+    "originalOrder": 46
+  },
+  {
+    "id": "47",
+    "word": "にち",
+    "kanji": "～日",
+    "meaning": "day",
+    "type": 1,
+    "originalOrder": 47
+  },
+  {
+    "id": "48",
+    "word": "なんにち",
+    "kanji": "何日",
+    "meaning": "which day of the month, how many days",
+    "type": 1,
+    "originalOrder": 48
+  },
+  {
+    "id": "49",
+    "word": "いつ",
+    "kanji": "",
+    "meaning": "when",
+    "type": 0,
+    "originalOrder": 49
+  },
+  {
+    "id": "50",
+    "word": "たんじょうび",
+    "kanji": "誕生日",
+    "meaning": "birthday",
+    "type": 1,
+    "originalOrder": 50
+  },
+  {
+    "id": "51",
+    "word": "ばんせん",
+    "kanji": "...番線",
+    "meaning": "...platform",
+    "type": 1,
+    "originalOrder": 51
+  },
+  {
+    "id": "52",
+    "word": "つぎ",
+    "kanji": "次の",
+    "meaning": "next",
+    "type": 1,
+    "originalOrder": 52
+  },
+  {
+    "id": "53",
+    "word": "ふつう",
+    "kanji": "普通",
+    "meaning": "local train",
+    "type": 1,
+    "originalOrder": 53
+  },
+  {
+    "id": "54",
+    "word": "きゅうこう",
+    "kanji": "急行",
+    "meaning": "rapid train",
+    "type": 1,
+    "originalOrder": 54
+  },
+  {
+    "id": "55",
+    "word": "とっきゅう",
+    "kanji": "特急",
+    "meaning": "express train",
+    "type": 1,
+    "originalOrder": 55
+  },
+  {
+    "id": "56",
+    "word": "こうしえん",
+    "kanji": "甲子園",
+    "meaning": "Koshien (city in Hyogo)",
+    "type": 1,
+    "originalOrder": 56
+  },
+  {
+    "id": "57",
+    "word": "おおさかじょう",
+    "kanji": "大阪城",
+    "meaning": "Osaka Castle (famous castle in Osaka)",
+    "type": 1,
+    "originalOrder": 57
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "id": "0",
+    "word": "ほめます",
+    "kanji": "褒めます",
+    "meaning": "praise",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "しかります",
+    "kanji": "",
+    "meaning": "scold",
+    "type": 0,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "さそいます",
+    "kanji": "誘います",
+    "meaning": "invite",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "しょうたいします",
+    "kanji": "招待します",
+    "meaning": "invite",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "たのみます",
+    "kanji": "頼みます",
+    "meaning": "ask, request",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "ちゅういします",
+    "kanji": "注意します",
+    "meaning": "warn",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "とります",
+    "kanji": "",
+    "meaning": "take (資格を～ - get a qualification)",
+    "type": 0,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "ふみます",
+    "kanji": "踏みます",
+    "meaning": "step on",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "こわします",
+    "kanji": "壊します",
+    "meaning": "break, destroy",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "おこないます",
+    "kanji": "行います",
+    "meaning": "hold (an event), conduct",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "ゆにゅうします",
+    "kanji": "輸入します",
+    "meaning": "import",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "ゆしゅつします",
+    "kanji": "輸出します",
+    "meaning": "export",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "ほんにゃくします",
+    "kanji": "翻訳します",
+    "meaning": "translate",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "はつめいします",
+    "kanji": "発明します",
+    "meaning": "invent",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "はっけんします",
+    "kanji": "発見します",
+    "meaning": "discover",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "こめ",
+    "kanji": "米",
+    "meaning": "rice",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "むぎ",
+    "kanji": "麦",
+    "meaning": "wheat, barley",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "せきゆ",
+    "kanji": "石油",
+    "meaning": "oil, petroleum",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "げんりょう",
+    "kanji": "原料",
+    "meaning": "raw material",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "インスタントラーメン",
+    "kanji": "",
+    "meaning": "instant noodle",
+    "type": 2,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "デート",
+    "kanji": "",
+    "meaning": "date (romantic)",
+    "type": 2,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "どろぼう",
+    "kanji": "泥棒",
+    "meaning": "thief",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "けいかん",
+    "kanji": "警官",
+    "meaning": "police officer",
+    "type": 1,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "せかいじゅう",
+    "kanji": "～世界中",
+    "meaning": "all over the world",
+    "type": 1,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "じゅう",
+    "kanji": "～中",
+    "meaning": "all",
+    "type": 1,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "せいき",
+    "kanji": "～世紀",
+    "meaning": "～ century",
+    "type": 1,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "だれか",
+    "kanji": "",
+    "meaning": "who",
+    "type": 0,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "よかったですね",
+    "kanji": "",
+    "meaning": "It was great, wasn't it? (phrase)",
+    "type": 0,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "オリンピック",
+    "kanji": "",
+    "meaning": "Olympics",
+    "type": 2,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "ワールドカップ",
+    "kanji": "",
+    "meaning": "World Cup",
+    "type": 2,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "とうだいじ",
+    "kanji": "東大寺",
+    "meaning": "Todai Temple",
+    "type": 1,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "だいぶつ",
+    "kanji": "大仏",
+    "meaning": "Great Buddha",
+    "type": 1,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "えどじだい",
+    "kanji": "江戸時代",
+    "meaning": "Edo period",
+    "type": 1,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "ポルトガル",
+    "kanji": "",
+    "meaning": "Portugal",
+    "type": 2,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "サウジアラビア",
+    "kanji": "",
+    "meaning": "Saudi Arabia",
+    "type": 2,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "ロシア",
+    "kanji": "",
+    "meaning": "Russia",
+    "type": 2,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "みなさま",
+    "kanji": "皆様",
+    "meaning": "honorific of 皆さん",
+    "type": 1,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "やけます",
+    "kanji": "焼けます",
+    "meaning": "burn down, be burned (家が～)",
+    "type": 1,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "それから",
+    "kanji": "",
+    "meaning": "then, after that",
+    "type": 0,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "せかいいさん",
+    "kanji": "世界遺産",
+    "meaning": "World Heritage",
+    "type": 1,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "のひとつ",
+    "kanji": "～の一つ",
+    "meaning": "one of the ～",
+    "type": 1,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "きんいろ",
+    "kanji": "金色",
+    "meaning": "gold (color)",
+    "type": 1,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "ほんもの",
+    "kanji": "本物",
+    "meaning": "real thing",
+    "type": 1,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "きん",
+    "kanji": "金",
+    "meaning": "gold",
+    "type": 1,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "キロ",
+    "kanji": "",
+    "meaning": "...kilo",
+    "type": 2,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
+    "word": "うつくしい",
+    "kanji": "美しい",
+    "meaning": "beautiful",
+    "type": 1,
+    "originalOrder": 45
+  },
+  {
+    "id": "46",
+    "word": "ごうかな",
+    "kanji": "豪華な",
+    "meaning": "luxurious",
+    "type": 1,
+    "originalOrder": 46
+  },
+  {
+    "id": "47",
+    "word": "ちょうこく",
+    "kanji": "彫刻",
+    "meaning": "sculpture",
+    "type": 1,
+    "originalOrder": 47
+  },
+  {
+    "id": "48",
+    "word": "いいます",
+    "kanji": "言います",
+    "meaning": "say",
+    "type": 1,
+    "originalOrder": 48
+  },
+  {
+    "id": "49",
+    "word": "ねむります",
+    "kanji": "眠ります",
+    "meaning": "sleep",
+    "type": 1,
+    "originalOrder": 49
+  },
+  {
+    "id": "50",
+    "word": "ほります",
+    "kanji": "彫ります",
+    "meaning": "engrave",
+    "type": 1,
+    "originalOrder": 50
+  },
+  {
+    "id": "51",
+    "word": "なかま",
+    "kanji": "仲間",
+    "meaning": "comrade, fellow",
+    "type": 1,
+    "originalOrder": 51
+  },
+  {
+    "id": "52",
+    "word": "しかし",
+    "kanji": "",
+    "meaning": "but",
+    "type": 0,
+    "originalOrder": 52
+  },
+  {
+    "id": "53",
+    "word": "そのあと",
+    "kanji": "",
+    "meaning": "after that",
+    "type": 0,
+    "originalOrder": 53
+  },
+  {
+    "id": "54",
+    "word": "いちしょうけんめい",
+    "kanji": "一生懸命",
+    "meaning": "with all one's might, hard",
+    "type": 1,
+    "originalOrder": 54
+  },
+  {
+    "id": "55",
+    "word": "ねずみ",
+    "kanji": "",
+    "meaning": "mouse, rat",
+    "type": 0,
+    "originalOrder": 55
+  },
+  {
+    "id": "56",
+    "word": "いっぴき",
+    "kanji": "一匹",
+    "meaning": "one (animal)",
+    "type": 1,
+    "originalOrder": 56
+  },
+  {
+    "id": "57",
+    "word": "とうしょうぐう",
+    "kanji": "東照宮",
+    "meaning": "Toushougu (Shrine name)",
+    "type": 1,
+    "originalOrder": 57
+  },
+  {
+    "id": "58",
+    "word": "ねむりねこ",
+    "kanji": "眠り猫",
+    "meaning": "sleeping cat (artwork)",
+    "type": 1,
+    "originalOrder": 58
+  },
+  {
+    "id": "59",
+    "word": "ひだりじんごろう",
+    "kanji": "左甚五郎",
+    "meaning": "Hidari Jingorō (famous sculptor)",
+    "type": 1,
+    "originalOrder": 59
+  }
+]

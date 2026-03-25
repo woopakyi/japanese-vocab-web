@@ -1,0 +1,210 @@
+[
+  {
+    "id": "0",
+    "word": "のぼります",
+    "kanji": "登ります、上ります",
+    "meaning": "climb, up",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "とまります",
+    "kanji": "泊まります",
+    "meaning": "stay (ホテルに～)",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "そうじします",
+    "kanji": "掃除します",
+    "meaning": "clean (a room)",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "せんたくします",
+    "kanji": "洗濯します",
+    "meaning": "wash (clothes)",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "なります",
+    "kanji": "",
+    "meaning": "become",
+    "type": 0,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "ねむい",
+    "kanji": "眠い",
+    "meaning": "sleepy",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "つよい",
+    "kanji": "強い",
+    "meaning": "strong",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "よわい",
+    "kanji": "弱い",
+    "meaning": "weak",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "れんしゅう",
+    "kanji": "練習",
+    "meaning": "practice (～をします)",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "ゴルフ",
+    "kanji": "",
+    "meaning": "golf (～をします)",
+    "type": 2,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "すもう",
+    "kanji": "相撲",
+    "meaning": "sumo wrestling (～[を]します)",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "おちゃ",
+    "kanji": "お茶",
+    "meaning": "tea ceremony",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "ひ",
+    "kanji": "日",
+    "meaning": "day, date",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "ちょうし",
+    "kanji": "調子",
+    "meaning": "condition",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "いちど",
+    "kanji": "一度",
+    "meaning": "once",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "いちども",
+    "kanji": "一度も",
+    "meaning": "not once, never (used with negatives)",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "だんだん",
+    "kanji": "",
+    "meaning": "gradually",
+    "type": 0,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "もうすぐ",
+    "kanji": "",
+    "meaning": "soon",
+    "type": 0,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "おかげさまで",
+    "kanji": "",
+    "meaning": "Thank you (used when expressing gratitude for help received)",
+    "type": 0,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "でも",
+    "kanji": "",
+    "meaning": "but (casual)",
+    "type": 0,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "かんぱい",
+    "kanji": "乾杯",
+    "meaning": "Bottoms up / Cheers!",
+    "type": 1,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "からだにいい",
+    "kanji": "体にいい",
+    "meaning": "good for one’s health",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "むりな",
+    "kanji": "無理な",
+    "meaning": "excessive, impossible",
+    "type": 1,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "ダイエット",
+    "kanji": "",
+    "meaning": "diet (go on a diet)",
+    "type": 2,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "スカイツリー",
+    "kanji": "",
+    "meaning": "Tokyo Skytree (name of building in Tokyo)",
+    "type": 2,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "かつしかほくさい",
+    "kanji": "葛飾北斎",
+    "meaning": "KATSUSHIKA Hokusai (Famous ukiyo-e artists of the Edo period)",
+    "type": 1,
+    "originalOrder": 25
+  }
+]

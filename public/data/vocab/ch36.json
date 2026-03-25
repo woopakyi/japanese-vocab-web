@@ -1,0 +1,306 @@
+[
+  {
+    "id": "0",
+    "word": "あいます",
+    "kanji": "",
+    "meaning": "meet (事故に～)",
+    "type": 0,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "ちょきんします",
+    "kanji": "貯金します",
+    "meaning": "save money",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "すぎます",
+    "kanji": "過ぎます",
+    "meaning": "pass (7時を～)",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "なれます",
+    "kanji": "慣れます",
+    "meaning": "get used to (仕事に～)",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "くさります",
+    "kanji": "腐ります",
+    "meaning": "go bad, rot (食べ物が～)",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "けんどう",
+    "kanji": "剣道",
+    "meaning": "Kendo (Japanese fencing)",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "じゅうどう",
+    "kanji": "柔道",
+    "meaning": "Judo",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "ラッシュ",
+    "kanji": "",
+    "meaning": "rush (hour)",
+    "type": 2,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "うちゅう",
+    "kanji": "宇宙",
+    "meaning": "space, universe",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "きょく",
+    "kanji": "曲",
+    "meaning": "musical piece",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "まいしゅう",
+    "kanji": "毎週",
+    "meaning": "every week",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "まいつき",
+    "kanji": "毎月",
+    "meaning": "every month",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "まいとし",
+    "kanji": "毎年",
+    "meaning": "every year",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "このごろ",
+    "kanji": "",
+    "meaning": "recently, nowadays",
+    "type": 0,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "やっと",
+    "kanji": "",
+    "meaning": "at last",
+    "type": 0,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "かなり",
+    "kanji": "",
+    "meaning": "quite, fairly",
+    "type": 0,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "かならず",
+    "kanji": "必ず",
+    "meaning": "without fail, surely",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "ぜったいに",
+    "kanji": "絶対に",
+    "meaning": "absolutely, definitely",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "じょうずに",
+    "kanji": "上手に",
+    "meaning": "skillfully, well",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "できるだけ",
+    "kanji": "",
+    "meaning": "as much as possible, as ~ as possible",
+    "type": 0,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "ほとんど",
+    "kanji": "",
+    "meaning": "almost all, mostly",
+    "type": 0,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "ショパン",
+    "kanji": "",
+    "meaning": "Chopin",
+    "type": 2,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "おきゃくさま",
+    "kanji": "お客様",
+    "meaning": "customer (polite)",
+    "type": 1,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "とくべつな",
+    "kanji": "特別な",
+    "meaning": "special",
+    "type": 1,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "すいえい",
+    "kanji": "水泳",
+    "meaning": "swim",
+    "type": 1,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "ちがいます",
+    "kanji": "違います",
+    "meaning": "be different, be wrong",
+    "type": 1,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "チャレンジします",
+    "kanji": "",
+    "meaning": "challenge",
+    "type": 2,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "きもち",
+    "kanji": "気持ち",
+    "meaning": "feeling",
+    "type": 1,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "のりもの",
+    "kanji": "乗り物",
+    "meaning": "vehicle",
+    "type": 1,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "せいき",
+    "kanji": "...世紀",
+    "meaning": "century",
+    "type": 1,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "とおく",
+    "kanji": "遠く",
+    "meaning": "far away",
+    "type": 1,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "めずらしい",
+    "kanji": "珍しい",
+    "meaning": "rare, unusual",
+    "type": 1,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "きしゃ",
+    "kanji": "汽車",
+    "meaning": "steam locomotive",
+    "type": 1,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "おおぜいの",
+    "kanji": "大勢の",
+    "meaning": "many (～人)",
+    "type": 1,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "はこびます",
+    "kanji": "運びます",
+    "meaning": "carry, transport",
+    "type": 1,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "うんゆします",
+    "kanji": "運輸します",
+    "meaning": "transport",
+    "type": 1,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "りようします",
+    "kanji": "利用します",
+    "meaning": "use, utilize",
+    "type": 1,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "じゆうに",
+    "kanji": "自由に",
+    "meaning": "freely",
+    "type": 1,
+    "originalOrder": 37
+  }
+]

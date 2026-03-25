@@ -1,0 +1,322 @@
+[
+  {
+    "id": "0",
+    "word": "きります",
+    "kanji": "切ります",
+    "meaning": "cut",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "おくります",
+    "kanji": "送ります",
+    "meaning": "send",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "あげます",
+    "kanji": "",
+    "meaning": "give",
+    "type": 0,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "もらいます",
+    "kanji": "",
+    "meaning": "receive",
+    "type": 0,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "かします",
+    "kanji": "貸します",
+    "meaning": "lend",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "かります",
+    "kanji": "借ります",
+    "meaning": "borrow",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "おしえます",
+    "kanji": "教えます",
+    "meaning": "teach",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "ならいます",
+    "kanji": "習います",
+    "meaning": "learn",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "かけます",
+    "kanji": "かけます",
+    "meaning": "call (電話を～)",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "て",
+    "kanji": "手",
+    "meaning": "hand",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "はし",
+    "kanji": "",
+    "meaning": "chopsticks",
+    "type": 0,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "スプーン",
+    "kanji": "",
+    "meaning": "spoon",
+    "type": 2,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "ナイフ",
+    "kanji": "",
+    "meaning": "knife",
+    "type": 2,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "フォーク",
+    "kanji": "",
+    "meaning": "fork",
+    "type": 2,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "はさみ",
+    "kanji": "",
+    "meaning": "scissors",
+    "type": 0,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "パソコン",
+    "kanji": "",
+    "meaning": "PC",
+    "type": 2,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "ケータイ",
+    "kanji": "",
+    "meaning": "mobile phone",
+    "type": 2,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "メール",
+    "kanji": "",
+    "meaning": "email",
+    "type": 2,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "ねんがじょう",
+    "kanji": "年賀状",
+    "meaning": "New Year’s card",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "パンチ",
+    "kanji": "",
+    "meaning": "punch",
+    "type": 2,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "ホッチキス",
+    "kanji": "",
+    "meaning": "stapler",
+    "type": 2,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "セロテープ",
+    "kanji": "",
+    "meaning": "Scotch tape",
+    "type": 2,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "けしごむ",
+    "kanji": "消しゴム",
+    "meaning": "eraser",
+    "type": 1,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "かみ",
+    "kanji": "紙",
+    "meaning": "paper",
+    "type": 1,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "はな",
+    "kanji": "花",
+    "meaning": "flower",
+    "type": 1,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "シャツ",
+    "kanji": "",
+    "meaning": "shirt",
+    "type": 2,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "プレゼント",
+    "kanji": "",
+    "meaning": "present, gift",
+    "type": 2,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "にもつ",
+    "kanji": "荷物",
+    "meaning": "baggage, parcel",
+    "type": 1,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "おかね",
+    "kanji": "お金",
+    "meaning": "money",
+    "type": 1,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "きっぷ",
+    "kanji": "切符",
+    "meaning": "ticket",
+    "type": 1,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "クリスマス",
+    "kanji": "",
+    "meaning": "Christmas",
+    "type": 2,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "ちち",
+    "kanji": "父",
+    "meaning": "(my) father",
+    "type": 1,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "はは",
+    "kanji": "母",
+    "meaning": "(my) mother",
+    "type": 1,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "おとうさん",
+    "kanji": "お父さん",
+    "meaning": "father",
+    "type": 1,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "おかあさん",
+    "kanji": "お母さん",
+    "meaning": "mother",
+    "type": 1,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "もう",
+    "kanji": "",
+    "meaning": "already",
+    "type": 0,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "まだ",
+    "kanji": "",
+    "meaning": "not yet",
+    "type": 0,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "これから",
+    "kanji": "",
+    "meaning": "from now on, soon",
+    "type": 0,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "あがります",
+    "kanji": "上がります",
+    "meaning": "go up, come",
+    "type": 1,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "スペイン",
+    "kanji": "",
+    "meaning": "Spain",
+    "type": 2,
+    "originalOrder": 39
+  }
+]

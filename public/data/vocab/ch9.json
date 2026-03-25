@@ -1,0 +1,394 @@
+[
+  {
+    "id": "0",
+    "word": "わかります",
+    "kanji": "",
+    "meaning": "understand",
+    "type": 0,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "あります",
+    "kanji": "あります",
+    "meaning": "have",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "すきな",
+    "kanji": "好きな",
+    "meaning": "like",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "きらいな",
+    "kanji": "嫌いな",
+    "meaning": "dislike",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "じょうずな",
+    "kanji": "上手な",
+    "meaning": "good at",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "へたな",
+    "kanji": "下手な",
+    "meaning": "terrible at",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "のみもの",
+    "kanji": "飲み物",
+    "meaning": "drinks",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "りょうり",
+    "kanji": "料理",
+    "meaning": "dish, cooked food (～をします)",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "スポーツ",
+    "kanji": "",
+    "meaning": "sports (～をします)",
+    "type": 2,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "やきゅう",
+    "kanji": "野球",
+    "meaning": "baseball (～をします)",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "ダンス",
+    "kanji": "",
+    "meaning": "dance (～をします)",
+    "type": 2,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "りょこう",
+    "kanji": "旅行",
+    "meaning": "travel (～[を]します)",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "おんがく",
+    "kanji": "音楽",
+    "meaning": "music",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "うた",
+    "kanji": "歌",
+    "meaning": "song",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "クラシック",
+    "kanji": "",
+    "meaning": "classical music",
+    "type": 2,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "ジャズ",
+    "kanji": "",
+    "meaning": "jazz",
+    "type": 2,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "コンサート",
+    "kanji": "",
+    "meaning": "concert",
+    "type": 2,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "カラオケ",
+    "kanji": "",
+    "meaning": "Karaoke",
+    "type": 2,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "かぶき",
+    "kanji": "歌舞伎",
+    "meaning": "Kabuki",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "え",
+    "kanji": "絵",
+    "meaning": "picture, drawing",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "じ",
+    "kanji": "字",
+    "meaning": "letter, character",
+    "type": 1,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "かんじ",
+    "kanji": "漢字",
+    "meaning": "Kanji, Chinese origin characters",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "ひらがな",
+    "kanji": "",
+    "meaning": "Hiragana script",
+    "type": 0,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "かたかな",
+    "kanji": "",
+    "meaning": "Katakana script",
+    "type": 0,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "ローマじ",
+    "kanji": "ローマ字",
+    "meaning": "Roman alphabet",
+    "type": 1,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "こまかいおかね",
+    "kanji": "細かいお金",
+    "meaning": "small change",
+    "type": 1,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "チケット",
+    "kanji": "",
+    "meaning": "ticket",
+    "type": 2,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "じかん",
+    "kanji": "時間",
+    "meaning": "time",
+    "type": 1,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "ようじ",
+    "kanji": "用事",
+    "meaning": "something to do",
+    "type": 1,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "やくそく",
+    "kanji": "約束",
+    "meaning": "appointment, promise (～[を]します)",
+    "type": 1,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "アルバイト",
+    "kanji": "",
+    "meaning": "part-time job (～をします)",
+    "type": 2,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "ごしゅじん",
+    "kanji": "ご主人",
+    "meaning": "(someone else’s) husband",
+    "type": 1,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "しゅじん",
+    "kanji": "主人",
+    "meaning": "(my) husband",
+    "type": 1,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "おっと",
+    "kanji": "夫",
+    "meaning": "(my) husband",
+    "type": 1,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "おくさん",
+    "kanji": "奥さん",
+    "meaning": "(someone else’s) wife",
+    "type": 1,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "つま",
+    "kanji": "妻",
+    "meaning": "(my) wife",
+    "type": 1,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "かない",
+    "kanji": "家内",
+    "meaning": "(my) wife",
+    "type": 1,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "こども",
+    "kanji": "子ども",
+    "meaning": "child, children",
+    "type": 1,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "よく",
+    "kanji": "",
+    "meaning": "well, much",
+    "type": 0,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "だいたい",
+    "kanji": "",
+    "meaning": "mostly, roughly",
+    "type": 0,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "たくさん",
+    "kanji": "",
+    "meaning": "many, much",
+    "type": 0,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "すこし",
+    "kanji": "少し",
+    "meaning": "a little, a few",
+    "type": 1,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "ぜんぜん",
+    "kanji": "全然",
+    "meaning": "not at all (used with negatives)",
+    "type": 1,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "はやく",
+    "kanji": "早く、速く",
+    "meaning": "early, quickly, fast",
+    "type": 1,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "～から",
+    "kanji": "",
+    "meaning": "because",
+    "type": 0,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
+    "word": "どうして",
+    "kanji": "",
+    "meaning": "why",
+    "type": 0,
+    "originalOrder": 45
+  },
+  {
+    "id": "46",
+    "word": "こんど",
+    "kanji": "今度",
+    "meaning": "some other time",
+    "type": 1,
+    "originalOrder": 46
+  },
+  {
+    "id": "47",
+    "word": "かします",
+    "kanji": "貸します",
+    "meaning": "lend",
+    "type": 1,
+    "originalOrder": 47
+  },
+  {
+    "id": "48",
+    "word": "ざんねん",
+    "kanji": "残念",
+    "meaning": "pity",
+    "type": 1,
+    "originalOrder": 48
+  }
+]

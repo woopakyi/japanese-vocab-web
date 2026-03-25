@@ -1,0 +1,354 @@
+[
+  {
+    "id": "0",
+    "word": "かいます",
+    "kanji": "飼います",
+    "meaning": "keep a pet",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "みち",
+    "kanji": "道",
+    "meaning": "road",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "はしります",
+    "kanji": "走ります",
+    "meaning": "run",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "みえます",
+    "kanji": "見えます",
+    "meaning": "be seen, can see (山が～)",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "きこえます",
+    "kanji": "聞こえます",
+    "meaning": "be heard, can hear (音が～)",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "できます",
+    "kanji": "",
+    "meaning": "be able to do (道が～)",
+    "type": 0,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "ひらきます",
+    "kanji": "開きます",
+    "meaning": "withdraw (教室を～)",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "しんぱい な",
+    "kanji": "心配 な",
+    "meaning": "worried, anxiety",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "ペット",
+    "kanji": "",
+    "meaning": "pet",
+    "type": 2,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "とり",
+    "kanji": "鳥",
+    "meaning": "bird",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "こえ",
+    "kanji": "声",
+    "meaning": "voice",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "はなび",
+    "kanji": "花火",
+    "meaning": "fireworks",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "どうぐ",
+    "kanji": "道具",
+    "meaning": "tool",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "クリーニング",
+    "kanji": "",
+    "meaning": "cleaning",
+    "type": 2,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "いえ",
+    "kanji": "家",
+    "meaning": "house",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "マンション",
+    "kanji": "",
+    "meaning": "condominium",
+    "type": 2,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "キッチン",
+    "kanji": "",
+    "meaning": "kitchen",
+    "type": 2,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "きょうしつ",
+    "kanji": "教室",
+    "meaning": "classroom",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "パーティールーム",
+    "kanji": "",
+    "meaning": "party room",
+    "type": 2,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "かた",
+    "kanji": "方",
+    "meaning": "person (polite form of \"hito\")",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "ご",
+    "kanji": "～後",
+    "meaning": "～ after (period of time)",
+    "type": 1,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "～しか",
+    "kanji": "",
+    "meaning": "only (followed by negative)",
+    "type": 0,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "ほかの",
+    "kanji": "",
+    "meaning": "other",
+    "type": 0,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "はっきり",
+    "kanji": "",
+    "meaning": "clearly",
+    "type": 0,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "かぐ",
+    "kanji": "家具",
+    "meaning": "furniture",
+    "type": 1,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "ほんだな",
+    "kanji": "書棚",
+    "meaning": "bookshelf",
+    "type": 1,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "いつか",
+    "kanji": "",
+    "meaning": "sometime",
+    "type": 0,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "たてます",
+    "kanji": "建てます",
+    "meaning": "build",
+    "type": 1,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "すばらしい",
+    "kanji": "",
+    "meaning": "wonderful, splendid",
+    "type": 0,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "こどもたち",
+    "kanji": "子供たち",
+    "meaning": "children",
+    "type": 1,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "だいすきな",
+    "kanji": "大好きな",
+    "meaning": "very fond of, like very much",
+    "type": 1,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "しゅじんこう",
+    "kanji": "主人公",
+    "meaning": "protagonist, main character",
+    "type": 1,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "かたち",
+    "kanji": "形",
+    "meaning": "shape, form",
+    "type": 1,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "ふしぎ な",
+    "kanji": "不思議 な",
+    "meaning": "mysterious, strange",
+    "type": 1,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "ポケット",
+    "kanji": "",
+    "meaning": "pocket",
+    "type": 2,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "たとえば",
+    "kanji": "例えば",
+    "meaning": "for example",
+    "type": 1,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "つけます",
+    "kanji": "付けます",
+    "meaning": "attach, add",
+    "type": 1,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "じゆうに",
+    "kanji": "自由に",
+    "meaning": "freely",
+    "type": 1,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "そら",
+    "kanji": "空",
+    "meaning": "sky",
+    "type": 1,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "とびます",
+    "kanji": "飛びます",
+    "meaning": "fly",
+    "type": 1,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "むかし",
+    "kanji": "昔",
+    "meaning": "long ago, ancient times",
+    "type": 1,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "じぶん",
+    "kanji": "自分",
+    "meaning": "oneself",
+    "type": 1,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "しょうらい",
+    "kanji": "将来",
+    "meaning": "future",
+    "type": 1,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "ドラえもん",
+    "kanji": "",
+    "meaning": "Doraemon (name of an anime character)",
+    "type": 2,
+    "originalOrder": 43
+  }
+]

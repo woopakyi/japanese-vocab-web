@@ -82,6 +82,7 @@ async function main() {
     };
     return acc;
   }, {});
+  const chapterTotals = {};
 
   let totalExercise1Max = 0;
   let totalExercise2Max = 0;
@@ -120,7 +121,28 @@ async function main() {
       groupTotals[counts.group].chapterCount += 1;
     }
 
+    chapterTotals[counts.chapterId] = {
+      chapterId: counts.chapterId,
+      chapterNumber: counts.chapterNumber,
+      group: counts.group,
+      exercise1Max: counts.type1Count,
+      exercise2Max: counts.type2Count,
+      chapterMaxScore: counts.chapterMaxScore,
+    };
+
     console.log(`Updated ${counts.chapterId}: ex1=${counts.type1Count}, ex2=${counts.type2Count}, total=${counts.chapterMaxScore}`);
+  }
+
+  if (totalChapterMaxScore > 0) {
+    Object.keys(groupTotals).forEach((groupName) => {
+      const group = groupTotals[groupName];
+      group.shareOfTotalPct = Number(((group.chapterMaxScore / totalChapterMaxScore) * 100).toFixed(2));
+    });
+
+    Object.keys(chapterTotals).forEach((chapterId) => {
+      const chapter = chapterTotals[chapterId];
+      chapter.shareOfTotalPct = Number(((chapter.chapterMaxScore / totalChapterMaxScore) * 100).toFixed(2));
+    });
   }
 
   await db.collection('appMeta').doc('scoreTotals').set(
@@ -130,6 +152,7 @@ async function main() {
       totalChapterMaxScore,
       totalChapters,
       groupTotals,
+      chapterTotals,
       updatedAt: admin.firestore.FieldValue.serverTimestamp(),
     },
     { merge: true }

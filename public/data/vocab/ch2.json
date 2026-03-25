@@ -1,0 +1,314 @@
+[
+  {
+    "id": "0",
+    "word": "これ",
+    "kanji": "",
+    "meaning": "this (thing here)",
+    "type": 0,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "それ",
+    "kanji": "",
+    "meaning": "that (thing near you)",
+    "type": 0,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "あれ",
+    "kanji": "",
+    "meaning": "that (thing over there)",
+    "type": 0,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "この～",
+    "kanji": "",
+    "meaning": "this (+ Noun here)",
+    "type": 0,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "その～",
+    "kanji": "",
+    "meaning": "that (+ Noun near you)",
+    "type": 0,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "あの～",
+    "kanji": "",
+    "meaning": "that (+ Noun over there)",
+    "type": 0,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "ほん",
+    "kanji": "本",
+    "meaning": "book",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "じしょ",
+    "kanji": "辞書",
+    "meaning": "dictionary",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "ざっし",
+    "kanji": "雑誌",
+    "meaning": "magazine",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "しんぶん",
+    "kanji": "新聞",
+    "meaning": "newspaper",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "ノート",
+    "kanji": "",
+    "meaning": "notebook",
+    "type": 2,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "てちょう",
+    "kanji": "手帳",
+    "meaning": "pocket notebook",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "めいし",
+    "kanji": "名刺",
+    "meaning": "business card",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "カード",
+    "kanji": "",
+    "meaning": "card",
+    "type": 2,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "えんぴつ",
+    "kanji": "鉛筆",
+    "meaning": "pencil",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "ボールペン",
+    "kanji": "",
+    "meaning": "ballpoint pen",
+    "type": 2,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "シャープペンシル",
+    "kanji": "",
+    "meaning": "mechanical pencil",
+    "type": 2,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "かぎ",
+    "kanji": "",
+    "meaning": "key",
+    "type": 0,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "とけい",
+    "kanji": "時計",
+    "meaning": "watch, clock",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "かさ",
+    "kanji": "傘",
+    "meaning": "umbrella",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "かばん",
+    "kanji": "",
+    "meaning": "bag, briefcase",
+    "type": 0,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "シーディー",
+    "kanji": "CD",
+    "meaning": "Compact Disk",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "テレビ",
+    "kanji": "",
+    "meaning": "television",
+    "type": 2,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "ラジオ",
+    "kanji": "",
+    "meaning": "radio",
+    "type": 2,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "カメラ",
+    "kanji": "",
+    "meaning": "camera",
+    "type": 2,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "コンピューター",
+    "kanji": "",
+    "meaning": "computer",
+    "type": 2,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "くるま",
+    "kanji": "車",
+    "meaning": "car",
+    "type": 1,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "つくえ",
+    "kanji": "机",
+    "meaning": "desk",
+    "type": 1,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "いす",
+    "kanji": "",
+    "meaning": "chair",
+    "type": 0,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "チョコレート",
+    "kanji": "",
+    "meaning": "chocolate",
+    "type": 2,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "コーヒー",
+    "kanji": "",
+    "meaning": "coffee",
+    "type": 2,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "おみやげ",
+    "kanji": "お土産",
+    "meaning": "souvenir",
+    "type": 1,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "えいご",
+    "kanji": "英語",
+    "meaning": "English (language)",
+    "type": 1,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "にほんご",
+    "kanji": "日本語",
+    "meaning": "Japanese (language)",
+    "type": 1,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "ご",
+    "kanji": "～語",
+    "meaning": "～language",
+    "type": 1,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "なん",
+    "kanji": "何～",
+    "meaning": "what",
+    "type": 1,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "そう",
+    "kanji": "",
+    "meaning": "that’s it",
+    "type": 0,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "おせわ",
+    "kanji": "お世話",
+    "meaning": "kind assistance",
+    "type": 1,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "ちがいます",
+    "kanji": "違います",
+    "meaning": "No, it isn’t.",
+    "type": 1,
+    "originalOrder": 38
+  }
+]

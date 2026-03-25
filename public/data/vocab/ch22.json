@@ -1,0 +1,226 @@
+[
+  {
+    "id": "0",
+    "word": "きます",
+    "kanji": "着ます",
+    "meaning": "put on (a shirt, etc.)",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "はきます",
+    "kanji": "",
+    "meaning": "put on (shoes, trousers etc.)",
+    "type": 0,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "かぶります",
+    "kanji": "",
+    "meaning": "put on (a hat, etc.)",
+    "type": 0,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "かけます",
+    "kanji": "",
+    "meaning": "put on (眼鏡を～)",
+    "type": 0,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "します",
+    "kanji": "",
+    "meaning": "put on (ネクタイを～)",
+    "type": 0,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "うまます",
+    "kanji": "生まます",
+    "meaning": "be born",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "わたしたち",
+    "kanji": "",
+    "meaning": "we",
+    "type": 0,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "コート",
+    "kanji": "",
+    "meaning": "coat",
+    "type": 2,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "セーター",
+    "kanji": "",
+    "meaning": "sweater",
+    "type": 2,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "スーツ",
+    "kanji": "",
+    "meaning": "suit",
+    "type": 2,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "ぼうし",
+    "kanji": "帽子",
+    "meaning": "hat, cap",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "めがね",
+    "kanji": "眼鏡",
+    "meaning": "glasses",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "ケーキ",
+    "kanji": "",
+    "meaning": "cake",
+    "type": 2,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "おべんとう",
+    "kanji": "お弁当",
+    "meaning": "lunch box",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "ロボット",
+    "kanji": "",
+    "meaning": "robot",
+    "type": 2,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "ユーモア",
+    "kanji": "",
+    "meaning": "humor",
+    "type": 2,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "つごう",
+    "kanji": "都合",
+    "meaning": "availability, convenience",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "よく",
+    "kanji": "",
+    "meaning": "often",
+    "type": 0,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "さがします",
+    "kanji": "探し",
+    "meaning": "look for",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "こちら",
+    "kanji": "",
+    "meaning": "this (polite これ)",
+    "type": 0,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "やちん",
+    "kanji": "家賃",
+    "meaning": "house rent",
+    "type": 1,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "ダイニングキッチン",
+    "kanji": "",
+    "meaning": "kitchen with a dining area",
+    "type": 2,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "わしつ",
+    "kanji": "和室",
+    "meaning": "Japanese-style room with Tatami",
+    "type": 1,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "おしいれ",
+    "kanji": "押し入れ",
+    "meaning": "Japanese-style closet",
+    "type": 1,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "ふとん",
+    "kanji": "布団",
+    "meaning": "Japanese-style mattress and quilt",
+    "type": 1,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "パリ",
+    "kanji": "",
+    "meaning": "Paris",
+    "type": 2,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "ばんりのちょうじょう",
+    "kanji": "万里の長城",
+    "meaning": "The great wall of China",
+    "type": 1,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "アンケート",
+    "kanji": "",
+    "meaning": "questionnaire",
+    "type": 2,
+    "originalOrder": 27
+  }
+]

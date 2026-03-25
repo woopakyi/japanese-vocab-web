@@ -6,9 +6,11 @@ import { collection, getDocs, orderBy, query, where, doc, setDoc } from 'firebas
 import HexagonChart from '../components/HexagonChart';
 import { getCachedValue, setCachedValue } from '../utils/cache';
 import { getUserBestScoreSummary, updateUserBestScoreSummary } from '../utils/userSummary';
+import { loadStaticChapters, loadStaticScoreTotals } from '../utils/staticContent';
 
 const USER_SUMMARY_CACHE_TTL_MS = 60 * 1000;
 const CHAPTERS_CACHE_TTL_MS = 6 * 60 * 60 * 1000;
+const SCORE_TOTALS_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 
 function toPositiveCount(value) {
   const count = Number(value);
@@ -100,6 +102,7 @@ export default function Profile() {
         const chapterMeta = {};
         let chapters = [];
         const fullByChapterType = {};
+        let precomputedGroupTotals = null;
 
         const fullByChapterTypeFromRecords = {};
         bestRecords.forEach((record) => {
@@ -117,16 +120,40 @@ export default function Profile() {
         });
 
         try {
-          const chapterCacheKey = 'chapters:meta';
-          const cachedChapters = getCachedValue(chapterCacheKey, CHAPTERS_CACHE_TTL_MS);
+          const scoreTotalsCacheKey = 'static:scoreTotals:v2';
+          const cachedScoreTotals = getCachedValue(scoreTotalsCacheKey, SCORE_TOTALS_CACHE_TTL_MS);
+          const scoreTotals = cachedScoreTotals || await (async () => {
+            const data = await loadStaticScoreTotals();
+            if (data) {
+              setCachedValue(scoreTotalsCacheKey, data);
+            }
+            return data;
+          })();
 
-          if (cachedChapters) {
-            chapters = cachedChapters;
+          precomputedGroupTotals = scoreTotals?.groupTotals || null;
+
+          const chapterTotalsMap = scoreTotals?.chapterTotals || {};
+          if (Object.keys(chapterTotalsMap).length > 0) {
+            chapters = Object.values(chapterTotalsMap)
+              .map((item) => ({
+                id: item.chapterId,
+                chapterNumber: item.chapterNumber,
+                name: `Chapter ${item.chapterNumber}`,
+                group: item.group,
+                exercise1Max: item.exercise1Max,
+                exercise2Max: item.exercise2Max,
+              }))
+              .sort((a, b) => (a.chapterNumber || 0) - (b.chapterNumber || 0));
           } else {
-            const chaptersQuery = query(collection(db, 'chapters'), orderBy('chapterNumber'));
-            const chaptersSnapshot = await getDocs(chaptersQuery);
-            chapters = chaptersSnapshot.docs.map((docItem) => ({ id: docItem.id, ...docItem.data() }));
-            setCachedValue(chapterCacheKey, chapters);
+            const chapterCacheKey = 'static:chapters:v2';
+            const cachedChapters = getCachedValue(chapterCacheKey, CHAPTERS_CACHE_TTL_MS);
+
+            if (cachedChapters) {
+              chapters = cachedChapters;
+            } else {
+              chapters = await loadStaticChapters();
+              setCachedValue(chapterCacheKey, chapters);
+            }
           }
 
           chapters.forEach((chapter) => {
@@ -134,8 +161,12 @@ export default function Profile() {
           }, {});
 
           chapters.forEach((chapter) => {
-            const type1FromMeta = toPositiveCount(chapter.type1Count) || toPositiveCount(chapter.exercise1Total);
-            const type2FromMeta = toPositiveCount(chapter.type2Count) || toPositiveCount(chapter.exercise2Total);
+            const type1FromMeta = toPositiveCount(chapter.type1Count)
+              || toPositiveCount(chapter.exercise1Max)
+              || toPositiveCount(chapter.exercise1Total);
+            const type2FromMeta = toPositiveCount(chapter.type2Count)
+              || toPositiveCount(chapter.exercise2Max)
+              || toPositiveCount(chapter.exercise2Total);
             const fallback = fullByChapterTypeFromRecords[chapter.id] || { 1: 0, 2: 0 };
             fullByChapterType[chapter.id] = {
               1: type1FromMeta || fallback[1],
@@ -149,7 +180,7 @@ export default function Profile() {
           });
 
           if (hasMissingMetaCounts) {
-            setWarning('Some full-mark totals are estimated from your own records. Run scripts/uploadScoreMetadata.js to upload pre-calculated chapter max scores from CSV.');
+            setWarning('Some full-mark totals are estimated from your own records. Run scripts/uploadScoreMetadata.js to upload pre-calculated chapter and global max scores from CSV.');
           }
         } catch (chapterError) {
           console.error('Warning: chapter metadata could not be loaded.', chapterError);
@@ -166,9 +197,17 @@ export default function Profile() {
         });
 
         const scoreByGroup = groupOrder.reduce((acc, group) => ({ ...acc, [group]: 0 }), {});
-        const fullByGroup = groupOrder.reduce((acc, group) => ({ ...acc, [group]: 0 }), {});
+        const fullByGroup = precomputedGroupTotals
+          ? groupOrder.reduce(
+            (acc, group) => ({
+              ...acc,
+              [group]: toPositiveCount(precomputedGroupTotals[group]?.chapterMaxScore),
+            }),
+            {}
+          )
+          : groupOrder.reduce((acc, group) => ({ ...acc, [group]: 0 }), {});
 
-        if (chapters.length > 0) {
+        if (chapters.length > 0 && !precomputedGroupTotals) {
           chapters.forEach((chapter) => {
             const chapterFull = fullByChapterType[chapter.id] || fullByChapterTypeFromRecords[chapter.id] || { 1: 0, 2: 0 };
             fullByGroup[chapter.group] += chapterFull[1] + chapterFull[2];

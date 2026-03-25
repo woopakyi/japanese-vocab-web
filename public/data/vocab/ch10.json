@@ -1,0 +1,402 @@
+[
+  {
+    "id": "0",
+    "word": "あります",
+    "kanji": "",
+    "meaning": "be, exit (objects)",
+    "type": 0,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "います",
+    "kanji": "",
+    "meaning": "be, exit (people & animal)",
+    "type": 0,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "いろいろな",
+    "kanji": "",
+    "meaning": "various",
+    "type": 0,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "おとこのひと",
+    "kanji": "男の人",
+    "meaning": "man",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "おんなのひと",
+    "kanji": "女の人",
+    "meaning": "woman",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "おとこのこ",
+    "kanji": "男の子",
+    "meaning": "boy",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "おんなのこ",
+    "kanji": "女の子",
+    "meaning": "girl",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "いぬ",
+    "kanji": "犬",
+    "meaning": "dog",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "ねこ",
+    "kanji": "猫",
+    "meaning": "cat",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "パンダ",
+    "kanji": "",
+    "meaning": "panda",
+    "type": 2,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "ぞう",
+    "kanji": "象",
+    "meaning": "elephant",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "き",
+    "kanji": "木",
+    "meaning": "tree, wood",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "もの",
+    "kanji": "物",
+    "meaning": "objects",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "でんち",
+    "kanji": "電池",
+    "meaning": "battery",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "はこ",
+    "kanji": "箱",
+    "meaning": "box",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "スイッチ",
+    "kanji": "",
+    "meaning": "switch",
+    "type": 2,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "れいぞうこ",
+    "kanji": "冷蔵庫",
+    "meaning": "refrigerator",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "テーブル",
+    "kanji": "",
+    "meaning": "table",
+    "type": 2,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "ベッド",
+    "kanji": "",
+    "meaning": "bed",
+    "type": 2,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "たな",
+    "kanji": "棚",
+    "meaning": "shelf",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "ドア",
+    "kanji": "",
+    "meaning": "door",
+    "type": 2,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "まど",
+    "kanji": "窓",
+    "meaning": "window",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "ポスト",
+    "kanji": "",
+    "meaning": "mailbox, post box",
+    "type": 2,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "ビル",
+    "kanji": "",
+    "meaning": "building",
+    "type": 2,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "エーティーエム",
+    "kanji": "",
+    "meaning": "ATM",
+    "type": 2,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "コンビニ",
+    "kanji": "",
+    "meaning": "convenience store",
+    "type": 2,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "こうえん",
+    "kanji": "公園",
+    "meaning": "park",
+    "type": 1,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "きっさてん",
+    "kanji": "喫茶店",
+    "meaning": "coffee shop",
+    "type": 1,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "や",
+    "kanji": "～屋",
+    "meaning": "store, shop",
+    "type": 1,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "のりば",
+    "kanji": "乗り場",
+    "meaning": "a fixed place to catch taxis, trains, etc.",
+    "type": 1,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "けん",
+    "kanji": "県",
+    "meaning": "prefecture",
+    "type": 1,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "うえ",
+    "kanji": "上",
+    "meaning": "on, above, over",
+    "type": 1,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "した",
+    "kanji": "下",
+    "meaning": "under, below, beneath",
+    "type": 1,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "まえ",
+    "kanji": "前",
+    "meaning": "front, before",
+    "type": 1,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "うしろ",
+    "kanji": "",
+    "meaning": "back, behind",
+    "type": 0,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "みぎ",
+    "kanji": "右",
+    "meaning": "right",
+    "type": 1,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "ひだり",
+    "kanji": "左",
+    "meaning": "left",
+    "type": 1,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "なか",
+    "kanji": "中",
+    "meaning": "in, inside",
+    "type": 1,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "そと",
+    "kanji": "外",
+    "meaning": "outside",
+    "type": 1,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "となり",
+    "kanji": "隣",
+    "meaning": "next, next door",
+    "type": 1,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "ちかく",
+    "kanji": "近く",
+    "meaning": "near, vicinity",
+    "type": 1,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "あいだ",
+    "kanji": "間",
+    "meaning": "between, among",
+    "type": 1,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "～や～など",
+    "kanji": "",
+    "meaning": "～, ～, and so on",
+    "type": 0,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "ナンプラー",
+    "kanji": "",
+    "meaning": "nam pla (Thai style fish sauce)",
+    "type": 2,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "コーナー",
+    "kanji": "",
+    "meaning": "section, counter, booth",
+    "type": 2,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
+    "word": "いちばん",
+    "kanji": "",
+    "meaning": "the most",
+    "type": 0,
+    "originalOrder": 45
+  },
+  {
+    "id": "46",
+    "word": "とうきょう",
+    "kanji": "東京",
+    "meaning": "Tokyo",
+    "type": 1,
+    "originalOrder": 46
+  },
+  {
+    "id": "47",
+    "word": "ディズニーランド",
+    "kanji": "ディズニーランド",
+    "meaning": "Disneyland",
+    "type": 1,
+    "originalOrder": 47
+  },
+  {
+    "id": "48",
+    "word": "アジア",
+    "kanji": "",
+    "meaning": "Asia",
+    "type": 2,
+    "originalOrder": 48
+  },
+  {
+    "id": "49",
+    "word": "ストア",
+    "kanji": "",
+    "meaning": "store",
+    "type": 2,
+    "originalOrder": 49
+  }
+]

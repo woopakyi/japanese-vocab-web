@@ -1,0 +1,434 @@
+[
+  {
+    "id": "0",
+    "word": "さきます",
+    "kanji": "咲きます",
+    "meaning": "bloom (花が～)",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "かわります",
+    "kanji": "変わります",
+    "meaning": "change (色か～)",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "こまります",
+    "kanji": "困ります",
+    "meaning": "be in trouble",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "つけます",
+    "kanji": "付けます",
+    "meaning": "put on, attach (丸を～)",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "なおります",
+    "kanji": "治ります",
+    "meaning": "recover (病気が～)",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "なおります",
+    "kanji": "直ります",
+    "meaning": "be repaired, fixed (故障が～)",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "クリックします",
+    "kanji": "",
+    "meaning": "click",
+    "type": 2,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "にゅうりょくします",
+    "kanji": "入力します",
+    "meaning": "input",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "ただしい",
+    "kanji": "正しい",
+    "meaning": "correct",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "むこう",
+    "kanji": "向こう",
+    "meaning": "over there, on the other side",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "しま",
+    "kanji": "島",
+    "meaning": "island",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "みなと",
+    "kanji": "港",
+    "meaning": "port",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "きんじょ",
+    "kanji": "近所",
+    "meaning": "neighborhood",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "おくじょう",
+    "kanji": "屋上",
+    "meaning": "rooftop",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "かいがい",
+    "kanji": "海外",
+    "meaning": "overseas",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "やまのぼり",
+    "kanji": "山登り",
+    "meaning": "mountain climbing",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "れきし",
+    "kanji": "歴史",
+    "meaning": "history",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "きかい",
+    "kanji": "機会",
+    "meaning": "chance, opportunity",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "きょか",
+    "kanji": "許可",
+    "meaning": "permission",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "まる",
+    "kanji": "丸",
+    "meaning": "circle",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "ふりがな",
+    "kanji": "",
+    "meaning": "phonetic characters",
+    "type": 0,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "せつび",
+    "kanji": "設備",
+    "meaning": "equipment",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "レバー",
+    "kanji": "",
+    "meaning": "lever",
+    "type": 2,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "キー",
+    "kanji": "",
+    "meaning": "key",
+    "type": 2,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "カーテン",
+    "kanji": "",
+    "meaning": "curtain",
+    "type": 2,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "ひも",
+    "kanji": "",
+    "meaning": "string, cord",
+    "type": 0,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "すいはんき",
+    "kanji": "炊飯器",
+    "meaning": "rice cooker",
+    "type": 1,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "は",
+    "kanji": "葉",
+    "meaning": "leaf",
+    "type": 1,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "むかし",
+    "kanji": "昔",
+    "meaning": "old days, ancient times",
+    "type": 1,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "もっと",
+    "kanji": "",
+    "meaning": "more",
+    "type": 0,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "おわります",
+    "kanji": "終わります",
+    "meaning": "finish",
+    "type": 1,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "はこね",
+    "kanji": "箱根",
+    "meaning": "Hakone (place name)",
+    "type": 1,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "にっこう",
+    "kanji": "日光",
+    "meaning": "Nikko (place name)",
+    "type": 1,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "アフリカ",
+    "kanji": "",
+    "meaning": "Africa",
+    "type": 2,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "マンガミュージアム",
+    "kanji": "",
+    "meaning": "Manga Museum",
+    "type": 2,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "あじ",
+    "kanji": "味",
+    "meaning": "taste",
+    "type": 1,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "さとう",
+    "kanji": "佐藤",
+    "meaning": "Satou as a surname",
+    "type": 1,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "しか",
+    "kanji": "歯科",
+    "meaning": "dentistry",
+    "type": 1,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "さどうしつ",
+    "kanji": "茶道室",
+    "meaning": "tea ceremony room",
+    "type": 1,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "クッキング",
+    "kanji": "",
+    "meaning": "cooking",
+    "type": 2,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "それなら",
+    "kanji": "",
+    "meaning": "in that case, then",
+    "type": 0,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "やこうバス",
+    "kanji": "夜行バス",
+    "meaning": "night bus",
+    "type": 1,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "さあ",
+    "kanji": "",
+    "meaning": "well, come on",
+    "type": 0,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "りょこうしゃ",
+    "kanji": "旅行者",
+    "meaning": "traveler",
+    "type": 1,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "くわしい",
+    "kanji": "詳しい",
+    "meaning": "detailed",
+    "type": 1,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
+    "word": "スキーじょう",
+    "kanji": "スキー場",
+    "meaning": "ski resort",
+    "type": 1,
+    "originalOrder": 45
+  },
+  {
+    "id": "46",
+    "word": "くさつ",
+    "kanji": "草津",
+    "meaning": "Kusatsu (place name)",
+    "type": 1,
+    "originalOrder": 46
+  },
+  {
+    "id": "47",
+    "word": "しがこうげん",
+    "kanji": "志賀高原",
+    "meaning": "Shiga Kogen (place name)",
+    "type": 1,
+    "originalOrder": 47
+  },
+  {
+    "id": "48",
+    "word": "しゅ",
+    "kanji": "朱",
+    "meaning": "vermilion, red",
+    "type": 1,
+    "originalOrder": 48
+  },
+  {
+    "id": "49",
+    "word": "まじわります",
+    "kanji": "交わります",
+    "meaning": "interact, associate",
+    "type": 1,
+    "originalOrder": 49
+  },
+  {
+    "id": "50",
+    "word": "ことわざ",
+    "kanji": "",
+    "meaning": "proverb",
+    "type": 0,
+    "originalOrder": 50
+  },
+  {
+    "id": "51",
+    "word": "かんけい",
+    "kanji": "関係",
+    "meaning": "relation, relationship",
+    "type": 1,
+    "originalOrder": 51
+  },
+  {
+    "id": "52",
+    "word": "なかよく します",
+    "kanji": "仲良くします",
+    "meaning": "get along well",
+    "type": 1,
+    "originalOrder": 52
+  },
+  {
+    "id": "53",
+    "word": "ひつような",
+    "kanji": "必要な",
+    "meaning": "necessary, essential",
+    "type": 1,
+    "originalOrder": 53
+  }
+]

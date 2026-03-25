@@ -1,0 +1,234 @@
+[
+  {
+    "id": "0",
+    "word": "できます",
+    "kanji": "",
+    "meaning": "be able to, can",
+    "type": 0,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "あらいます",
+    "kanji": "洗います",
+    "meaning": "wash",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "ひきます",
+    "kanji": "弾きます",
+    "meaning": "play (stringed or keyboard instruments)",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "うたいます",
+    "kanji": "歌います",
+    "meaning": "sing",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "あつめます",
+    "kanji": "集めます",
+    "meaning": "collect, gather",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "すてます",
+    "kanji": "捨てます",
+    "meaning": "throw away",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "かえます",
+    "kanji": "換えます",
+    "meaning": "exchange, change",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "うんてんします",
+    "kanji": "運転します",
+    "meaning": "drive",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "よやくします",
+    "kanji": "予約します",
+    "meaning": "reserve, book",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "ピアノ",
+    "kanji": "",
+    "meaning": "piano",
+    "type": 2,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "メートル",
+    "kanji": "",
+    "meaning": "...meter",
+    "type": 2,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "げんきん",
+    "kanji": "現金",
+    "meaning": "cash",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "しゅみ",
+    "kanji": "趣味",
+    "meaning": "hobby",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "にっき",
+    "kanji": "日記",
+    "meaning": "diary",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "おいのり",
+    "kanji": "お祈り",
+    "meaning": "prayer (～をします)",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "かちょう",
+    "kanji": "課長",
+    "meaning": "section chief",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "ぶちょう",
+    "kanji": "部長",
+    "meaning": "department chief",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "しゃちょう",
+    "kanji": "社長",
+    "meaning": "president of a company",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "どうぶつ",
+    "kanji": "動物",
+    "meaning": "animal",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "うま",
+    "kanji": "馬",
+    "meaning": "horse",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "インターネット",
+    "kanji": "",
+    "meaning": "internet",
+    "type": 2,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "とくに",
+    "kanji": "特に",
+    "meaning": "in particular, especially",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "へえ",
+    "kanji": "",
+    "meaning": "Really! (used when expressing surprise)",
+    "type": 0,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "おもしろい",
+    "kanji": "",
+    "meaning": "interesting",
+    "type": 0,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "なかなか",
+    "kanji": "",
+    "meaning": "not easily (used with negatives)",
+    "type": 0,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "ぜひ",
+    "kanji": "",
+    "meaning": "by all means",
+    "type": 0,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "ふるさと",
+    "kanji": "故郷",
+    "meaning": "home town, birthplace",
+    "type": 1,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "ビートルズ",
+    "kanji": "",
+    "meaning": "the Beatles, famous British music group",
+    "type": 2,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "あきはばら",
+    "kanji": "秋葉原",
+    "meaning": "Akihabara (city in Tokyo)",
+    "type": 1,
+    "originalOrder": 28
+  }
+]

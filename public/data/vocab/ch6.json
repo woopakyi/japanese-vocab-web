@@ -1,0 +1,418 @@
+[
+  {
+    "id": "0",
+    "word": "たべます",
+    "kanji": "食べます",
+    "meaning": "eat",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "のみます",
+    "kanji": "飲みます",
+    "meaning": "drink",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "すいます",
+    "kanji": "吸います",
+    "meaning": "smoke (たばこを～)",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "みます",
+    "kanji": "見ます",
+    "meaning": "see, look at, watch",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "ききます",
+    "kanji": "聞きます",
+    "meaning": "hear, listen",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "よみます",
+    "kanji": "読みます",
+    "meaning": "read",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "かきます",
+    "kanji": "書きます",
+    "meaning": "write",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "かいます",
+    "kanji": "買います",
+    "meaning": "buy",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "とります",
+    "kanji": "撮ります",
+    "meaning": "take (写真を～)",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "します",
+    "kanji": "",
+    "meaning": "do",
+    "type": 0,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "あいます",
+    "kanji": "会います",
+    "meaning": "meet (友達に～)",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "ごはん",
+    "kanji": "",
+    "meaning": "a meal, cooked rice",
+    "type": 0,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "あさごはん",
+    "kanji": "朝ごはん",
+    "meaning": "breakfast",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "ひるごはん",
+    "kanji": "昼ごはん",
+    "meaning": "lunch",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "ばんごはん",
+    "kanji": "晩ごはん",
+    "meaning": "supper",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "パン",
+    "kanji": "",
+    "meaning": "bread",
+    "type": 2,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "たまご",
+    "kanji": "卵",
+    "meaning": "egg",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "にく",
+    "kanji": "肉",
+    "meaning": "meat",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "さかな",
+    "kanji": "魚",
+    "meaning": "fish",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "やさい",
+    "kanji": "野菜",
+    "meaning": "vegetable",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "くだもの",
+    "kanji": "果物",
+    "meaning": "fruit",
+    "type": 1,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "みず",
+    "kanji": "水",
+    "meaning": "water",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "おちゃ",
+    "kanji": "お茶",
+    "meaning": "tea, Japanese tea",
+    "type": 1,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "こうちゃ",
+    "kanji": "紅茶",
+    "meaning": "black tea",
+    "type": 1,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "ぎゅうにゅう",
+    "kanji": "牛乳",
+    "meaning": "milk",
+    "type": 1,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "ミルク",
+    "kanji": "",
+    "meaning": "milk",
+    "type": 2,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "ジュース",
+    "kanji": "",
+    "meaning": "juice",
+    "type": 2,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "ビール",
+    "kanji": "",
+    "meaning": "beer",
+    "type": 2,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "おさけ",
+    "kanji": "お酒",
+    "meaning": "alcohol, Japanese rice wine",
+    "type": 1,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "たばこ",
+    "kanji": "",
+    "meaning": "tobacco, cigarettes",
+    "type": 0,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "てがみ",
+    "kanji": "手紙",
+    "meaning": "letter",
+    "type": 1,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "レポート",
+    "kanji": "",
+    "meaning": "report",
+    "type": 2,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "しゃしん",
+    "kanji": "写真",
+    "meaning": "photograph",
+    "type": 1,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "ビデオ",
+    "kanji": "",
+    "meaning": "video tape, video deck",
+    "type": 2,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "みせ",
+    "kanji": "店",
+    "meaning": "store, shop",
+    "type": 1,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "にわ",
+    "kanji": "庭",
+    "meaning": "garden",
+    "type": 1,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "しゅくだい",
+    "kanji": "宿題",
+    "meaning": "homework (～をします)",
+    "type": 1,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "テニス",
+    "kanji": "",
+    "meaning": "tennis (～をします)",
+    "type": 2,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "サッカー",
+    "kanji": "",
+    "meaning": "soccer, football (～をします)",
+    "type": 2,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "おはなみ",
+    "kanji": "お花見",
+    "meaning": "cherry-blossom viewing",
+    "type": 1,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "なに",
+    "kanji": "何",
+    "meaning": "what",
+    "type": 1,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "いっしょに",
+    "kanji": "",
+    "meaning": "together",
+    "type": 0,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "ちょっと",
+    "kanji": "",
+    "meaning": "a little while, a little bit",
+    "type": 0,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "いつも",
+    "kanji": "",
+    "meaning": "always, usually",
+    "type": 0,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "ときどき",
+    "kanji": "時々",
+    "meaning": "sometimes",
+    "type": 1,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
+    "word": "それから",
+    "kanji": "",
+    "meaning": "after that, and then",
+    "type": 0,
+    "originalOrder": 45
+  },
+  {
+    "id": "46",
+    "word": "ええ",
+    "kanji": "",
+    "meaning": "yes, yeah",
+    "type": 0,
+    "originalOrder": 46
+  },
+  {
+    "id": "47",
+    "word": "いいですね",
+    "kanji": "",
+    "meaning": "That’s good.",
+    "type": 0,
+    "originalOrder": 47
+  },
+  {
+    "id": "48",
+    "word": "わかりました",
+    "kanji": "",
+    "meaning": "I see.",
+    "type": 0,
+    "originalOrder": 48
+  },
+  {
+    "id": "49",
+    "word": "なんですか",
+    "kanji": "何ですか",
+    "meaning": "What is it? What’s the matter?",
+    "type": 1,
+    "originalOrder": 49
+  },
+  {
+    "id": "50",
+    "word": "メキシコ",
+    "kanji": "",
+    "meaning": "Mexico",
+    "type": 2,
+    "originalOrder": 50
+  },
+  {
+    "id": "51",
+    "word": "おおさか",
+    "kanji": "大阪",
+    "meaning": "Osaka",
+    "type": 1,
+    "originalOrder": 51
+  }
+]

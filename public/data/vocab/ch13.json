@@ -1,0 +1,258 @@
+[
+  {
+    "id": "0",
+    "word": "あそびます",
+    "kanji": "遊びます",
+    "meaning": "enjoy oneself, play",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "およぎます",
+    "kanji": "泳ぎます",
+    "meaning": "swim",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "むかえます",
+    "kanji": "迎えます",
+    "meaning": "go to meet, welcome",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "つかれます",
+    "kanji": "疲れます",
+    "meaning": "get tired",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "けっこんします",
+    "kanji": "結婚します",
+    "meaning": "marry, get married",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "かいものします",
+    "kanji": "買い物します",
+    "meaning": "do shopping",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "しょくじします",
+    "kanji": "食事します",
+    "meaning": "have a meal, dine",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "さんぽします",
+    "kanji": "散歩します",
+    "meaning": "take a walk (公園を～)",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "たいへんな",
+    "kanji": "大変な",
+    "meaning": "hard, tough, severe, awful",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "ほしい",
+    "kanji": "欲しい",
+    "meaning": "want (something)",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "ひろい",
+    "kanji": "広い",
+    "meaning": "wide, spacious",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "せまい",
+    "kanji": "狭い",
+    "meaning": "narrow, small (room)",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "プール",
+    "kanji": "",
+    "meaning": "swimming pool",
+    "type": 2,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "かわ",
+    "kanji": "川",
+    "meaning": "river",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "びじゅつ",
+    "kanji": "美術",
+    "meaning": "fine arts",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "つり",
+    "kanji": "釣り",
+    "meaning": "fishing (～をします)",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "スキー",
+    "kanji": "",
+    "meaning": "skiing (～をします)",
+    "type": 2,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "しゅうまつ",
+    "kanji": "週末",
+    "meaning": "weekend",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "おしょうがつ",
+    "kanji": "お正月",
+    "meaning": "New Year",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "～ごろ",
+    "kanji": "",
+    "meaning": "about (time)",
+    "type": 0,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "なにか",
+    "kanji": "何か",
+    "meaning": "something",
+    "type": 1,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "どこか",
+    "kanji": "",
+    "meaning": "somewhere, some place",
+    "type": 0,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "ごちゅうもん",
+    "kanji": "ご注文",
+    "meaning": "order",
+    "type": 1,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "ていしょく",
+    "kanji": "定食",
+    "meaning": "set meal",
+    "type": 1,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "ぎゅうどん",
+    "kanji": "牛どん",
+    "meaning": "bowl of rice topped with beef",
+    "type": 1,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "しょうしょう",
+    "kanji": "少々",
+    "meaning": "a moment",
+    "type": 1,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "べつべつに",
+    "kanji": "別々に",
+    "meaning": "separately",
+    "type": 1,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "のど",
+    "kanji": "",
+    "meaning": "throat",
+    "type": 0,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "かわきます",
+    "kanji": "",
+    "meaning": "thirsty",
+    "type": 0,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "おなか",
+    "kanji": "",
+    "meaning": "stomach",
+    "type": 0,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "すきます",
+    "kanji": "",
+    "meaning": "hungry",
+    "type": 0,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "いっぱい",
+    "kanji": "",
+    "meaning": "full",
+    "type": 0,
+    "originalOrder": 31
+  }
+]

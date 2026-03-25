@@ -1,0 +1,186 @@
+[
+  {
+    "id": "0",
+    "word": "いります",
+    "kanji": "要ります",
+    "meaning": "need, require (ビザが～)",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "しらべます",
+    "kanji": "調べます",
+    "meaning": "check, investigate",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "しゅうりします",
+    "kanji": "修理します",
+    "meaning": "repair",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "ぼく",
+    "kanji": "僕",
+    "meaning": "I (informal equivalent of わたし)",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "きみ",
+    "kanji": "君",
+    "meaning": "you (informal equivalent of あなた)",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "くん",
+    "kanji": "～君",
+    "meaning": "Mr. or Ms. (informal equivalent of ～さん, often used to call junior/younger person)",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "うん",
+    "kanji": "",
+    "meaning": "yes (informal equivalent of はい)",
+    "type": 0,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "ううん",
+    "kanji": "",
+    "meaning": "no (informal equivalent of いいえ)",
+    "type": 0,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "ことば",
+    "kanji": "",
+    "meaning": "word, language",
+    "type": 0,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "きもの",
+    "kanji": "着物",
+    "meaning": "kimono (traditional Japanese attire)",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "ビザ",
+    "kanji": "",
+    "meaning": "visa",
+    "type": 2,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "はじめ",
+    "kanji": "初め",
+    "meaning": "the beginning",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "おわり",
+    "kanji": "終わり",
+    "meaning": "the end",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "こっち",
+    "kanji": "",
+    "meaning": "this way, this place (informal equivalent of こちら)",
+    "type": 0,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "そっち",
+    "kanji": "",
+    "meaning": "this way, that place (informal equivalent of そちら)",
+    "type": 0,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "あっち",
+    "kanji": "",
+    "meaning": "this way, that place over there (informal equivalent of あちら)",
+    "type": 0,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "どっち",
+    "kanji": "",
+    "meaning": "which one (between two things), which way, where (informal equivalent of どちら)",
+    "type": 0,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "みんなで",
+    "kanji": "",
+    "meaning": "all together",
+    "type": 0,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "～けど",
+    "kanji": "",
+    "meaning": "but (informal equivalent of が)",
+    "type": 0,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "おなか",
+    "kanji": "",
+    "meaning": "stomach",
+    "type": 0,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "いっぱい",
+    "kanji": "",
+    "meaning": "full",
+    "type": 0,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "よかったら",
+    "kanji": "",
+    "meaning": "if you like",
+    "type": 0,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "いろいろ",
+    "kanji": "",
+    "meaning": "various type of～",
+    "type": 0,
+    "originalOrder": 22
+  }
+]

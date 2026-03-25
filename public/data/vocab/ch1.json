@@ -1,0 +1,338 @@
+[
+  {
+    "id": "0",
+    "word": "わたし",
+    "kanji": "",
+    "meaning": "I",
+    "type": 0,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "あなた",
+    "kanji": "",
+    "meaning": "you",
+    "type": 0,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "あのひと",
+    "kanji": "あの人",
+    "meaning": "that person, he, she",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "あのかた",
+    "kanji": "あの方",
+    "meaning": "polite expression equivalent of あのひと",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "～さん",
+    "kanji": "",
+    "meaning": "Mr., Ms. (title of respect added to a name)",
+    "type": 0,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "～ちゃん",
+    "kanji": "",
+    "meaning": "Suffix after the names of children and people close",
+    "type": 0,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "じん",
+    "kanji": "～人",
+    "meaning": "suffix indicating nationality; e.g.アメリカじん",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "せんせい",
+    "kanji": "先生",
+    "meaning": "teacher, instructor, master",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "きょうし",
+    "kanji": "教師",
+    "meaning": "teacher, instructor",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "がくせい",
+    "kanji": "学生",
+    "meaning": "student",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "かいしゃいん",
+    "kanji": "会社員",
+    "meaning": "company employee, office worker",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "しゃいん",
+    "kanji": "社員",
+    "meaning": "employee of ~Company, staff",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "ぎんこういん",
+    "kanji": "銀行員",
+    "meaning": "bank worker",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "いしゃ",
+    "kanji": "医者",
+    "meaning": "medical doctor",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "けんきゅうしゃ",
+    "kanji": "研究者",
+    "meaning": "researcher, scholar",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "だいがく",
+    "kanji": "大学",
+    "meaning": "university",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "びょういん",
+    "kanji": "病院",
+    "meaning": "hospital",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "だれ",
+    "kanji": "",
+    "meaning": "who",
+    "type": 0,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "どなた",
+    "kanji": "",
+    "meaning": "polite expression equivalent of だれ",
+    "type": 0,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "さい",
+    "kanji": "...歳",
+    "meaning": "...years old",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "なんさい",
+    "kanji": "何歳",
+    "meaning": "how old?",
+    "type": 1,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "おいくつ",
+    "kanji": "",
+    "meaning": "polite expression equivalent of なんさい",
+    "type": 0,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "はい",
+    "kanji": "",
+    "meaning": "yes",
+    "type": 0,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "いいえ",
+    "kanji": "",
+    "meaning": "no",
+    "type": 0,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "はじめまして",
+    "kanji": "初めまして",
+    "meaning": "I’m glad to meet you.",
+    "type": 1,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "きます",
+    "kanji": "来ます",
+    "meaning": "come",
+    "type": 1,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "おねがい",
+    "kanji": "お願い",
+    "meaning": "please",
+    "type": 1,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "しつれい",
+    "kanji": "失礼",
+    "meaning": "impoliteness",
+    "type": 1,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "なまえ",
+    "kanji": "お名前",
+    "meaning": "name",
+    "type": 1,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "アメリカ",
+    "kanji": "",
+    "meaning": "America",
+    "type": 2,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "イギリス",
+    "kanji": "",
+    "meaning": "England",
+    "type": 2,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "インド",
+    "kanji": "",
+    "meaning": "India",
+    "type": 2,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "インドネシア",
+    "kanji": "",
+    "meaning": "Indonesia",
+    "type": 2,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "かんこく",
+    "kanji": "韓国",
+    "meaning": "South Korea",
+    "type": 1,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "タイ",
+    "kanji": "",
+    "meaning": "Thailand",
+    "type": 2,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "ちゅうごく",
+    "kanji": "中国",
+    "meaning": "China",
+    "type": 1,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "ドイツ",
+    "kanji": "",
+    "meaning": "Germany",
+    "type": 2,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "にほん",
+    "kanji": "日本",
+    "meaning": "Japan",
+    "type": 1,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "ブラジル",
+    "kanji": "",
+    "meaning": "Brazil",
+    "type": 2,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "パワー",
+    "kanji": "",
+    "meaning": "power",
+    "type": 2,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "でんき",
+    "kanji": "電気",
+    "meaning": "electricity",
+    "type": 1,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "エアー",
+    "kanji": "",
+    "meaning": "air",
+    "type": 2,
+    "originalOrder": 41
+  }
+]

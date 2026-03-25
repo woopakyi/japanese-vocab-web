@@ -1,0 +1,386 @@
+[
+  {
+    "id": "0",
+    "word": "にげます",
+    "kanji": "逃げます",
+    "meaning": "run away, escape",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "さわぎます",
+    "kanji": "騒ぎます",
+    "meaning": "make a noise",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "あきらめます",
+    "kanji": "",
+    "meaning": "give up",
+    "type": 0,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "なげます",
+    "kanji": "投げます",
+    "meaning": "throw",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "まもります",
+    "kanji": "守ります",
+    "meaning": "protect, keep (a promise)",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "はじまります",
+    "kanji": "始まります",
+    "meaning": "begin, start (式が～)",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "しゅっせきします",
+    "kanji": "出席します",
+    "meaning": "attend (会議に～)",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "つたえます",
+    "kanji": "伝えます",
+    "meaning": "convey (a message)",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "ちゅういします",
+    "kanji": "注意します",
+    "meaning": "warn, advise (車に～)",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "はずします",
+    "kanji": "外します",
+    "meaning": "unfasten, remove (席を～)",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "もどります",
+    "kanji": "戻ります",
+    "meaning": "return, go back (電話が～)",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "あります",
+    "kanji": "",
+    "meaning": "have (電話が～)",
+    "type": 0,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "リサイクルします",
+    "kanji": "",
+    "meaning": "recycle",
+    "type": 2,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "おなじ",
+    "kanji": "同じ",
+    "meaning": "same",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "けいさつ",
+    "kanji": "警察",
+    "meaning": "police",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "せき",
+    "kanji": "席",
+    "meaning": "seat",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "マーク",
+    "kanji": "",
+    "meaning": "mark",
+    "type": 2,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "ボール",
+    "kanji": "",
+    "meaning": "ball",
+    "type": 2,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "しめきり",
+    "kanji": "締め切り",
+    "meaning": "deadline",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "きそく",
+    "kanji": "規則",
+    "meaning": "rule, regulation",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "きけん",
+    "kanji": "危険",
+    "meaning": "danger",
+    "type": 1,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "しようきんし",
+    "kanji": "使用禁止",
+    "meaning": "No Entry",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "たちいりきんし",
+    "kanji": "立入禁止",
+    "meaning": "No Entry",
+    "type": 1,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "いりぐち",
+    "kanji": "入口",
+    "meaning": "entrance",
+    "type": 1,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "でぐち",
+    "kanji": "出口",
+    "meaning": "exit",
+    "type": 1,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "ひじょうぐち",
+    "kanji": "非常口",
+    "meaning": "emergency exit",
+    "type": 1,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "むりょう",
+    "kanji": "無料",
+    "meaning": "free (of charge)",
+    "type": 1,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "わりびき",
+    "kanji": "割引",
+    "meaning": "discount",
+    "type": 1,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "のみほうだい",
+    "kanji": "飲み放題",
+    "meaning": "all you can drink",
+    "type": 1,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "しようちゅう",
+    "kanji": "使用中",
+    "meaning": "in use",
+    "type": 1,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "ぼしゅうちゅう",
+    "kanji": "募集中",
+    "meaning": "recruiting, accepting applications",
+    "type": 1,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "ちゅう",
+    "kanji": "～中",
+    "meaning": "in the middle of ～",
+    "type": 1,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "どういう～",
+    "kanji": "",
+    "meaning": "what kind of ～",
+    "type": 0,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "いくら～ても",
+    "kanji": "",
+    "meaning": "however much ～",
+    "type": 0,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "もう",
+    "kanji": "",
+    "meaning": "already",
+    "type": 0,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "あと～",
+    "kanji": "",
+    "meaning": "after",
+    "type": 0,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "～ほど",
+    "kanji": "",
+    "meaning": "about",
+    "type": 0,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "ちゅうしゃいはん",
+    "kanji": "駐車違反",
+    "meaning": "parking violation",
+    "type": 1,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "ばっきん",
+    "kanji": "罰金",
+    "meaning": "fine",
+    "type": 1,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "じしん",
+    "kanji": "地震",
+    "meaning": "earthquake",
+    "type": 1,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "おきます",
+    "kanji": "起きます",
+    "meaning": "happens, occurs",
+    "type": 1,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "たすけあいます",
+    "kanji": "助け合います",
+    "meaning": "help each other",
+    "type": 1,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "もともと",
+    "kanji": "",
+    "meaning": "originally",
+    "type": 0,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "かなしい",
+    "kanji": "悲しい",
+    "meaning": "sad",
+    "type": 1,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "もっと",
+    "kanji": "",
+    "meaning": "more",
+    "type": 0,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
+    "word": "あいさつ",
+    "kanji": "",
+    "meaning": "greetings (～をします)",
+    "type": 0,
+    "originalOrder": 45
+  },
+  {
+    "id": "46",
+    "word": "あいて",
+    "kanji": "相手",
+    "meaning": "partner, opponent",
+    "type": 1,
+    "originalOrder": 46
+  },
+  {
+    "id": "47",
+    "word": "きもち",
+    "kanji": "気持ち",
+    "meaning": "feelings",
+    "type": 1,
+    "originalOrder": 47
+  }
+]

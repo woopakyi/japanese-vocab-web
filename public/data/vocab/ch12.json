@@ -1,0 +1,386 @@
+[
+  {
+    "id": "0",
+    "word": "かんたんな",
+    "kanji": "簡単な",
+    "meaning": "easy, simple",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "ちかい",
+    "kanji": "近い",
+    "meaning": "near",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "とおい",
+    "kanji": "遠い",
+    "meaning": "far",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "はやい",
+    "kanji": "速い、早い",
+    "meaning": "fast, early",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "おそい",
+    "kanji": "遅い",
+    "meaning": "slow, late",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "おおい",
+    "kanji": "多い",
+    "meaning": "many, much (人が～)",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "すくない",
+    "kanji": "少ない",
+    "meaning": "few, a little (人が～)",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "あたたかい",
+    "kanji": "暖かい、温かい",
+    "meaning": "warm",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "すずしい",
+    "kanji": "涼しい",
+    "meaning": "cool, refreshing",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "あまい",
+    "kanji": "甘い",
+    "meaning": "sweet",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "からい",
+    "kanji": "辛い",
+    "meaning": "hot, spicy",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "おもい",
+    "kanji": "重い",
+    "meaning": "heavy",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "かるい",
+    "kanji": "軽い",
+    "meaning": "light",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "いい",
+    "kanji": "",
+    "meaning": "prefer  (コーヒーが～)",
+    "type": 0,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "きせつ",
+    "kanji": "季節",
+    "meaning": "season",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "はる",
+    "kanji": "春",
+    "meaning": "spring",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "なつ",
+    "kanji": "夏",
+    "meaning": "summer",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "あき",
+    "kanji": "秋",
+    "meaning": "autumn",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "ふゆ",
+    "kanji": "冬",
+    "meaning": "winter",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "てんき",
+    "kanji": "天気",
+    "meaning": "weather",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "あめ",
+    "kanji": "雨",
+    "meaning": "rain",
+    "type": 1,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "ゆき",
+    "kanji": "雪",
+    "meaning": "snow",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "くもり",
+    "kanji": "曇り",
+    "meaning": "cloudy",
+    "type": 1,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "ホテル",
+    "kanji": "",
+    "meaning": "hotel",
+    "type": 2,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "くうこう",
+    "kanji": "空港",
+    "meaning": "airport",
+    "type": 1,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "うみ",
+    "kanji": "海",
+    "meaning": "sea",
+    "type": 1,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "せかい",
+    "kanji": "世界",
+    "meaning": "world",
+    "type": 1,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "パーティー",
+    "kanji": "",
+    "meaning": "party (～をします)",
+    "type": 2,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "おまつり",
+    "kanji": "お祭り",
+    "meaning": "festival",
+    "type": 1,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "すきやき",
+    "kanji": "すき焼き",
+    "meaning": "sukiyaki",
+    "type": 1,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "さしみ",
+    "kanji": "刺身",
+    "meaning": "sashimi",
+    "type": 1,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "すし",
+    "kanji": "",
+    "meaning": "sushi",
+    "type": 0,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "てんぷら",
+    "kanji": "",
+    "meaning": "tempura",
+    "type": 0,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "ぶたにく",
+    "kanji": "豚肉",
+    "meaning": "pork",
+    "type": 1,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "とりにく",
+    "kanji": "とり肉",
+    "meaning": "chicken",
+    "type": 1,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "ぎゅうにく",
+    "kanji": "牛肉",
+    "meaning": "beef",
+    "type": 1,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "レモン",
+    "kanji": "",
+    "meaning": "lemon",
+    "type": 2,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "いけばな",
+    "kanji": "生け花",
+    "meaning": "flower arrangement (～をします)",
+    "type": 1,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "もみじ",
+    "kanji": "紅葉",
+    "meaning": "maple, maple leaves",
+    "type": 1,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "どちら",
+    "kanji": "",
+    "meaning": "which one",
+    "type": 0,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "どちらも",
+    "kanji": "",
+    "meaning": "both",
+    "type": 0,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "いちばん",
+    "kanji": "",
+    "meaning": "best, most",
+    "type": 0,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "ずっと",
+    "kanji": "",
+    "meaning": "by far",
+    "type": 0,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "はじめて",
+    "kanji": "初めて",
+    "meaning": "for the first time",
+    "type": 1,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "つかれます",
+    "kanji": "疲れます",
+    "meaning": "get tired",
+    "type": 1,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
+    "word": "ぎおんまつり",
+    "kanji": "祇園祭",
+    "meaning": "Gion festival, the most famous festival in Japan.",
+    "type": 1,
+    "originalOrder": 45
+  },
+  {
+    "id": "46",
+    "word": "ホンコン",
+    "kanji": "",
+    "meaning": "Hong Kong",
+    "type": 2,
+    "originalOrder": 46
+  },
+  {
+    "id": "47",
+    "word": "シンガポール",
+    "kanji": "",
+    "meaning": "Singapore",
+    "type": 2,
+    "originalOrder": 47
+  }
+]

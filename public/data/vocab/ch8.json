@@ -1,0 +1,426 @@
+[
+  {
+    "id": "0",
+    "word": "ハンサムな",
+    "kanji": "",
+    "meaning": "handsome, nice guy",
+    "type": 2,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "きれいな",
+    "kanji": "",
+    "meaning": "beautiful, clean",
+    "type": 0,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "しずかな",
+    "kanji": "静かな",
+    "meaning": "quiet",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "にぎやかな",
+    "kanji": "",
+    "meaning": "lively",
+    "type": 2,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "ゆうめい（な）",
+    "kanji": "有名な",
+    "meaning": "famous",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "しんせつな",
+    "kanji": "親切な",
+    "meaning": "kind",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "げんきな",
+    "kanji": "元気な",
+    "meaning": "cheerful, energetic",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "ひまな",
+    "kanji": "暇な",
+    "meaning": "bored, nothing to do",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "べんりな",
+    "kanji": "便利な",
+    "meaning": "convenient",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "すてきな",
+    "kanji": "",
+    "meaning": "wonderful, cool",
+    "type": 0,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "おおきい",
+    "kanji": "大きい",
+    "meaning": "big",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "ちいさい",
+    "kanji": "小さい",
+    "meaning": "small",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "あたらしい",
+    "kanji": "新しい",
+    "meaning": "new",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "ふるい",
+    "kanji": "古い",
+    "meaning": "old",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "いい（よい）",
+    "kanji": "",
+    "meaning": "good",
+    "type": 0,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "わるい",
+    "kanji": "悪い",
+    "meaning": "bad",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "あつい",
+    "kanji": "暑い、熱い",
+    "meaning": "hot",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "さむい",
+    "kanji": "寒い",
+    "meaning": "cold (feeling)",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "つめたい",
+    "kanji": "冷たい",
+    "meaning": "cold (temperature)",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "むずかしい",
+    "kanji": "難しい",
+    "meaning": "difficult",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "やさしい",
+    "kanji": "易しい",
+    "meaning": "easy",
+    "type": 1,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "たかい",
+    "kanji": "高い",
+    "meaning": "high, expensive",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "やすい",
+    "kanji": "安い",
+    "meaning": "cheap, inexpensive",
+    "type": 1,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "ひくい",
+    "kanji": "低い",
+    "meaning": "low",
+    "type": 1,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "おもしろい",
+    "kanji": "",
+    "meaning": "funny, interesting",
+    "type": 0,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "おいしい",
+    "kanji": "",
+    "meaning": "yummy, good taste",
+    "type": 0,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "いそがしい",
+    "kanji": "忙しい",
+    "meaning": "busy",
+    "type": 1,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "たのしい",
+    "kanji": "楽しい",
+    "meaning": "enjoyable",
+    "type": 1,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "しろい",
+    "kanji": "白い",
+    "meaning": "white (adjective)",
+    "type": 1,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "くろい",
+    "kanji": "黒い",
+    "meaning": "black (adjective)",
+    "type": 1,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "あかい",
+    "kanji": "赤い",
+    "meaning": "red (adjective)",
+    "type": 1,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "あおい",
+    "kanji": "青い",
+    "meaning": "blue (adjective)",
+    "type": 1,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "さくら",
+    "kanji": "桜",
+    "meaning": "cherry (blossom)",
+    "type": 1,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "やま",
+    "kanji": "山",
+    "meaning": "mountain",
+    "type": 1,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "まち",
+    "kanji": "町",
+    "meaning": "town, city",
+    "type": 1,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "たべもの",
+    "kanji": "食べ物",
+    "meaning": "food",
+    "type": 1,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "ところ",
+    "kanji": "所",
+    "meaning": "place",
+    "type": 1,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "りょう",
+    "kanji": "寮",
+    "meaning": "dormitory",
+    "type": 1,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "レストラン",
+    "kanji": "",
+    "meaning": "restaurant",
+    "type": 2,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "せいかつ",
+    "kanji": "生活",
+    "meaning": "life",
+    "type": 1,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "おしごと",
+    "kanji": "お仕事",
+    "meaning": "work, business, job (～をします)",
+    "type": 1,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "どう",
+    "kanji": "",
+    "meaning": "how",
+    "type": 0,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "どんな～",
+    "kanji": "",
+    "meaning": "what kind of (followed by noun)",
+    "type": 0,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "とても",
+    "kanji": "",
+    "meaning": "very",
+    "type": 0,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "あまり",
+    "kanji": "",
+    "meaning": "not so (followed by negative expression)",
+    "type": 0,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
+    "word": "そして",
+    "kanji": "",
+    "meaning": "and, and then, in addition",
+    "type": 0,
+    "originalOrder": 45
+  },
+  {
+    "id": "46",
+    "word": "～が、～",
+    "kanji": "",
+    "meaning": "but",
+    "type": 0,
+    "originalOrder": 46
+  },
+  {
+    "id": "47",
+    "word": "いっぱい",
+    "kanji": "一杯",
+    "meaning": "a cup of",
+    "type": 1,
+    "originalOrder": 47
+  },
+  {
+    "id": "48",
+    "word": "きんかくじ",
+    "kanji": "金閣寺",
+    "meaning": "Kinkakuji-temple",
+    "type": 1,
+    "originalOrder": 48
+  },
+  {
+    "id": "49",
+    "word": "ならこうえん",
+    "kanji": "奈良公園",
+    "meaning": "Nara park",
+    "type": 1,
+    "originalOrder": 49
+  },
+  {
+    "id": "50",
+    "word": "ふじさん",
+    "kanji": "富士山",
+    "meaning": "Fujisan mountain",
+    "type": 1,
+    "originalOrder": 50
+  },
+  {
+    "id": "51",
+    "word": "しちにんのさむらい",
+    "kanji": "七人の侍",
+    "meaning": "Seven Samurai - Japanese epic samurai action film",
+    "type": 1,
+    "originalOrder": 51
+  },
+  {
+    "id": "52",
+    "word": "シャンハイ",
+    "kanji": "",
+    "meaning": "Shanghai",
+    "type": 2,
+    "originalOrder": 52
+  }
+]

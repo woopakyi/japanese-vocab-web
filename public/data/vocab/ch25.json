@@ -1,0 +1,130 @@
+[
+  {
+    "id": "0",
+    "word": "かんがえます",
+    "kanji": "考えます",
+    "meaning": "think, consider",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "つきます",
+    "kanji": "着きます",
+    "meaning": "arrive (at the school)",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "とります",
+    "kanji": "取ります",
+    "meaning": "grow old (part of the expression (年を～)",
+    "type": 1,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "たります",
+    "kanji": "足ります",
+    "meaning": "enough",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "いなか",
+    "kanji": "田舎",
+    "meaning": "countryside, hometown",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "チャンス",
+    "kanji": "",
+    "meaning": "chance",
+    "type": 2,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "おく",
+    "kanji": "億",
+    "meaning": "hundred million",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "もし（～たら）",
+    "kanji": "",
+    "meaning": "if",
+    "type": 0,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "いみ",
+    "kanji": "意味",
+    "meaning": "meaning",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "てんきん",
+    "kanji": "転勤",
+    "meaning": "job relocation (～します)",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "こと",
+    "kanji": "",
+    "meaning": "thing, matter, thing about~",
+    "type": 0,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "ひま",
+    "kanji": "暇",
+    "meaning": "free time",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "おせわ",
+    "kanji": "お世話",
+    "meaning": "kind assistance",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "がんばります",
+    "kanji": "頑張ります",
+    "meaning": "do my best",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "おげんきで",
+    "kanji": "お元気で",
+    "meaning": "Best of luck.",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "ベトナム",
+    "kanji": "",
+    "meaning": "Vietnam",
+    "type": 2,
+    "originalOrder": 15
+  }
+]

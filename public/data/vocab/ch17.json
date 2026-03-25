@@ -1,0 +1,266 @@
+[
+  {
+    "id": "0",
+    "word": "おぼえます",
+    "kanji": "覚えます",
+    "meaning": "memorize",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "わすれます",
+    "kanji": "忘れます",
+    "meaning": "forget",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "なくします",
+    "kanji": "",
+    "meaning": "lose",
+    "type": 0,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "はらいます",
+    "kanji": "払います",
+    "meaning": "pay",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "かえします",
+    "kanji": "返します",
+    "meaning": "give back, return",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "でかけます",
+    "kanji": "出かけます",
+    "meaning": "go out",
+    "type": 1,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "ぬぎます",
+    "kanji": "脱ぎます",
+    "meaning": "take off (clothes, shoes, etc.)",
+    "type": 1,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "もっていきます",
+    "kanji": "持って行きます",
+    "meaning": "take (something)",
+    "type": 1,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "もってきます",
+    "kanji": "持って来ます",
+    "meaning": "bring (something)",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "しんぱいします",
+    "kanji": "心配します",
+    "meaning": "worry",
+    "type": 1,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "ざんぎょうします",
+    "kanji": "残業します",
+    "meaning": "work overtime",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "しゅっちょうします",
+    "kanji": "出張します",
+    "meaning": "go on a business trip",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "のみます",
+    "kanji": "飲みます",
+    "meaning": "take (薬を～)",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "はいります",
+    "kanji": "入ります",
+    "meaning": "take (おふろに～)",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "たいせつな",
+    "kanji": "大切な",
+    "meaning": "important, precious",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "だいじょうぶな",
+    "kanji": "大丈夫な",
+    "meaning": "all right",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "あぶない",
+    "kanji": "危ない",
+    "meaning": "dangerous",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "きんえん",
+    "kanji": "禁煙",
+    "meaning": "no smoking",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "けんこうほけんしょう",
+    "kanji": "健康保険証",
+    "meaning": "health insurance card",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "ねつ",
+    "kanji": "熱",
+    "meaning": "fever",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "びょうき",
+    "kanji": "病気",
+    "meaning": "illness, disease",
+    "type": 1,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "くすり",
+    "kanji": "薬",
+    "meaning": "medicine",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "おふろ",
+    "kanji": "",
+    "meaning": "bath",
+    "type": 0,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "うわぎ",
+    "kanji": "上着",
+    "meaning": "jacket, outwear",
+    "type": 1,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "したぎ",
+    "kanji": "下着",
+    "meaning": "underwear",
+    "type": 1,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "にち",
+    "kanji": "～日",
+    "meaning": "～days",
+    "type": 1,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "～までに",
+    "kanji": "",
+    "meaning": "before",
+    "type": 0,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "ですから",
+    "kanji": "",
+    "meaning": "therefore",
+    "type": 0,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "のど",
+    "kanji": "",
+    "meaning": "throat",
+    "type": 0,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "いたい",
+    "kanji": "痛い",
+    "meaning": "pain",
+    "type": 1,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "かぜ",
+    "kanji": "",
+    "meaning": "cold, flu",
+    "type": 0,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "それから",
+    "kanji": "",
+    "meaning": "then",
+    "type": 0,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "おだいじに",
+    "kanji": "お大事に",
+    "meaning": "Take care of yourself (said to people who are ill)",
+    "type": 1,
+    "originalOrder": 32
+  }
+]

@@ -1,0 +1,410 @@
+[
+  {
+    "id": "0",
+    "word": "うれます",
+    "kanji": "売れます",
+    "meaning": "sell (商品が～: goods sell well)",
+    "type": 1,
+    "originalOrder": 0
+  },
+  {
+    "id": "1",
+    "word": "おどります",
+    "kanji": "踊ります",
+    "meaning": "dance",
+    "type": 1,
+    "originalOrder": 1
+  },
+  {
+    "id": "2",
+    "word": "かみます",
+    "kanji": "",
+    "meaning": "bite, chew",
+    "type": 0,
+    "originalOrder": 2
+  },
+  {
+    "id": "3",
+    "word": "えらびます",
+    "kanji": "選びます",
+    "meaning": "choose, select",
+    "type": 1,
+    "originalOrder": 3
+  },
+  {
+    "id": "4",
+    "word": "かよいます",
+    "kanji": "通います",
+    "meaning": "commute (大学に～)",
+    "type": 1,
+    "originalOrder": 4
+  },
+  {
+    "id": "5",
+    "word": "メモします",
+    "kanji": "",
+    "meaning": "take notes",
+    "type": 2,
+    "originalOrder": 5
+  },
+  {
+    "id": "6",
+    "word": "まじめな",
+    "kanji": "",
+    "meaning": "serious, earnest",
+    "type": 0,
+    "originalOrder": 6
+  },
+  {
+    "id": "7",
+    "word": "ねっしんな",
+    "kanji": "",
+    "meaning": "enthusiastic, eager",
+    "type": 0,
+    "originalOrder": 7
+  },
+  {
+    "id": "8",
+    "word": "えらい",
+    "kanji": "偉い",
+    "meaning": "great, admirable",
+    "type": 1,
+    "originalOrder": 8
+  },
+  {
+    "id": "9",
+    "word": "ちょうどいい",
+    "kanji": "",
+    "meaning": "just right, appropriate",
+    "type": 0,
+    "originalOrder": 9
+  },
+  {
+    "id": "10",
+    "word": "けしき",
+    "kanji": "景色",
+    "meaning": "scenery",
+    "type": 1,
+    "originalOrder": 10
+  },
+  {
+    "id": "11",
+    "word": "びよういん",
+    "kanji": "美容院",
+    "meaning": "beauty salon",
+    "type": 1,
+    "originalOrder": 11
+  },
+  {
+    "id": "12",
+    "word": "だいどころ",
+    "kanji": "台所",
+    "meaning": "kitchen",
+    "type": 1,
+    "originalOrder": 12
+  },
+  {
+    "id": "13",
+    "word": "けんちく",
+    "kanji": "建築",
+    "meaning": "architecture",
+    "type": 1,
+    "originalOrder": 13
+  },
+  {
+    "id": "14",
+    "word": "けいけん",
+    "kanji": "経験",
+    "meaning": "experience (～があります)",
+    "type": 1,
+    "originalOrder": 14
+  },
+  {
+    "id": "15",
+    "word": "ちから",
+    "kanji": "力",
+    "meaning": "power, strength, ability",
+    "type": 1,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
+    "word": "にんき",
+    "kanji": "人気",
+    "meaning": "popularity (～があります)",
+    "type": 1,
+    "originalOrder": 16
+  },
+  {
+    "id": "17",
+    "word": "かたち",
+    "kanji": "形",
+    "meaning": "shape, form",
+    "type": 1,
+    "originalOrder": 17
+  },
+  {
+    "id": "18",
+    "word": "いろ",
+    "kanji": "色",
+    "meaning": "color",
+    "type": 1,
+    "originalOrder": 18
+  },
+  {
+    "id": "19",
+    "word": "あじ",
+    "kanji": "味",
+    "meaning": "taste",
+    "type": 1,
+    "originalOrder": 19
+  },
+  {
+    "id": "20",
+    "word": "ガム",
+    "kanji": "",
+    "meaning": "chewing gum",
+    "type": 2,
+    "originalOrder": 20
+  },
+  {
+    "id": "21",
+    "word": "ねだん",
+    "kanji": "値段",
+    "meaning": "price",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "きゅうりょう",
+    "kanji": "給料",
+    "meaning": "salary",
+    "type": 1,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
+    "word": "ボーナス",
+    "kanji": "",
+    "meaning": "bonus",
+    "type": 2,
+    "originalOrder": 23
+  },
+  {
+    "id": "24",
+    "word": "ゲーム",
+    "kanji": "",
+    "meaning": "game",
+    "type": 2,
+    "originalOrder": 24
+  },
+  {
+    "id": "25",
+    "word": "ばんぐみ",
+    "kanji": "番組",
+    "meaning": "(TV/radio) program",
+    "type": 1,
+    "originalOrder": 25
+  },
+  {
+    "id": "26",
+    "word": "ドラマ",
+    "kanji": "",
+    "meaning": "drama",
+    "type": 2,
+    "originalOrder": 26
+  },
+  {
+    "id": "27",
+    "word": "かしゅ",
+    "kanji": "歌手",
+    "meaning": "singer",
+    "type": 1,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "しょうせつ",
+    "kanji": "小説",
+    "meaning": "novel",
+    "type": 1,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "しょうせつか",
+    "kanji": "小説家",
+    "meaning": "novelist",
+    "type": 1,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
+    "word": "か",
+    "kanji": "～家",
+    "meaning": "people who are engaged in a certain profession",
+    "type": 1,
+    "originalOrder": 30
+  },
+  {
+    "id": "31",
+    "word": "き",
+    "kanji": "～機",
+    "meaning": "～ machine",
+    "type": 1,
+    "originalOrder": 31
+  },
+  {
+    "id": "32",
+    "word": "むすこ",
+    "kanji": "息子",
+    "meaning": "(my) son",
+    "type": 1,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
+    "word": "むすこさん",
+    "kanji": "息子さん",
+    "meaning": "(someone else's) son",
+    "type": 1,
+    "originalOrder": 33
+  },
+  {
+    "id": "34",
+    "word": "むすめ",
+    "kanji": "娘",
+    "meaning": "(my) daughter",
+    "type": 1,
+    "originalOrder": 34
+  },
+  {
+    "id": "35",
+    "word": "むすめさん",
+    "kanji": "娘さん",
+    "meaning": "(someone else's) daughter",
+    "type": 1,
+    "originalOrder": 35
+  },
+  {
+    "id": "36",
+    "word": "じぶん",
+    "kanji": "自分",
+    "meaning": "oneself",
+    "type": 1,
+    "originalOrder": 36
+  },
+  {
+    "id": "37",
+    "word": "しょうらい",
+    "kanji": "将来",
+    "meaning": "future",
+    "type": 1,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "しばらく",
+    "kanji": "",
+    "meaning": "for a while",
+    "type": 0,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "たいてい",
+    "kanji": "",
+    "meaning": "mostly, generally",
+    "type": 0,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "それに",
+    "kanji": "",
+    "meaning": "moreover, besides",
+    "type": 0,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "そしで",
+    "kanji": "",
+    "meaning": "and, then",
+    "type": 0,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "じつは",
+    "kanji": "実は",
+    "meaning": "actually, to tell the truth",
+    "type": 1,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "かいわ",
+    "kanji": "会話",
+    "meaning": "conversation",
+    "type": 1,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "お知らせ",
+    "kanji": "お知らせ",
+    "meaning": "notice, announcement",
+    "type": 1,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
+    "word": "さんかします",
+    "kanji": "参加します",
+    "meaning": "participate, attend",
+    "type": 1,
+    "originalOrder": 45
+  },
+  {
+    "id": "46",
+    "word": "ひにち",
+    "kanji": "日にち",
+    "meaning": "date",
+    "type": 1,
+    "originalOrder": 46
+  },
+  {
+    "id": "47",
+    "word": "たいいくかん",
+    "kanji": "体育館",
+    "meaning": "gym, gymnasium",
+    "type": 1,
+    "originalOrder": 47
+  },
+  {
+    "id": "48",
+    "word": "むりょう",
+    "kanji": "無料",
+    "meaning": "free (of charge)",
+    "type": 1,
+    "originalOrder": 48
+  },
+  {
+    "id": "49",
+    "word": "さそいます",
+    "kanji": "誘います",
+    "meaning": "invite",
+    "type": 1,
+    "originalOrder": 49
+  },
+  {
+    "id": "50",
+    "word": "イベント",
+    "kanji": "",
+    "meaning": "event",
+    "type": 2,
+    "originalOrder": 50
+  }
+]

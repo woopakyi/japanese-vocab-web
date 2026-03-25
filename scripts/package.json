@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "upload:data": "node upload.js",
     "upload:score-metadata": "node uploadScoreMetadata.js",
-    "backfill:user-summaries": "node backfillUserSummaries.js"
+    "backfill:user-summaries": "node backfillUserSummaries.js",
+    "generate:static-data": "node generateStaticWebData.js"
   },
   "keywords": [],
   "author": "",
