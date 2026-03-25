@@ -64,7 +64,12 @@ export default function Auth({ closeModal }) {
       <div className="auth-modal" onClick={(e) => e.stopPropagation()}>
         <button className="close-btn" onClick={closeModal} aria-label="Close auth modal">X</button>
         <h2 className="auth-title">Login</h2>
-        <p className="auth-reminder home-intro">If you do not sign in, your exercise data will be stored in this browser only.</p>
+        <p className="auth-reminder home-intro">
+          If you do not sign in, your exercise records will be stored in this browser only.
+          <br />
+          <br />
+          After you sign in, your exercise records will be moved from this browser to your account.
+        </p>
         <button className="google-login-btn" onClick={handleGoogleSignIn}>Continue with Google</button>
         {error && <p className="error-banner" style={{ marginTop: '0.8rem' }}>{error}</p>}
         {message && <p style={{ marginTop: '0.8rem' }}>{message}</p>}
