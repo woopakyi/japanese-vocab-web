@@ -6,7 +6,7 @@ import Chapter from './pages/Chapter';
 import Exercise from './pages/Exercise';
 import Results from './pages/Results';
 import Profile from './pages/Profile';
-import RequireAuth from './components/RequireAuth';
+import Records from './pages/Records';
 
 function App() {
   return (
@@ -18,13 +18,9 @@ function App() {
           <Route path="chapter/:chapterId" element={<Chapter />} />
           <Route path="exercise/:chapterId/:exerciseType" element={<Exercise />} />
           <Route path="results" element={<Results />} />
+          <Route path="records" element={<Records />} />
 
-          {/* Protected Routes */}
-          <Route path="profile" element={
-            <RequireAuth>
-              <Profile />
-            </RequireAuth>
-          } />
+          <Route path="profile" element={<Profile />} />
         </Route>
       </Routes>
     </Router>

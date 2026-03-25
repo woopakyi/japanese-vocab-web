@@ -1,5 +1,6 @@
 # React + Vite
 
+```
 japanese-vocab-web/
 ├── public/
 └── src/
@@ -22,3 +23,4 @@ japanese-vocab-web/
     │   └── Profile.jsx
     ├── App.jsx               # Main router setup
     └── main.jsx              # Entry point
+```

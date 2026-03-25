@@ -154,7 +154,6 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   gap: 0.7rem;
-  justify-items: center;
 }
 
 .chapter-card {
@@ -166,7 +165,6 @@ main {
   background: linear-gradient(120deg, #f3f7ff 0%, #ebf2ff 100%);
   font-weight: 500;
   color: #1f467f;
-  width: min(100%, 180px);
 }
 
 .chapter-card:hover {
@@ -232,6 +230,12 @@ main {
   align-items: center;
   gap: 0.6rem;
   margin: 0.9rem 0 1.1rem;
+}
+
+.highest-marks-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .pill-link {
@@ -409,7 +413,7 @@ tr:nth-child(even) td {
   }
 
   .chapter-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: flex-start;
   }
 
   .score-cell {

@@ -6,7 +6,7 @@ import { collection, query, where, getDocs, orderBy, doc, setDoc } from 'firebas
 import HexagonChart from '../components/HexagonChart';
 
 export default function Profile() {
-  const { user } = useAuth();
+  const { user, loading: authLoading } = useAuth();
   const baseGroups = {
     "Japanese I": 0,
     "Japanese II": 0,
@@ -28,20 +28,26 @@ export default function Profile() {
   const [expandedGroups, setExpandedGroups] = useState({ 'Japanese I': true });
 
   useEffect(() => {
-    if (!user) {
-      setLoading(false);
+    if (authLoading) {
       return;
     }
-    setNameInput(user.displayName || '');
+    if (user) {
+      setNameInput(user.displayName || '');
+    }
     setLoading(true);
 
     const fetchScores = async () => {
       try {
         const groupOrder = ["Japanese I", "Japanese II", "Japanese III", "Japanese IV", "Japanese V", "Japanese VI"];
 
-        const recordsQuery = query(collection(db, 'exerciseRecords'), where('userId', '==', user.uid));
-        const recordsSnapshot = await getDocs(recordsQuery);
-        const userRecords = recordsSnapshot.docs.map(docItem => docItem.data());
+        let userRecords = [];
+        if (user) {
+          const recordsQuery = query(collection(db, 'exerciseRecords'), where('userId', '==', user.uid));
+          const recordsSnapshot = await getDocs(recordsQuery);
+          userRecords = recordsSnapshot.docs.map(docItem => docItem.data());
+        } else {
+          userRecords = JSON.parse(localStorage.getItem('exerciseRecords') || '[]');
+        }
 
         const chapterMeta = {};
         let chapters = [];
@@ -183,7 +189,7 @@ export default function Profile() {
     };
 
     fetchScores();
-  }, [user]);
+  }, [user, authLoading]);
 
   const handleSaveName = async () => {
     setNameMessage('');
@@ -198,7 +204,9 @@ export default function Profile() {
       if (auth.currentUser) {
         await updateProfile(auth.currentUser, { displayName: trimmedName });
       }
-      await setDoc(doc(db, 'users', user.uid), { displayName: trimmedName }, { merge: true });
+      if (user?.uid) {
+        await setDoc(doc(db, 'users', user.uid), { displayName: trimmedName }, { merge: true });
+      }
       setNameMessage('Name updated successfully.');
     } catch (saveError) {
       console.error('Error updating name:', saveError);
@@ -219,10 +227,6 @@ export default function Profile() {
     return <div className="error-banner">{error}</div>;
   }
 
-  if (!user) {
-    return <div>Loading profile...</div>;
-  }
-
   const groupOrder = ["Japanese I", "Japanese II", "Japanese III", "Japanese IV", "Japanese V", "Japanese VI"];
   const groupedDetails = chapterDetails.reduce((acc, item) => {
     if (!acc[item.group]) {
@@ -234,24 +238,30 @@ export default function Profile() {
   
   return (
     <div>
-      <h1>{user.displayName || user.email}'s Profile</h1>
+      <h1>{user ? `${user.displayName || user.email}'s Profile` : "Guest Profile"}</h1>
 
-      <div className="profile-name-row">
-        <div className="name-input-wrap">
-          <label htmlFor="profileDisplayName">Display Name</label>
-          <input
-            id="profileDisplayName"
-            type="text"
-            value={nameInput}
-            onChange={(event) => setNameInput(event.target.value)}
-            placeholder="Your name"
-          />
-        </div>
-        <button type="button" onClick={handleSaveName} disabled={savingName}>
-          {savingName ? 'Saving...' : 'Save Name'}
-        </button>
-      </div>
-      {nameMessage && <p>{nameMessage}</p>}
+      {user ? (
+        <>
+          <div className="profile-name-row">
+            <div className="name-input-wrap">
+              <label htmlFor="profileDisplayName">Display Name</label>
+              <input
+                id="profileDisplayName"
+                type="text"
+                value={nameInput}
+                onChange={(event) => setNameInput(event.target.value)}
+                placeholder="Your name"
+              />
+            </div>
+            <button type="button" onClick={handleSaveName} disabled={savingName}>
+              {savingName ? 'Saving...' : 'Save Name'}
+            </button>
+          </div>
+          {nameMessage && <p>{nameMessage}</p>}
+        </>
+      ) : (
+        <p>Showing profile from local records on this browser.</p>
+      )}
 
       <h2>Total Score Across All Chapters: {totalScore}</h2>
       

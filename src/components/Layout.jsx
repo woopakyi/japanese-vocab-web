@@ -24,7 +24,7 @@ export default function Layout() {
       <nav className="top-nav">
         <div className="nav-left">
           <Link className="nav-link" to="/">Home</Link>
-          {user && <Link className="nav-link" to="/profile">Profile</Link>}
+          <Link className="nav-link" to="/profile">Profile</Link>
         </div>
         <div className="nav-right">
           {loading ? (

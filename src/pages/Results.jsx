@@ -7,7 +7,7 @@ import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
 export default function Results() {
   const location = useLocation();
   const navigate = useNavigate();
-  const { user } = useAuth(); // Get current user status
+  const { user, loading: authLoading } = useAuth(); // Get current user status
   const hasSaved = useRef(false);
 
   // Get results passed from Exercise.jsx
@@ -17,11 +17,17 @@ export default function Results() {
   useEffect(() => {
     if (!finalResult) {
       navigate('/');
+      return;
+    }
+
+    // Wait for auth state before deciding storage target.
+    if (authLoading) {
+      return;
     } else if (!hasSaved.current) {
       hasSaved.current = true;
       saveRecord();
     }
-  }, [finalResult, navigate, user]);
+  }, [finalResult, navigate, user, authLoading]);
 
   const saveRecord = async () => {
     if (!finalResult) return;

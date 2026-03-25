@@ -68,6 +68,13 @@ export default function Chapter() {
     return vocab;
   }, [vocab, filter]);
 
+  const exerciseMaxMarks = useMemo(() => {
+    return {
+      ex1: vocab.filter((item) => item.type === 1).length,
+      ex2: vocab.filter((item) => item.type === 2).length,
+    };
+  }, [vocab]);
+
   if (loading) {
     return <div>Loading vocabulary for {chapterId}...</div>;
   }
@@ -82,8 +89,15 @@ export default function Chapter() {
 
       <div className="action-row">
         <strong>Highest Marks:</strong>
-        <span>Exercise 1: {bestScores.ex1 ?? <span className="placeholder-mark">--</span>}</span>
-        <span>Exercise 2: {bestScores.ex2 ?? <span className="placeholder-mark">--</span>}</span>
+        <div className="highest-marks-list">
+          <span>
+            Exercise 1: {bestScores.ex1 ?? <span className="placeholder-mark">--</span>}/{exerciseMaxMarks.ex1 || <span className="placeholder-mark">--</span>}
+          </span>
+          <span>
+            Exercise 2: {bestScores.ex2 ?? <span className="placeholder-mark">--</span>}/{exerciseMaxMarks.ex2 || <span className="placeholder-mark">--</span>}
+          </span>
+        </div>
+        <Link className="pill-link" to={`/records?chapterId=${chapterId}`}>View Past Attempts</Link>
       </div>
       
       <div className="action-row">
