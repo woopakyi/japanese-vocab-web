@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { useLocation, useNavigate, Link } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 import { db } from '../config/firebase';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
@@ -71,6 +71,11 @@ export default function Results() {
 
   return (
     <div>
+      <div className="exercise-top-row">
+        <button type="button" className="go-back-btn" onClick={() => navigate(-1)}>
+          Go Back
+        </button>
+      </div>
       <h1>Your Results</h1>
       <h2>Score: {score} / {totalQuestions}</h2>
 
@@ -85,20 +90,27 @@ export default function Results() {
         </thead>
         <tbody>
           {results.map((res, index) => (
-            <tr key={index} className={res.isCorrect ? 'result-row-correct' : 'result-row-wrong'}>
+            <tr key={index}>
               <td>{res.question}</td>
-              <td>{res.userAnswer}</td>
-              <td>{res.correctAnswer}</td>
-              <td>{res.isCorrect ? 'Correct' : 'Incorrect'}</td>
+              <td>
+                <span className={res.isCorrect ? 'record-status-correct' : 'record-status-wrong'}>
+                  {res.userAnswer || '--'}
+                </span>
+              </td>
+              <td>
+                <span className={res.isCorrect ? 'record-status-correct' : 'record-status-wrong'}>
+                  {res.correctAnswer}
+                </span>
+              </td>
+              <td>
+                <strong className={res.isCorrect ? 'record-status-correct' : 'record-status-wrong'}>
+                  {res.isCorrect ? 'Correct' : 'Incorrect'}
+                </strong>
+              </td>
             </tr>
           ))}
         </tbody>
       </table>
-
-      <div className="action-row" style={{ marginTop: '1.2rem' }}>
-        <Link to={`/chapter/${finalResult.chapterId}`}>Back to Chapter</Link>
-        <Link to="/">Back to Home</Link>
-      </div>
     </div>
   );
 }

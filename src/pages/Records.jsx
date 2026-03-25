@@ -31,6 +31,11 @@ function completedAtToMs(value) {
   return 0;
 }
 
+function chapterLabel(chapterId) {
+  if (!chapterId) return '--';
+  return chapterId.replace(/^ch/i, '');
+}
+
 export default function Records() {
   const { user, loading: authLoading } = useAuth();
   const [searchParams] = useSearchParams();
@@ -88,7 +93,7 @@ export default function Records() {
     <div>
       <h1>Past Exercise Records</h1>
       <p>{user ? 'Showing records saved to your account.' : 'Showing records saved on this browser.'}</p>
-      {chapterFilter && <p>Filtered by {chapterFilter.replace('ch', 'Chapter ')}.</p>}
+      {chapterFilter && <p>Filtered by Chapter {chapterLabel(chapterFilter)}.</p>}
 
       {sortedRecords.length === 0 ? (
         <p>No exercise records yet.</p>
@@ -112,7 +117,7 @@ export default function Records() {
                   <React.Fragment key={rowKey}>
                     <tr>
                       <td>{formatCompletedAt(record.completedAt)}</td>
-                      <td>{record.chapterId?.replace('ch', 'Chapter ') || '--'}</td>
+                      <td>{chapterLabel(record.chapterId)}</td>
                       <td>{record.exerciseType || '--'}</td>
                       <td>{record.score ?? '--'} / {record.totalQuestions ?? '--'}</td>
                       <td>
@@ -141,9 +146,21 @@ export default function Records() {
                                 {record.results.map((item, resultIndex) => (
                                   <tr key={`${rowKey}-result-${resultIndex}`}>
                                     <td>{item.question}</td>
-                                    <td>{item.userAnswer || '--'}</td>
-                                    <td>{item.correctAnswer || '--'}</td>
-                                    <td>{item.isCorrect ? 'Correct' : 'Incorrect'}</td>
+                                    <td>
+                                      <span className={item.isCorrect ? 'record-status-correct' : 'record-status-wrong'}>
+                                        {item.userAnswer || '--'}
+                                      </span>
+                                    </td>
+                                    <td>
+                                      <span className={item.isCorrect ? 'record-status-correct' : 'record-status-wrong'}>
+                                        {item.correctAnswer || '--'}
+                                      </span>
+                                    </td>
+                                    <td>
+                                      <strong className={item.isCorrect ? 'record-status-correct' : 'record-status-wrong'}>
+                                        {item.isCorrect ? 'Correct' : 'Incorrect'}
+                                      </strong>
+                                    </td>
                                   </tr>
                                 ))}
                               </tbody>

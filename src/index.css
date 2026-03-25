@@ -302,12 +302,69 @@ tr:nth-child(even) td {
   background: #ffffff;
 }
 
+.exercise-top-row {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0.9rem;
+}
+
+.go-back-btn {
+  margin: 0;
+}
+
+.exercise-question-item {
+  margin-bottom: 0.9rem;
+}
+
+.question-prompt-card {
+  background: #eaf0fd;
+  border-color: #c5d4f1;
+  margin: -0.9rem -0.9rem 0.6rem;
+  padding: 0.8rem 0.9rem;
+  border-radius: 12px 12px 0 0;
+  font-weight: 600;
+}
+
+.answer-input-area {
+  display: block;
+  background: transparent;
+}
+
+.result-review-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.result-review-card {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.8rem;
+  background: #ffffff;
+}
+
+.result-review-card p {
+  margin: 0 0 0.35rem;
+}
+
+.result-review-card p:last-child {
+  margin-bottom: 0;
+}
+
 .result-row-correct td {
   background: #e0efe6;
 }
 
 .result-row-wrong td {
   background: #f9e0e0;
+}
+
+.record-status-correct {
+  color: #1d6d41;
+}
+
+.record-status-wrong {
+  color: #b53030;
 }
 
 .center-card {

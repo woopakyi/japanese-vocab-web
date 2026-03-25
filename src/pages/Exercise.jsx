@@ -130,18 +130,24 @@ export default function Exercise() {
   }
 
   return (
-    <div className="center-card">
-      <button type="button" onClick={() => navigate(-1)} style={{ marginBottom: '0.9rem' }}>
-        Go Back
-      </button>
+    <div>
+      <div className="exercise-top-row">
+        <button type="button" className="go-back-btn" onClick={() => navigate(-1)}>
+          Go Back
+        </button>
+      </div>
+      <div className="center-card">
       <h1>{`Exercise Type ${vocabType} for ${chapterId.replace('ch', 'Chapter ')}`}</h1>
       <p>{vocabType === 1 ? 'Convert Kanji to Hiragana' : 'Convert Meaning to Katakana'}</p>
       
       <form onSubmit={handleSubmit}>
         {questions.map((q, index) => (
-          <div key={q.id} className="question-card">
-            <label>
+          <div key={q.id} className="question-card exercise-question-item">
+            <div className="question-prompt-card">
               Q{index + 1}: {vocabType === 1 ? q.kanji : q.meaning}
+            </div>
+            <label className="answer-input-area">
+              Your Answer
               <input
                 type="text"
                 value={userAnswers[q.id] || ''}
@@ -152,6 +158,7 @@ export default function Exercise() {
         ))}
         <button type="submit">Finish & See Results</button>
       </form>
+      </div>
     </div>
   );
 }
