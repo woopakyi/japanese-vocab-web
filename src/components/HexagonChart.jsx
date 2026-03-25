@@ -22,6 +22,7 @@ ChartJS.register(
 export default function HexagonChart({ scoreData, fullMarkData }) {
   // The order must be consistent
   const groupLabels = ["Japanese I", "Japanese II", "Japanese III", "Japanese IV", "Japanese V", "Japanese VI"];
+  const baselineRing = 8;
   const labels = groupLabels.map((group) => {
     const gained = scoreData?.[group] || 0;
     const full = fullMarkData?.[group] || 0;
@@ -35,13 +36,17 @@ export default function HexagonChart({ scoreData, fullMarkData }) {
     }
     return (gained / full) * 100;
   });
+  const chartValues = progressRatios.map((ratio) => {
+    // Keep a small base shape even when ratio is zero.
+    return baselineRing + ((100 - baselineRing) * ratio) / 100;
+  });
   
   const data = {
     labels: labels,
     datasets: [
       {
         label: 'Overall Progress',
-        data: progressRatios,
+        data: chartValues,
         backgroundColor: 'rgba(45, 90, 163, 0.20)',
         borderColor: 'rgba(45, 90, 163, 1)',
         borderWidth: 2,

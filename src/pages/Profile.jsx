@@ -235,6 +235,7 @@ export default function Profile() {
     acc[item.group].push(item);
     return acc;
   }, {});
+  const totalFullScore = Object.values(fullMarks).reduce((sum, value) => sum + value, 0);
   
   return (
     <div>
@@ -263,7 +264,7 @@ export default function Profile() {
         <p>Showing profile from local records on this browser.</p>
       )}
 
-      <h2>Total Score Across All Chapters: {totalScore}</h2>
+      <h2>Total Score Across All Chapters: {totalScore}/{totalFullScore}</h2>
       
       <div className="profile-chart-wrap">
         <h3>Progress by Japanese Group</h3>

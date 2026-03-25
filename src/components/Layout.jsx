@@ -25,6 +25,7 @@ export default function Layout() {
         <div className="nav-left">
           <Link className="nav-link" to="/">Home</Link>
           <Link className="nav-link" to="/profile">Profile</Link>
+          <Link className="nav-link" to="/records">Records</Link>
         </div>
         <div className="nav-right">
           {loading ? (
@@ -35,7 +36,7 @@ export default function Layout() {
               <button onClick={handleLogout}>Logout</button>
             </>
           ) : (
-            <button onClick={() => setShowAuthModal(true)}>Login / Sign Up</button>
+            <button onClick={() => setShowAuthModal(true)}>Login / Sign In</button>
           )}
         </div>
       </nav>

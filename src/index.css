@@ -360,11 +360,11 @@ tr:nth-child(even) td {
 }
 
 .record-status-correct {
-  color: #1d6d41;
+  color: #0a8f3e;
 }
 
 .record-status-wrong {
-  color: #b53030;
+  color: #d11a2a;
 }
 
 .center-card {
@@ -389,6 +389,30 @@ tr:nth-child(even) td {
   background: #ffffff;
   box-shadow: 0 20px 45px rgba(0, 0, 0, 0.22);
   position: relative;
+}
+
+.auth-title {
+  text-align: center;
+}
+
+.auth-reminder {
+  margin: 1.1rem 0 1.2rem;
+  padding: 0 1.2rem;
+  line-height: 1.45;
+}
+
+.google-login-btn {
+  display: block;
+  margin: 0.3rem auto 0;
+  background: #2d5aa3;
+  border-color: #2d5aa3;
+  color: #ffffff;
+}
+
+.google-login-btn:hover {
+  border-color: #274a81;
+  background: #274a81;
+  color: #ffffff;
 }
 
 .auth-divider {
