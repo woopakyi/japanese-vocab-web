@@ -367,6 +367,19 @@ tr:nth-child(even) td {
   color: #d11a2a;
 }
 
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 0.9rem;
+}
+
+.pagination-controls span {
+  color: var(--muted);
+  font-weight: 600;
+}
+
 .center-card {
   max-width: 640px;
   margin: 0 auto;

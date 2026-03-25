@@ -37,6 +37,7 @@ function chapterLabel(chapterId) {
 }
 
 export default function Records() {
+  const RECORDS_PER_PAGE = 10;
   const { user, loading: authLoading } = useAuth();
   const [searchParams] = useSearchParams();
   const chapterFilter = searchParams.get('chapterId') || '';
@@ -44,6 +45,7 @@ export default function Records() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [expandedRecordKey, setExpandedRecordKey] = useState('');
+  const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
     if (authLoading) return;
@@ -81,6 +83,25 @@ export default function Records() {
     return [...filtered].sort((a, b) => completedAtToMs(b.completedAt) - completedAtToMs(a.completedAt));
   }, [records, chapterFilter]);
 
+  useEffect(() => {
+    setCurrentPage(1);
+    setExpandedRecordKey('');
+  }, [chapterFilter, records]);
+
+  const totalPages = Math.max(1, Math.ceil(sortedRecords.length / RECORDS_PER_PAGE));
+  const startIndex = (currentPage - 1) * RECORDS_PER_PAGE;
+  const pageRecords = sortedRecords.slice(startIndex, startIndex + RECORDS_PER_PAGE);
+
+  const goToPreviousPage = () => {
+    setCurrentPage((prev) => Math.max(1, prev - 1));
+    setExpandedRecordKey('');
+  };
+
+  const goToNextPage = () => {
+    setCurrentPage((prev) => Math.min(totalPages, prev + 1));
+    setExpandedRecordKey('');
+  };
+
   if (loading || authLoading) {
     return <div>Loading exercise records...</div>;
   }
@@ -110,8 +131,9 @@ export default function Records() {
               </tr>
             </thead>
             <tbody>
-              {sortedRecords.map((record, index) => {
-                const rowKey = record.id || `${record.chapterId}-${record.exerciseType}-${index}`;
+              {pageRecords.map((record, index) => {
+                const absoluteIndex = startIndex + index;
+                const rowKey = record.id || `${record.chapterId}-${record.exerciseType}-${absoluteIndex}`;
                 const isOpen = expandedRecordKey === rowKey;
                 return (
                   <React.Fragment key={rowKey}>
@@ -176,6 +198,17 @@ export default function Records() {
               })}
             </tbody>
           </table>
+          <div className="pagination-controls">
+            <button type="button" onClick={goToPreviousPage} disabled={currentPage === 1}>
+              Previous
+            </button>
+            <span>
+              Page {currentPage} of {totalPages}
+            </span>
+            <button type="button" onClick={goToNextPage} disabled={currentPage === totalPages}>
+              Next
+            </button>
+          </div>
         </div>
       )}
     </div>
