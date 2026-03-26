@@ -271,3 +271,17 @@ japanese-vocab-web/
 
 - If Firebase env vars are missing, the app throws an error from [src/config/firebase.js](src/config/firebase.js).
 - If Firestore rules block reads, pages show permission-related error messages.
+
+## Firebase Hosting URLs
+
+After deploying to Firebase Hosting, this project is available on two default domains:
+
+- https://jpse-vocab.web.app
+- https://jpse-vocab.firebaseapp.com
+
+Both domains serve the same deployed site content.
+
+Important:
+
+- They are different browser origins, so cookies/localStorage/session data are separate between them.
+- It is recommended to pick one primary public URL (usually `web.app` or a custom domain) and use it consistently.

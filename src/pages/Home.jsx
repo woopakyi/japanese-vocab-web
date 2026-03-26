@@ -58,7 +58,7 @@ export default function Home() {
     <div>
       <h1>Japanese Vocabulary</h1>
       <p className="home-intro">
-        This website is for students registered in the JPSE course. However, students who are not
+        This website is designed for students registered in the JPSE course. However, students who are not
         registered are also welcome to use it.
       </p>
       {Object.keys(chapters).length === 0 && <p>No chapters found.</p>}
