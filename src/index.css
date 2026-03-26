@@ -308,6 +308,10 @@ tr:nth-child(even) td {
   margin-bottom: 0.9rem;
 }
 
+.results-actions {
+  gap: 0.6rem;
+}
+
 .go-back-btn {
   margin: 0;
 }

@@ -66,9 +66,9 @@
   {
     "id": "8",
     "word": "かけます",
-    "kanji": "かけます",
+    "kanji": "",
     "meaning": "call (電話を～)",
-    "type": 1,
+    "type": 0,
     "originalOrder": 8
   },
   {

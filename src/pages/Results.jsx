@@ -15,6 +15,18 @@ export default function Results() {
   // Get results passed from Exercise.jsx
   const { finalResult } = location.state || {};
 
+  const getAttemptStorageKey = (attemptId) => `saved-attempt:${attemptId}`;
+
+  const hasAttemptBeenSaved = (attemptId) => {
+    if (!attemptId) return false;
+    return sessionStorage.getItem(getAttemptStorageKey(attemptId)) === '1';
+  };
+
+  const markAttemptSaved = (attemptId) => {
+    if (!attemptId) return;
+    sessionStorage.setItem(getAttemptStorageKey(attemptId), '1');
+  };
+
   // If someone navigates here directly, redirect them.
   useEffect(() => {
     if (!finalResult) {
@@ -27,6 +39,10 @@ export default function Results() {
       return;
     } else if (!hasSaved.current) {
       hasSaved.current = true;
+      if (hasAttemptBeenSaved(finalResult.attemptId)) {
+        return;
+      }
+      markAttemptSaved(finalResult.attemptId);
       saveRecord();
     }
   }, [finalResult, navigate, user, authLoading]);
@@ -36,7 +52,7 @@ export default function Results() {
 
     const record = {
       ...finalResult,
-      completedAt: new Date().toISOString(), // Use ISO string for both storage types
+      completedAt: finalResult.completedAt || new Date().toISOString(), // Keep submit timestamp stable across remounts
     };
     
     if (user) {
@@ -75,12 +91,19 @@ export default function Results() {
   }
 
   const { score, totalQuestions, results } = finalResult;
+  const chapterPath = finalResult.chapterId ? `/chapter/${finalResult.chapterId}` : '/';
+  const redoPath = finalResult.chapterId && finalResult.exerciseType
+    ? `/exercise/${finalResult.chapterId}/${finalResult.exerciseType}`
+    : chapterPath;
 
   return (
     <div>
-      <div className="exercise-top-row">
-        <button type="button" className="go-back-btn" onClick={() => navigate(-1)}>
+      <div className="exercise-top-row results-actions">
+        <button type="button" className="go-back-btn" onClick={() => navigate(chapterPath)}>
           Go Back
+        </button>
+        <button type="button" onClick={() => navigate(redoPath)}>
+          Redo
         </button>
       </div>
       <h1>Your Results</h1>

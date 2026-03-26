@@ -14,16 +14,7 @@
     ],
     "headers": [
       {
-        "source": "**",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "max-age=0"
-          }
-        ]
-      },
-      {
-        "source": "/static/**",
+        "source": "/assets/**",
         "headers": [
           {
             "key": "Cache-Control",
@@ -32,11 +23,20 @@
         ]
       },
       {
-        "source": "public/data/**",
+        "source": "/data/**",
         "headers": [
           {
             "key": "Cache-Control",
-            "value": "max-age=86400"
+            "value": "public, max-age=86400, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=0"
           }
         ]
       }

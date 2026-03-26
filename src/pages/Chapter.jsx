@@ -113,7 +113,7 @@ export default function Chapter() {
       <div className="action-row">
         <strong>Exercises:</strong>
         <Link className="exercise-link exercise-link-grey" to={`/exercise/${chapterId}/1`}>Exercise 1: Kanji to Hiragana</Link>
-        <Link className="exercise-link exercise-link-grey" to={`/exercise/${chapterId}/2`}>Exercise 2: Meaning to Katakana</Link>
+        <Link className="exercise-link exercise-link-grey" to={`/exercise/${chapterId}/2`}>Exercise 2: English to Katakana</Link>
       </div>
 
       <div className="action-row">
