@@ -59,6 +59,22 @@ jobs:
             exit 1
           fi
 
+          # Format checks to prevent broken production auth deploys.
+          if ! [[ "$VITE_FIREBASE_MESSAGING_SENDER_ID" =~ ^[0-9]+$ ]]; then
+            echo "::error::VITE_FIREBASE_MESSAGING_SENDER_ID must be numeric."
+            exit 1
+          fi
+
+          if [[ "$VITE_FIREBASE_AUTH_DOMAIN" == *"/"* ]] || [[ "$VITE_FIREBASE_AUTH_DOMAIN" != *"."* ]]; then
+            echo "::error::VITE_FIREBASE_AUTH_DOMAIN must be a hostname like your-project.firebaseapp.com"
+            exit 1
+          fi
+
+          if [[ "$VITE_FIREBASE_API_KEY" != AIza* ]]; then
+            echo "::error::VITE_FIREBASE_API_KEY format looks invalid."
+            exit 1
+          fi
+
       - name: Build application
         run: npm run build
 
