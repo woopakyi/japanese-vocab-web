@@ -28,6 +28,19 @@ If a user later log in, local records are synced to the account.
 - Firestore
 - Chart.js + react-chartjs-2
 
+## Local Setup
+
+1. Install dependencies and run development server.
+2. Create `.env` from `.env.example` and fill in all `VITE_FIREBASE_*` values.
+3. Use hostnames (not full URLs) for Firebase domains:
+	- `VITE_FIREBASE_AUTH_DOMAIN=your-project.firebaseapp.com`
+	- `VITE_FIREBASE_STORAGE_BUCKET=your-project.appspot.com` (or the bucket shown in your Firebase console)
+4. In Firebase Console:
+	- Enable `Authentication > Sign-in method > Google`.
+	- Add your dev and deploy domains in `Authentication > Settings > Authorized domains` (for example: `localhost`, `127.0.0.1`, and your hosting domain).
+
+If login shows `400` from `identitytoolkit` or `404` from `__/auth`, verify the API key, auth domain, and authorized domains first.
+
 
 ## Data Sources and Cost Strategy
 

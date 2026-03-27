@@ -7,6 +7,22 @@ import { collection, addDoc, doc, setDoc, getDoc, serverTimestamp } from 'fireba
 import { removeCachedValue } from '../utils/cache';
 import { updateUserBestScoreSummary } from '../utils/userSummary';
 
+const AUTH_ERROR_MESSAGES = {
+  'auth/invalid-api-key': 'Firebase API key is invalid. Check VITE_FIREBASE_API_KEY in your .env file.',
+  'auth/app-not-authorized': 'This app is not authorized in Firebase. Verify your Web App config and Authorized domains.',
+  'auth/operation-not-allowed': 'Google sign-in is disabled. Enable Google provider in Firebase Authentication settings.',
+  'auth/unauthorized-domain': 'This domain is not authorized. Add your dev/deploy domain in Firebase Auth > Settings > Authorized domains.',
+  'auth/popup-blocked': 'Popup was blocked by the browser. Allow popups for this site and try again.',
+  'auth/popup-closed-by-user': 'Sign-in popup was closed before completion. Please try again.',
+  'auth/network-request-failed': 'Network error while signing in. Check your internet connection and retry.',
+};
+
+function formatAuthError(err) {
+  if (!err) return 'Login failed. Please try again.';
+  if (err.code && AUTH_ERROR_MESSAGES[err.code]) return AUTH_ERROR_MESSAGES[err.code];
+  return err.message || 'Login failed. Please try again.';
+}
+
 // This function will sync local data to Firestore on login
 const syncLocalRecordsToFirestore = async (userId) => {
   const localData = localStorage.getItem('exerciseRecords');
@@ -61,7 +77,7 @@ export default function Auth({ closeModal }) {
       removeCachedValue(`summary:${user.uid}:best`);
       closeModal();
     } catch (err) {
-      setError(err.message);
+      setError(formatAuthError(err));
     }
   };
 

@@ -30,3 +30,9 @@ dist-ssr
 **/serviceAccountKey.json
 *.pem
 *.key
+
+# Firebase local metadata/cache
+.firebase/
+
+# Local temporary files
+.tmp_*
