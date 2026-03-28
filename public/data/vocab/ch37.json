@@ -217,7 +217,7 @@
   },
   {
     "id": "27",
-    "word": "よかったですね",
+    "word": "よかったですね。",
     "kanji": "",
     "meaning": "It was great, wasn't it? (phrase)",
     "type": 0,
@@ -449,9 +449,9 @@
   },
   {
     "id": "56",
-    "word": "いっぴき",
-    "kanji": "一匹",
-    "meaning": "one (animal)",
+    "word": "いっぴきもいません",
+    "kanji": "一匹もいません。",
+    "meaning": "There isn't a single one.",
     "type": 1,
     "originalOrder": 56
   },

@@ -41,7 +41,7 @@
   },
   {
     "id": "5",
-    "word": "われたい",
+    "word": "われます",
     "kanji": "割れます",
     "meaning": "to break, smash (コップが～)",
     "type": 1,
@@ -233,9 +233,9 @@
   },
   {
     "id": "29",
-    "word": "お先に",
-    "kanji": "おさきに",
-    "meaning": "first",
+    "word": "おさきにどうぞ",
+    "kanji": "お先にどうぞ。",
+    "meaning": "Please go first.",
     "type": 1,
     "originalOrder": 29
   },
@@ -297,9 +297,9 @@
   },
   {
     "id": "37",
-    "word": "おぼえます",
-    "kanji": "覚えます",
-    "meaning": "remember",
+    "word": "おぼえていません",
+    "kanji": "覚えていません。",
+    "meaning": "I do not remember.",
     "type": 1,
     "originalOrder": 37
   },
@@ -321,90 +321,98 @@
   },
   {
     "id": "40",
-    "word": "しんじゅく",
-    "kanji": "新宿",
-    "meaning": "Shinjuku (place name in Tokyo, train station name)",
-    "type": 1,
+    "word": "ああ、よかった。",
+    "kanji": "",
+    "meaning": "Oh, that's good.",
+    "type": 0,
     "originalOrder": 40
   },
   {
     "id": "41",
-    "word": "じしん",
-    "kanji": "地震",
-    "meaning": "earthquake",
+    "word": "しんじゅく",
+    "kanji": "新宿",
+    "meaning": "Shinjuku (place name in Tokyo, train station name)",
     "type": 1,
     "originalOrder": 41
   },
   {
     "id": "42",
-    "word": "かべ",
-    "kanji": "壁",
-    "meaning": "wall",
+    "word": "じしん",
+    "kanji": "地震",
+    "meaning": "earthquake",
     "type": 1,
     "originalOrder": 42
   },
   {
     "id": "43",
-    "word": "はり",
-    "kanji": "針",
-    "meaning": "needle (clock/watch hand)",
+    "word": "かべ",
+    "kanji": "壁",
+    "meaning": "wall",
     "type": 1,
     "originalOrder": 43
   },
   {
     "id": "44",
-    "word": "さします",
-    "kanji": "指します",
-    "meaning": "point",
+    "word": "はり",
+    "kanji": "針",
+    "meaning": "needle (clock/watch hand)",
     "type": 1,
     "originalOrder": 44
   },
   {
     "id": "45",
-    "word": "えきまえ",
-    "kanji": "駅前",
-    "meaning": "in front of the station",
+    "word": "さします",
+    "kanji": "指します",
+    "meaning": "point",
     "type": 1,
     "originalOrder": 45
   },
   {
     "id": "46",
-    "word": "たおれます",
-    "kanji": "倒れます",
-    "meaning": "fall down",
+    "word": "えきまえ",
+    "kanji": "駅前",
+    "meaning": "in front of the station",
     "type": 1,
     "originalOrder": 46
   },
   {
     "id": "47",
-    "word": "にし",
-    "kanji": "西",
-    "meaning": "west",
+    "word": "たおれます",
+    "kanji": "倒れます",
+    "meaning": "fall down",
     "type": 1,
     "originalOrder": 47
   },
   {
     "id": "48",
-    "word": "の ほう",
-    "kanji": "～の方",
-    "meaning": "～ direction",
+    "word": "にし",
+    "kanji": "西",
+    "meaning": "west",
     "type": 1,
     "originalOrder": 48
   },
   {
     "id": "49",
-    "word": "もえます",
-    "kanji": "燃えます",
-    "meaning": "burn",
+    "word": "のほう",
+    "kanji": "～の方",
+    "meaning": "～ direction",
     "type": 1,
     "originalOrder": 49
   },
   {
     "id": "50",
+    "word": "もえます",
+    "kanji": "燃えます",
+    "meaning": "burn",
+    "type": 1,
+    "originalOrder": 50
+  },
+  {
+    "id": "51",
     "word": "レポーター",
     "kanji": "",
     "meaning": "reporter",
     "type": 2,
-    "originalOrder": 50
+    "originalOrder": 51
   }
 ]

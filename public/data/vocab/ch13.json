@@ -177,9 +177,9 @@
   },
   {
     "id": "22",
-    "word": "ごちゅうもん",
-    "kanji": "ご注文",
-    "meaning": "order",
+    "word": "ごちゅうもんは",
+    "kanji": "ご注文は？",
+    "meaning": "May I take your order?",
     "type": 1,
     "originalOrder": 22
   },
@@ -201,57 +201,57 @@
   },
   {
     "id": "25",
-    "word": "しょうしょう",
-    "kanji": "少々",
-    "meaning": "a moment",
+    "word": "しょうしょうおまちください",
+    "kanji": "少々お待ちください。",
+    "meaning": "Please wait a moment.",
     "type": 1,
     "originalOrder": 25
   },
   {
     "id": "26",
-    "word": "べつべつに",
-    "kanji": "別々に",
-    "meaning": "separately",
-    "type": 1,
+    "word": "～でございます。",
+    "kanji": "",
+    "meaning": "polite expression equivalent of です",
+    "type": 0,
     "originalOrder": 26
   },
   {
     "id": "27",
-    "word": "のど",
-    "kanji": "",
-    "meaning": "throat",
-    "type": 0,
+    "word": "べつべつに",
+    "kanji": "別々に",
+    "meaning": "separately",
+    "type": 1,
     "originalOrder": 27
   },
   {
     "id": "28",
-    "word": "かわきます",
+    "word": "のどがかわきます。",
     "kanji": "",
-    "meaning": "thirsty",
+    "meaning": "I am thirsty.",
     "type": 0,
     "originalOrder": 28
   },
   {
     "id": "29",
-    "word": "おなか",
+    "word": "おなかがすきます。",
     "kanji": "",
-    "meaning": "stomach",
+    "meaning": "I am hungry.",
     "type": 0,
     "originalOrder": 29
   },
   {
     "id": "30",
-    "word": "すきます",
+    "word": "おなかがいっぱいです。",
     "kanji": "",
-    "meaning": "hungry",
+    "meaning": "I am full.",
     "type": 0,
     "originalOrder": 30
   },
   {
     "id": "31",
-    "word": "いっぱい",
+    "word": "そうしましょう。",
     "kanji": "",
-    "meaning": "full",
+    "meaning": "Let’s do that.",
     "type": 0,
     "originalOrder": 31
   }

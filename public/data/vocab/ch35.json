@@ -241,9 +241,9 @@
   },
   {
     "id": "30",
-    "word": "おわります",
-    "kanji": "終わります",
-    "meaning": "finish",
+    "word": "これでおわりましょう",
+    "kanji": "これで終わりましょう。",
+    "meaning": "Let's end it here.",
     "type": 1,
     "originalOrder": 30
   },
@@ -417,7 +417,7 @@
   },
   {
     "id": "52",
-    "word": "なかよく します",
+    "word": "なかよくします",
     "kanji": "仲良くします",
     "meaning": "get along well",
     "type": 1,

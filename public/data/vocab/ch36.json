@@ -193,114 +193,130 @@
   },
   {
     "id": "24",
-    "word": "すいえい",
-    "kanji": "水泳",
-    "meaning": "swim",
-    "type": 1,
+    "word": "していらっしゃいます",
+    "kanji": "",
+    "meaning": "polite expression equivalent of しています",
+    "type": 0,
     "originalOrder": 24
   },
   {
     "id": "25",
-    "word": "ちがいます",
-    "kanji": "違います",
-    "meaning": "be different, be wrong",
+    "word": "すいえい",
+    "kanji": "水泳",
+    "meaning": "swim",
     "type": 1,
     "originalOrder": 25
   },
   {
     "id": "26",
-    "word": "チャレンジします",
-    "kanji": "",
-    "meaning": "challenge",
-    "type": 2,
+    "word": "ちがいます",
+    "kanji": "違います",
+    "meaning": "be different, be wrong",
+    "type": 1,
     "originalOrder": 26
   },
   {
     "id": "27",
-    "word": "きもち",
-    "kanji": "気持ち",
-    "meaning": "feeling",
+    "word": "つかっていらっしゃるんですね",
+    "kanji": "使っていらっしゃるんですね。",
+    "meaning": "polite expression equivalent of 使っているんですね",
     "type": 1,
     "originalOrder": 27
   },
   {
     "id": "28",
-    "word": "のりもの",
-    "kanji": "乗り物",
-    "meaning": "vehicle",
-    "type": 1,
+    "word": "チャレンジします",
+    "kanji": "",
+    "meaning": "challenge",
+    "type": 2,
     "originalOrder": 28
   },
   {
     "id": "29",
-    "word": "せいき",
-    "kanji": "...世紀",
-    "meaning": "century",
+    "word": "きもち",
+    "kanji": "気持ち",
+    "meaning": "feeling",
     "type": 1,
     "originalOrder": 29
   },
   {
     "id": "30",
-    "word": "とおく",
-    "kanji": "遠く",
-    "meaning": "far away",
+    "word": "のりもの",
+    "kanji": "乗り物",
+    "meaning": "vehicle",
     "type": 1,
     "originalOrder": 30
   },
   {
     "id": "31",
-    "word": "めずらしい",
-    "kanji": "珍しい",
-    "meaning": "rare, unusual",
+    "word": "せいき",
+    "kanji": "...世紀",
+    "meaning": "century",
     "type": 1,
     "originalOrder": 31
   },
   {
     "id": "32",
-    "word": "きしゃ",
-    "kanji": "汽車",
-    "meaning": "steam locomotive",
+    "word": "とおく",
+    "kanji": "遠く",
+    "meaning": "far away",
     "type": 1,
     "originalOrder": 32
   },
   {
     "id": "33",
-    "word": "おおぜいの",
-    "kanji": "大勢の",
-    "meaning": "many (～人)",
+    "word": "めずらしい",
+    "kanji": "珍しい",
+    "meaning": "rare, unusual",
     "type": 1,
     "originalOrder": 33
   },
   {
     "id": "34",
-    "word": "はこびます",
-    "kanji": "運びます",
-    "meaning": "carry, transport",
+    "word": "きしゃ",
+    "kanji": "汽車",
+    "meaning": "steam locomotive",
     "type": 1,
     "originalOrder": 34
   },
   {
     "id": "35",
-    "word": "うんゆします",
-    "kanji": "運輸します",
-    "meaning": "transport",
+    "word": "おおぜいの",
+    "kanji": "大勢の",
+    "meaning": "many (～人)",
     "type": 1,
     "originalOrder": 35
   },
   {
     "id": "36",
-    "word": "りようします",
-    "kanji": "利用します",
-    "meaning": "use, utilize",
+    "word": "はこびます",
+    "kanji": "運びます",
+    "meaning": "carry, transport",
     "type": 1,
     "originalOrder": 36
   },
   {
     "id": "37",
+    "word": "うんゆします",
+    "kanji": "運輸します",
+    "meaning": "transport",
+    "type": 1,
+    "originalOrder": 37
+  },
+  {
+    "id": "38",
+    "word": "りようします",
+    "kanji": "利用します",
+    "meaning": "use, utilize",
+    "type": 1,
+    "originalOrder": 38
+  },
+  {
+    "id": "39",
     "word": "じゆうに",
     "kanji": "自由に",
     "meaning": "freely",
     "type": 1,
-    "originalOrder": 37
+    "originalOrder": 39
   }
 ]

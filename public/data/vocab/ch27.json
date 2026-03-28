@@ -43,7 +43,7 @@
     "id": "5",
     "word": "できます",
     "kanji": "",
-    "meaning": "be able to do (道が～)",
+    "meaning": "build, complete (道が～)",
     "type": 0,
     "originalOrder": 5
   },
@@ -51,14 +51,14 @@
     "id": "6",
     "word": "ひらきます",
     "kanji": "開きます",
-    "meaning": "withdraw (教室を～)",
+    "meaning": "open, start (教室を～)",
     "type": 1,
     "originalOrder": 6
   },
   {
     "id": "7",
-    "word": "しんぱい な",
-    "kanji": "心配 な",
+    "word": "しんぱいな",
+    "kanji": "心配な",
     "meaning": "worried, anxiety",
     "type": 1,
     "originalOrder": 7
@@ -138,7 +138,7 @@
   {
     "id": "17",
     "word": "きょうしつ",
-    "kanji": "教室",
+    "kanji": "～教室",
     "meaning": "classroom",
     "type": 1,
     "originalOrder": 17
@@ -265,8 +265,8 @@
   },
   {
     "id": "33",
-    "word": "ふしぎ な",
-    "kanji": "不思議 な",
+    "word": "ふしぎな",
+    "kanji": "不思議な",
     "meaning": "mysterious, strange",
     "type": 1,
     "originalOrder": 33

@@ -10,9 +10,9 @@
   {
     "id": "1",
     "word": "あります",
-    "kanji": "あります",
+    "kanji": "",
     "meaning": "have",
-    "type": 1,
+    "type": 0,
     "originalOrder": 1
   },
   {
@@ -193,10 +193,10 @@
   },
   {
     "id": "24",
-    "word": "ローマじ",
-    "kanji": "ローマ字",
-    "meaning": "Roman alphabet",
-    "type": 1,
+    "word": "ローマ",
+    "kanji": "",
+    "meaning": "Roman (～字)",
+    "type": 2,
     "originalOrder": 24
   },
   {
@@ -369,26 +369,66 @@
   },
   {
     "id": "46",
-    "word": "こんど",
-    "kanji": "今度",
-    "meaning": "some other time",
-    "type": 1,
+    "word": "ああ",
+    "kanji": "",
+    "meaning": "ah",
+    "type": 0,
     "originalOrder": 46
   },
   {
     "id": "47",
-    "word": "かします",
-    "kanji": "貸します",
-    "meaning": "lend",
-    "type": 1,
+    "word": "いっしょにいかがですか。",
+    "kanji": "",
+    "meaning": "Won’t you join me/us?",
+    "type": 0,
     "originalOrder": 47
   },
   {
     "id": "48",
-    "word": "ざんねん",
-    "kanji": "残念",
-    "meaning": "pity",
-    "type": 1,
+    "word": "～はちょっと……。",
+    "kanji": "",
+    "meaning": "~ is a bit difficult. (Euphemism used when declining an invitation)",
+    "type": 0,
     "originalOrder": 48
+  },
+  {
+    "id": "49",
+    "word": "だめですか。",
+    "kanji": "",
+    "meaning": "So you do not prefer to it?",
+    "type": 0,
+    "originalOrder": 49
+  },
+  {
+    "id": "50",
+    "word": "またこんどおねがいします",
+    "kanji": "また今度お願いします。",
+    "meaning": "Please ask me again some other time.",
+    "type": 1,
+    "originalOrder": 50
+  },
+  {
+    "id": "51",
+    "word": "かしてください",
+    "kanji": "貸してください。",
+    "meaning": "Please lend me.",
+    "type": 1,
+    "originalOrder": 51
+  },
+  {
+    "id": "52",
+    "word": "いいですよ。",
+    "kanji": "",
+    "meaning": "Sure.",
+    "type": 0,
+    "originalOrder": 52
+  },
+  {
+    "id": "53",
+    "word": "ざんねんですが",
+    "kanji": "残念ですが",
+    "meaning": "That’s a pity but",
+    "type": 1,
+    "originalOrder": 53
   }
 ]

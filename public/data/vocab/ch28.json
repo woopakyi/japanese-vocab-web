@@ -337,74 +337,82 @@
   },
   {
     "id": "42",
-    "word": "じつは",
-    "kanji": "実は",
-    "meaning": "actually, to tell the truth",
+    "word": "ちょっとおねがいがあるんですが",
+    "kanji": "ちょっとお願いがあるんですが。",
+    "meaning": "I have a small request.",
     "type": 1,
     "originalOrder": 42
   },
   {
     "id": "43",
-    "word": "かいわ",
-    "kanji": "会話",
-    "meaning": "conversation",
+    "word": "じつは",
+    "kanji": "実は",
+    "meaning": "actually, to tell the truth",
     "type": 1,
     "originalOrder": 43
   },
   {
     "id": "44",
-    "word": "お知らせ",
-    "kanji": "お知らせ",
-    "meaning": "notice, announcement",
+    "word": "かいわ",
+    "kanji": "会話",
+    "meaning": "conversation",
     "type": 1,
     "originalOrder": 44
   },
   {
     "id": "45",
-    "word": "さんかします",
-    "kanji": "参加します",
-    "meaning": "participate, attend",
+    "word": "お知らせ",
+    "kanji": "お知らせ",
+    "meaning": "notice, announcement",
     "type": 1,
     "originalOrder": 45
   },
   {
     "id": "46",
-    "word": "ひにち",
-    "kanji": "日にち",
-    "meaning": "date",
+    "word": "さんかします",
+    "kanji": "参加します",
+    "meaning": "participate, attend",
     "type": 1,
     "originalOrder": 46
   },
   {
     "id": "47",
-    "word": "たいいくかん",
-    "kanji": "体育館",
-    "meaning": "gym, gymnasium",
+    "word": "ひにち",
+    "kanji": "日にち",
+    "meaning": "date",
     "type": 1,
     "originalOrder": 47
   },
   {
     "id": "48",
-    "word": "むりょう",
-    "kanji": "無料",
-    "meaning": "free (of charge)",
+    "word": "たいいくかん",
+    "kanji": "体育館",
+    "meaning": "gym, gymnasium",
     "type": 1,
     "originalOrder": 48
   },
   {
     "id": "49",
-    "word": "さそいます",
-    "kanji": "誘います",
-    "meaning": "invite",
+    "word": "むりょう",
+    "kanji": "無料",
+    "meaning": "free (of charge)",
     "type": 1,
     "originalOrder": 49
   },
   {
     "id": "50",
+    "word": "さそいます",
+    "kanji": "誘います",
+    "meaning": "invite",
+    "type": 1,
+    "originalOrder": 50
+  },
+  {
+    "id": "51",
     "word": "イベント",
     "kanji": "",
     "meaning": "event",
     "type": 2,
-    "originalOrder": 50
+    "originalOrder": 51
   }
 ]

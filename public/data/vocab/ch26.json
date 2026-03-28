@@ -274,7 +274,7 @@
   {
     "id": "34",
     "word": "よこ",
-    "kanji": "橫",
+    "kanji": "横",
     "meaning": "side",
     "type": 1,
     "originalOrder": 34
@@ -338,9 +338,9 @@
   {
     "id": "42",
     "word": "こわい",
-    "kanji": "",
+    "kanji": "怖い",
     "meaning": "scary",
-    "type": 0,
+    "type": 1,
     "originalOrder": 42
   },
   {

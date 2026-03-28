@@ -153,34 +153,26 @@
   },
   {
     "id": "19",
-    "word": "おなか",
+    "word": "おなかがいっぱいです。",
     "kanji": "",
-    "meaning": "stomach",
+    "meaning": "I am full.",
     "type": 0,
     "originalOrder": 19
   },
   {
     "id": "20",
-    "word": "いっぱい",
+    "word": "よかったら",
     "kanji": "",
-    "meaning": "full",
+    "meaning": "if you like",
     "type": 0,
     "originalOrder": 20
   },
   {
     "id": "21",
-    "word": "よかったら",
-    "kanji": "",
-    "meaning": "if you like",
-    "type": 0,
-    "originalOrder": 21
-  },
-  {
-    "id": "22",
     "word": "いろいろ",
     "kanji": "",
-    "meaning": "various type of～",
+    "meaning": "various type of ~",
     "type": 0,
-    "originalOrder": 22
+    "originalOrder": 21
   }
 ]

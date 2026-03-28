@@ -305,18 +305,66 @@
   },
   {
     "id": "38",
-    "word": "あがります",
-    "kanji": "上がります",
-    "meaning": "go up, come",
-    "type": 1,
+    "word": "いらっしゃい。",
+    "kanji": "",
+    "meaning": "Welcome.",
+    "type": 0,
     "originalOrder": 38
   },
   {
     "id": "39",
+    "word": "どうぞおあがりください",
+    "kanji": "どうぞお上がりください。",
+    "meaning": "Please come in.",
+    "type": 1,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "しつれいします",
+    "kanji": "失礼します。",
+    "meaning": "Excuse me.",
+    "type": 1,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "～はいかがですか。",
+    "kanji": "",
+    "meaning": "Would you like to have ~?",
+    "type": 0,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "いただきます。",
+    "kanji": "",
+    "meaning": "Thank you. (said before starting to eat or drink)",
+    "type": 0,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "ごちそうさまでした。",
+    "kanji": "",
+    "meaning": "That was a delicious meal. (said after meals)",
+    "type": 0,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "～、すてきですね。",
+    "kanji": "",
+    "meaning": "What a nice～.",
+    "type": 0,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
     "word": "スペイン",
     "kanji": "",
     "meaning": "Spain",
     "type": 2,
-    "originalOrder": 39
+    "originalOrder": 45
   }
 ]

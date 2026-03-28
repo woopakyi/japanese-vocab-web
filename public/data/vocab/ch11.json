@@ -3,7 +3,7 @@
     "id": "0",
     "word": "います",
     "kanji": "",
-    "meaning": "stay (子どもが～)",
+    "meaning": "have (子どもが～)",
     "type": 0,
     "originalOrder": 0
   },
@@ -18,9 +18,9 @@
   {
     "id": "2",
     "word": "かかります",
-    "kanji": "かかります",
+    "kanji": "",
     "meaning": "take a time",
-    "type": 1,
+    "type": 0,
     "originalOrder": 2
   },
   {
@@ -34,7 +34,7 @@
   {
     "id": "4",
     "word": "ひとつ",
-    "kanji": "1 つ",
+    "kanji": "1つ",
     "meaning": "one, single item or matters",
     "type": 1,
     "originalOrder": 4
@@ -42,7 +42,7 @@
   {
     "id": "5",
     "word": "ふたつ",
-    "kanji": "2 つ",
+    "kanji": "2つ",
     "meaning": "two items or matters",
     "type": 1,
     "originalOrder": 5
@@ -50,7 +50,7 @@
   {
     "id": "6",
     "word": "みっつ",
-    "kanji": "3 つ",
+    "kanji": "3つ",
     "meaning": "three items or matters",
     "type": 1,
     "originalOrder": 6
@@ -58,7 +58,7 @@
   {
     "id": "7",
     "word": "よっつ",
-    "kanji": "4 つ",
+    "kanji": "4つ",
     "meaning": "four items or matters",
     "type": 1,
     "originalOrder": 7
@@ -66,7 +66,7 @@
   {
     "id": "8",
     "word": "いつつ",
-    "kanji": "5 つ",
+    "kanji": "5つ",
     "meaning": "five items or matters",
     "type": 1,
     "originalOrder": 8
@@ -74,7 +74,7 @@
   {
     "id": "9",
     "word": "むっつ",
-    "kanji": "6 つ",
+    "kanji": "6つ",
     "meaning": "six items or matters",
     "type": 1,
     "originalOrder": 9
@@ -82,7 +82,7 @@
   {
     "id": "10",
     "word": "ななつ",
-    "kanji": "7 つ",
+    "kanji": "7つ",
     "meaning": "seven items or matters",
     "type": 1,
     "originalOrder": 10
@@ -90,7 +90,7 @@
   {
     "id": "11",
     "word": "やっつ",
-    "kanji": "8 つ",
+    "kanji": "8つ",
     "meaning": "eight items or matters",
     "type": 1,
     "originalOrder": 11
@@ -98,7 +98,7 @@
   {
     "id": "12",
     "word": "ここのつ",
-    "kanji": "9 つ",
+    "kanji": "9つ",
     "meaning": "nine items or matters",
     "type": 1,
     "originalOrder": 12
@@ -106,9 +106,9 @@
   {
     "id": "13",
     "word": "とお",
-    "kanji": "10",
+    "kanji": "",
     "meaning": "ten items or matters",
-    "type": 1,
+    "type": 0,
     "originalOrder": 13
   },
   {
@@ -401,42 +401,74 @@
   },
   {
     "id": "50",
-    "word": "おでかけですか",
-    "kanji": "お出かけ",
-    "meaning": "go out",
+    "word": "いいおてんきですね",
+    "kanji": "いいお天気ですね。",
+    "meaning": "Nice weather, isn’t it?",
     "type": 1,
     "originalOrder": 50
   },
   {
     "id": "51",
-    "word": "ふなびん",
-    "kanji": "船便",
-    "meaning": "sea mail",
+    "word": "おでかけですか",
+    "kanji": "お出かけですか。",
+    "meaning": "Are you going out?",
     "type": 1,
     "originalOrder": 51
   },
   {
     "id": "52",
-    "word": "こうくうびん",
-    "kanji": "航空便",
-    "meaning": "airmail",
-    "type": 1,
+    "word": "ちょっと～まで。",
+    "kanji": "",
+    "meaning": "I’m just going to",
+    "type": 0,
     "originalOrder": 52
   },
   {
     "id": "53",
-    "word": "エアメール",
-    "kanji": "",
-    "meaning": "airmail",
-    "type": 2,
+    "word": "いってらっしゃい",
+    "kanji": "行ってらっしゃい。",
+    "meaning": "Have a safe trip.",
+    "type": 1,
     "originalOrder": 53
   },
   {
     "id": "54",
+    "word": "いってきます",
+    "kanji": "行ってきます。",
+    "meaning": "I am going out.",
+    "type": 1,
+    "originalOrder": 54
+  },
+  {
+    "id": "55",
+    "word": "ふなびん",
+    "kanji": "船便",
+    "meaning": "sea mail",
+    "type": 1,
+    "originalOrder": 55
+  },
+  {
+    "id": "56",
+    "word": "こうくうびん",
+    "kanji": "航空便",
+    "meaning": "airmail",
+    "type": 1,
+    "originalOrder": 56
+  },
+  {
+    "id": "57",
+    "word": "エアメール",
+    "kanji": "",
+    "meaning": "airmail",
+    "type": 2,
+    "originalOrder": 57
+  },
+  {
+    "id": "58",
     "word": "オーストラリア",
     "kanji": "",
     "meaning": "Australia",
     "type": 2,
-    "originalOrder": 54
+    "originalOrder": 58
   }
 ]

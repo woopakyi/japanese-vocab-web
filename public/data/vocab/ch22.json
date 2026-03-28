@@ -41,8 +41,8 @@
   },
   {
     "id": "5",
-    "word": "うまます",
-    "kanji": "生まます",
+    "word": "うまれます",
+    "kanji": "生まれます",
     "meaning": "be born",
     "type": 1,
     "originalOrder": 5
@@ -145,82 +145,106 @@
   },
   {
     "id": "18",
-    "word": "さがします",
-    "kanji": "探し",
-    "meaning": "look for",
+    "word": "おさがしですか",
+    "kanji": "お探しですか 。",
+    "meaning": "Are you looking for…?",
     "type": 1,
     "originalOrder": 18
   },
   {
     "id": "19",
-    "word": "こちら",
+    "word": "では",
     "kanji": "",
-    "meaning": "this (polite これ)",
+    "meaning": "then",
     "type": 0,
     "originalOrder": 19
   },
   {
     "id": "20",
-    "word": "やちん",
-    "kanji": "家賃",
-    "meaning": "house rent",
-    "type": 1,
+    "word": "こちら",
+    "kanji": "",
+    "meaning": "this (polite これ)",
+    "type": 0,
     "originalOrder": 20
   },
   {
     "id": "21",
-    "word": "ダイニングキッチン",
-    "kanji": "",
-    "meaning": "kitchen with a dining area",
-    "type": 2,
+    "word": "やちん",
+    "kanji": "家賃",
+    "meaning": "house rent",
+    "type": 1,
     "originalOrder": 21
   },
   {
     "id": "22",
-    "word": "わしつ",
-    "kanji": "和室",
-    "meaning": "Japanese-style room with Tatami",
-    "type": 1,
+    "word": "ダイニングキッチン",
+    "kanji": "",
+    "meaning": "kitchen with a dining area",
+    "type": 2,
     "originalOrder": 22
   },
   {
     "id": "23",
-    "word": "おしいれ",
-    "kanji": "押し入れ",
-    "meaning": "Japanese-style closet",
+    "word": "わしつ",
+    "kanji": "和室",
+    "meaning": "Japanese-style room with Tatami",
     "type": 1,
     "originalOrder": 23
   },
   {
     "id": "24",
-    "word": "ふとん",
-    "kanji": "布団",
-    "meaning": "Japanese-style mattress and quilt",
+    "word": "おしいれ",
+    "kanji": "押し入れ",
+    "meaning": "Japanese-style closet",
     "type": 1,
     "originalOrder": 24
   },
   {
     "id": "25",
-    "word": "パリ",
-    "kanji": "",
-    "meaning": "Paris",
-    "type": 2,
+    "word": "ふとん",
+    "kanji": "布団",
+    "meaning": "Japanese-style mattress and quilt",
+    "type": 1,
     "originalOrder": 25
   },
   {
     "id": "26",
-    "word": "ばんりのちょうじょう",
-    "kanji": "万里の長城",
-    "meaning": "The great wall of China",
-    "type": 1,
+    "word": "えーと",
+    "kanji": "",
+    "meaning": "errr…",
+    "type": 0,
     "originalOrder": 26
   },
   {
     "id": "27",
+    "word": "おめでとうございます。",
+    "kanji": "",
+    "meaning": "Congratulation.",
+    "type": 0,
+    "originalOrder": 27
+  },
+  {
+    "id": "28",
+    "word": "パリ",
+    "kanji": "",
+    "meaning": "Paris",
+    "type": 2,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
+    "word": "ばんりのちょうじょう",
+    "kanji": "万里の長城",
+    "meaning": "The great wall of China",
+    "type": 1,
+    "originalOrder": 29
+  },
+  {
+    "id": "30",
     "word": "アンケート",
     "kanji": "",
     "meaning": "questionnaire",
     "type": 2,
-    "originalOrder": 27
+    "originalOrder": 30
   }
 ]

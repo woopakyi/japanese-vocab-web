@@ -35,7 +35,7 @@
     "id": "4",
     "word": "すみます",
     "kanji": "住みます",
-    "meaning": "be going to live",
+    "meaning": "live, reside",
     "type": 1,
     "originalOrder": 4
   },
@@ -145,34 +145,50 @@
   },
   {
     "id": "18",
-    "word": "おもいだします",
-    "kanji": "思い出します",
-    "meaning": "remember, recollect",
-    "type": 1,
+    "word": "すみません",
+    "kanji": "",
+    "meaning": "I’m sorry.",
+    "type": 0,
     "originalOrder": 18
   },
   {
     "id": "19",
-    "word": "みなさん",
-    "kanji": "皆さん",
-    "meaning": "everybody, Ladies and gentlemen.",
+    "word": "おもいだします",
+    "kanji": "思い出します",
+    "meaning": "remember, recollect",
     "type": 1,
     "originalOrder": 19
   },
   {
     "id": "20",
-    "word": "にっぽんばし",
-    "kanji": "日本橋",
-    "meaning": "Nipponbashi (commercial area in Osaka)",
-    "type": 1,
+    "word": "いらっしゃいます",
+    "kanji": "",
+    "meaning": "be (honorific expression equivalent of います)",
+    "type": 0,
     "originalOrder": 20
   },
   {
     "id": "21",
+    "word": "みなさん",
+    "kanji": "皆さん",
+    "meaning": "everybody, Ladies and gentlemen.",
+    "type": 1,
+    "originalOrder": 21
+  },
+  {
+    "id": "22",
+    "word": "にっぽんばし",
+    "kanji": "日本橋",
+    "meaning": "Nipponbashi (commercial area in Osaka)",
+    "type": 1,
+    "originalOrder": 22
+  },
+  {
+    "id": "23",
     "word": "インタビュー",
     "kanji": "",
     "meaning": "interview",
     "type": 2,
-    "originalOrder": 21
+    "originalOrder": 23
   }
 ]

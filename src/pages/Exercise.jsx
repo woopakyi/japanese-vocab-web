@@ -81,7 +81,7 @@ export default function Exercise() {
 
       if (vocabType === 1) { // Kanji to Hiragana
         correctAnswer = q.word;
-      } else if (vocabType === 2) { // Meaning to Katakana
+      } else if (vocabType === 2) { // English to Katakana
         correctAnswer = q.word;
       }
       
@@ -149,7 +149,7 @@ export default function Exercise() {
       </div>
       <div className="center-card">
       <h1>{`Exercise Type ${vocabType} for ${chapterId.replace('ch', 'Chapter ')}`}</h1>
-      <p>{vocabType === 1 ? 'Convert Kanji to Hiragana' : 'Convert Meaning to Katakana'}</p>
+      <p>{vocabType === 1 ? 'Convert Kanji to Hiragana. No punctuation or special characters are required in the answer.' : 'Convert English to Katakana. No punctuation or special characters are required in the answer.'}</p>
       
       <form onSubmit={handleSubmit}>
         {questions.map((q, index) => (

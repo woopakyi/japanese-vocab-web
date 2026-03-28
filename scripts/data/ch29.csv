@@ -4,7 +4,7 @@
 つきます,,,"to turn on, light up (電気が～)"
 きえます,消えます,,"to turn off, go out (電気が～)"
 こわれます,壊れます,,"to break, be damaged (いすが～)"
-われたい,割れます,,"to break, smash (コップが～)"
+われます,割れます,,"to break, smash (コップが～)"
 おれます,折れます,,"to break, snap (木が～)"
 やぶれます,破れます,,to tear (紙が～)
 よごれます,汚れます,,to get dirty (服が～)
@@ -28,7 +28,7 @@
 こうばん,交番,,police box
 スピーチ,,1,speech (～をします)
 へんじ,返事,,"reply, answer (～をします)"
-お先に,おさきに,,first
+おさきにどうぞ,お先にどうぞ。,,Please go first.
 げんじものがたり,源氏物語,,The Tale of Genji (classical Japanese novel)
 いまのでんしゃ,今の電車,,the train just now
 わすれもの,忘れ物,,lost article
@@ -36,9 +36,10 @@
 がわ,～側,,～ side
 ポケット,,1,pocket
 へん,～辺,,"～ area, vicinity"
-おぼえます,覚えます,,remember
+おぼえていません,覚えていません。,,I do not remember.
 あみだな,網棚,,luggage rack
 たしか,確か,,"surely, certainly; if I remember correctly"
+ああ、よかった。,,,"Oh, that's good."
 しんじゅく,新宿,,"Shinjuku (place name in Tokyo, train station name)"
 じしん,地震,,earthquake
 かべ,壁,,wall
@@ -47,6 +48,6 @@
 えきまえ,駅前,,in front of the station
 たおれます,倒れます,,fall down
 にし,西,,west
-の ほう,～の方,,～ direction
+のほう,～の方,,～ direction
 もえます,燃えます,,burn
 レポーター,,1,reporter

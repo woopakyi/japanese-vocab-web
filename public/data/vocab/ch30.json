@@ -50,9 +50,9 @@
   {
     "id": "6",
     "word": "まとめます",
-    "kanji": "まとめます",
+    "kanji": "",
     "meaning": "collect, put together, summarize",
-    "type": 1,
+    "type": 0,
     "originalOrder": 6
   },
   {
@@ -90,9 +90,9 @@
   {
     "id": "11",
     "word": "そのままにします",
-    "kanji": "そのままにします",
+    "kanji": "",
     "meaning": "leave as is",
-    "type": 1,
+    "type": 0,
     "originalOrder": 11
   },
   {
@@ -161,9 +161,9 @@
   },
   {
     "id": "20",
-    "word": "よいひょう",
-    "kanji": "良い表",
-    "meaning": "good chart, good table",
+    "word": "よていひょう",
+    "kanji": "予定表",
+    "meaning": "schedule, timetable",
     "type": 1,
     "originalOrder": 20
   },
@@ -337,7 +337,7 @@
   },
   {
     "id": "42",
-    "word": "ある ～",
+    "word": "ある～",
     "kanji": "",
     "meaning": "a certain ~",
     "type": 0,
@@ -345,7 +345,7 @@
   },
   {
     "id": "43",
-    "word": "ゆめを みます",
+    "word": "ゆめをみます",
     "kanji": "夢を見ます",
     "meaning": "dream, have a dream",
     "type": 1,
@@ -361,8 +361,8 @@
   },
   {
     "id": "45",
-    "word": "いや な",
-    "kanji": "嫌 な",
+    "word": "いやな",
+    "kanji": "嫌な",
     "meaning": "hateful, unpleasant",
     "type": 1,
     "originalOrder": 45
@@ -377,7 +377,7 @@
   },
   {
     "id": "47",
-    "word": "めが さめます",
+    "word": "めがさめます",
     "kanji": "目が覚めます",
     "meaning": "wake up (intransitive)",
     "type": 1,

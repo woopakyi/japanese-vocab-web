@@ -28,12 +28,12 @@
     "word": "にぎやかな",
     "kanji": "",
     "meaning": "lively",
-    "type": 2,
+    "type": 0,
     "originalOrder": 3
   },
   {
     "id": "4",
-    "word": "ゆうめい（な）",
+    "word": "ゆうめいな",
     "kanji": "有名な",
     "meaning": "famous",
     "type": 1,
@@ -377,50 +377,106 @@
   },
   {
     "id": "47",
-    "word": "いっぱい",
-    "kanji": "一杯",
-    "meaning": "a cup of",
+    "word": "もういっぱいいかがですか",
+    "kanji": "もう一杯いかがですか。",
+    "meaning": "Won’t you have another cup of ~?",
     "type": 1,
     "originalOrder": 47
   },
   {
     "id": "48",
-    "word": "きんかくじ",
-    "kanji": "金閣寺",
-    "meaning": "Kinkakuji-temple",
-    "type": 1,
+    "word": "いいえ、けっこうです。",
+    "kanji": "",
+    "meaning": "No, thank you.",
+    "type": 0,
     "originalOrder": 48
   },
   {
     "id": "49",
-    "word": "ならこうえん",
-    "kanji": "奈良公園",
-    "meaning": "Nara park",
-    "type": 1,
+    "word": "もう～ですね。",
+    "kanji": "",
+    "meaning": "it’s already ~ , isn’t it?",
+    "type": 0,
     "originalOrder": 49
   },
   {
     "id": "50",
-    "word": "ふじさん",
-    "kanji": "富士山",
-    "meaning": "Fujisan mountain",
+    "word": "そろそろしつれいします",
+    "kanji": "そろそろ失礼します。",
+    "meaning": "It’s almost time to leave now.",
     "type": 1,
     "originalOrder": 50
   },
   {
     "id": "51",
-    "word": "しちにんのさむらい",
-    "kanji": "七人の侍",
-    "meaning": "Seven Samurai - Japanese epic samurai action film",
-    "type": 1,
+    "word": "いいえ。",
+    "kanji": "",
+    "meaning": "No.",
+    "type": 0,
     "originalOrder": 51
   },
   {
     "id": "52",
+    "word": "またいらっしゃってください。",
+    "kanji": "",
+    "meaning": "Please come again.",
+    "type": 0,
+    "originalOrder": 52
+  },
+  {
+    "id": "53",
+    "word": "おげんきですか",
+    "kanji": "お元気ですか。",
+    "meaning": "How are you?",
+    "type": 1,
+    "originalOrder": 53
+  },
+  {
+    "id": "54",
+    "word": "そうですね。",
+    "kanji": "",
+    "meaning": "Well.",
+    "type": 0,
+    "originalOrder": 54
+  },
+  {
+    "id": "55",
     "word": "シャンハイ",
     "kanji": "",
     "meaning": "Shanghai",
     "type": 2,
-    "originalOrder": 52
+    "originalOrder": 55
+  },
+  {
+    "id": "56",
+    "word": "きんかくじ",
+    "kanji": "金閣寺",
+    "meaning": "Kinkakuji-temple",
+    "type": 1,
+    "originalOrder": 56
+  },
+  {
+    "id": "57",
+    "word": "ならこうえん",
+    "kanji": "奈良公園",
+    "meaning": "Nara park",
+    "type": 1,
+    "originalOrder": 57
+  },
+  {
+    "id": "58",
+    "word": "ふじさん",
+    "kanji": "富士山",
+    "meaning": "Fujisan mountain",
+    "type": 1,
+    "originalOrder": 58
+  },
+  {
+    "id": "59",
+    "word": "しちにんのさむらい",
+    "kanji": "七人の侍",
+    "meaning": "Seven Samurai - Japanese epic samurai action film",
+    "type": 1,
+    "originalOrder": 59
   }
 ]

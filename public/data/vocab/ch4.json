@@ -417,9 +417,9 @@
   },
   {
     "id": "52",
-    "word": "たいへん",
-    "kanji": "大変",
-    "meaning": "tough job",
+    "word": "たいへんですね",
+    "kanji": "大変ですね。",
+    "meaning": "It’s a tough job, isn’t it?",
     "type": 1,
     "originalOrder": 52
   },
@@ -462,5 +462,21 @@
     "meaning": "apple",
     "type": 2,
     "originalOrder": 57
+  },
+  {
+    "id": "58",
+    "word": "みどり",
+    "kanji": "",
+    "meaning": "green",
+    "type": 0,
+    "originalOrder": 58
+  },
+  {
+    "id": "59",
+    "word": "やまと",
+    "kanji": "",
+    "meaning": "Ancient Japan",
+    "type": 0,
+    "originalOrder": 59
   }
 ]

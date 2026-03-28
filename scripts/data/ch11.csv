@@ -1,18 +1,18 @@
 ﻿word,kanji,katakana,meaning
-います,,,stay (子どもが～)
-います,,, stay (日本に～)
-かかります,かかります,,take a time
+います,,,have (子どもが～)
+います,,,stay (日本に～)
+かかります,,,take a time
 やすみます,休みます,,take a day off (会社を～)
-ひとつ,1 つ,,"one, single item or matters"
-ふたつ,2 つ,,two items or matters
-みっつ,3 つ,,three items or matters
-よっつ,4 つ,,four items or matters
-いつつ,5 つ,,five items or matters
-むっつ,6 つ,,six items or matters
-ななつ,7 つ,,seven items or matters
-やっつ,8 つ,,eight items or matters
-ここのつ,9 つ,,nine items or matters
-とお,10,,ten items or matters
+ひとつ,1つ,,"one, single item or matters"
+ふたつ,2つ,,two items or matters
+みっつ,3つ,,three items or matters
+よっつ,4つ,,four items or matters
+いつつ,5つ,,five items or matters
+むっつ,6つ,,six items or matters
+ななつ,7つ,,seven items or matters
+やっつ,8つ,,eight items or matters
+ここのつ,9つ,,nine items or matters
+とお,,,ten items or matters
 ひとり,1人,,one person
 ふたり,2人,,two people
 にん,...人,,...person (for 3 or more people)
@@ -49,7 +49,11 @@
 ぜんぶで,全部で,,in total
 みんな,,,"all, everything"
 ～だけ,,,only～
-おでかけですか,お出かけ,,go out
+いいおてんきですね,いいお天気ですね。,,"Nice weather, isn’t it?"
+おでかけですか,お出かけですか。,,Are you going out?
+ちょっと～まで。,,,I’m just going to
+いってらっしゃい,行ってらっしゃい。,,Have a safe trip.
+いってきます,行ってきます。,,I am going out.
 ふなびん,船便,,sea mail
 こうくうびん,航空便,,airmail
 エアメール,,1,airmail

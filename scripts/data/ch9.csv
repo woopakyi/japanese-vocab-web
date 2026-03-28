@@ -1,6 +1,6 @@
 ﻿word,kanji,katakana,meaning
 わかります,,,understand
-あります,あります,,have
+あります,,,have
 すきな,好きな,,like
 きらいな,嫌いな,,dislike
 じょうずな,上手な,,good at
@@ -23,7 +23,7 @@
 かんじ,漢字,,"Kanji, Chinese origin characters"
 ひらがな,,,Hiragana script
 かたかな,,,Katakana script
-ローマじ,ローマ字,1,Roman alphabet
+ローマ,,1,Roman (～字)
 こまかいおかね,細かいお金,,small change
 チケット,,1,ticket
 じかん,時間,,time
@@ -45,6 +45,11 @@
 はやく,早く、速く,,"early, quickly, fast"
 ～から,,,because
 どうして,,,why
-こんど,今度,,some other time
-かします,貸します,,lend
-ざんねん,残念,,pity
+ああ,,,ah
+いっしょにいかがですか。,,,Won’t you join me/us?
+～はちょっと……。,,,~ is a bit difficult. (Euphemism used when declining an invitation)
+だめですか。,,,So you do not prefer to it?
+またこんどおねがいします,また今度お願いします。,,Please ask me again some other time.
+かしてください,貸してください。,,Please lend me.
+いいですよ。,,,Sure.
+ざんねんですが,残念ですが,,That’s a pity but

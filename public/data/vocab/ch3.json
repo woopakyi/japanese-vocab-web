@@ -305,66 +305,98 @@
   },
   {
     "id": "38",
-    "word": "みせます",
-    "kanji": "見せます",
-    "meaning": "show",
-    "type": 1,
+    "word": "いらっしゃいませ。",
+    "kanji": "",
+    "meaning": "Welcome (to our shop).",
+    "type": 0,
     "originalOrder": 38
   },
   {
     "id": "39",
-    "word": "イタリア",
-    "kanji": "",
-    "meaning": "Italy",
-    "type": 2,
+    "word": "みせてください",
+    "kanji": "見せてください。",
+    "meaning": "Please show me. ([Object]を～)",
+    "type": 1,
     "originalOrder": 39
   },
   {
     "id": "40",
-    "word": "スイス",
+    "word": "ください。",
     "kanji": "",
-    "meaning": "Switzerland",
-    "type": 2,
+    "meaning": "Please give me.  ([Object]を～)",
+    "type": 0,
     "originalOrder": 40
   },
   {
     "id": "41",
-    "word": "フランス",
+    "word": "すみません。",
     "kanji": "",
-    "meaning": "France",
-    "type": 2,
+    "meaning": "Excuse me.",
+    "type": 0,
     "originalOrder": 41
   },
   {
     "id": "42",
-    "word": "ジャカルタ",
+    "word": "どうも。",
     "kanji": "",
-    "meaning": "Jakarta (city in Indonesia)",
-    "type": 2,
+    "meaning": "Thanks.",
+    "type": 0,
     "originalOrder": 42
   },
   {
     "id": "43",
-    "word": "バンコク",
+    "word": "イタリア",
     "kanji": "",
-    "meaning": "Bangkok (city in Thailand)",
+    "meaning": "Italy",
     "type": 2,
     "originalOrder": 43
   },
   {
     "id": "44",
-    "word": "ベルリン",
+    "word": "スイス",
     "kanji": "",
-    "meaning": "Berlin (city in Germany)",
+    "meaning": "Switzerland",
     "type": 2,
     "originalOrder": 44
   },
   {
     "id": "45",
+    "word": "フランス",
+    "kanji": "",
+    "meaning": "France",
+    "type": 2,
+    "originalOrder": 45
+  },
+  {
+    "id": "46",
+    "word": "ジャカルタ",
+    "kanji": "",
+    "meaning": "Jakarta (city in Indonesia)",
+    "type": 2,
+    "originalOrder": 46
+  },
+  {
+    "id": "47",
+    "word": "バンコク",
+    "kanji": "",
+    "meaning": "Bangkok (city in Thailand)",
+    "type": 2,
+    "originalOrder": 47
+  },
+  {
+    "id": "48",
+    "word": "ベルリン",
+    "kanji": "",
+    "meaning": "Berlin (city in Germany)",
+    "type": 2,
+    "originalOrder": 48
+  },
+  {
+    "id": "49",
     "word": "しんおおさか",
     "kanji": "新大阪",
     "meaning": "Shin Osaka (city in Osaka)",
     "type": 1,
-    "originalOrder": 45
+    "originalOrder": 49
   }
 ]

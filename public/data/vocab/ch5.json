@@ -409,58 +409,82 @@
   },
   {
     "id": "51",
-    "word": "ばんせん",
-    "kanji": "...番線",
-    "meaning": "...platform",
-    "type": 1,
+    "word": "どうもありがとうございました。",
+    "kanji": "",
+    "meaning": "Thank you very much.",
+    "type": 0,
     "originalOrder": 51
   },
   {
     "id": "52",
-    "word": "つぎ",
-    "kanji": "次の",
-    "meaning": "next",
-    "type": 1,
+    "word": "どういたしまして。",
+    "kanji": "",
+    "meaning": "You’re welcome.",
+    "type": 0,
     "originalOrder": 52
   },
   {
     "id": "53",
-    "word": "ふつう",
-    "kanji": "普通",
-    "meaning": "local train",
+    "word": "ばんせん",
+    "kanji": "...番線",
+    "meaning": "...platform",
     "type": 1,
     "originalOrder": 53
   },
   {
     "id": "54",
-    "word": "きゅうこう",
-    "kanji": "急行",
-    "meaning": "rapid train",
+    "word": "つぎ",
+    "kanji": "次の",
+    "meaning": "next",
     "type": 1,
     "originalOrder": 54
   },
   {
     "id": "55",
-    "word": "とっきゅう",
-    "kanji": "特急",
-    "meaning": "express train",
+    "word": "ふつう",
+    "kanji": "普通",
+    "meaning": "local train",
     "type": 1,
     "originalOrder": 55
   },
   {
     "id": "56",
-    "word": "こうしえん",
-    "kanji": "甲子園",
-    "meaning": "Koshien (city in Hyogo)",
+    "word": "きゅうこう",
+    "kanji": "急行",
+    "meaning": "rapid train",
     "type": 1,
     "originalOrder": 56
   },
   {
     "id": "57",
+    "word": "とっきゅう",
+    "kanji": "特急",
+    "meaning": "express train",
+    "type": 1,
+    "originalOrder": 57
+  },
+  {
+    "id": "58",
+    "word": "そうですね。",
+    "kanji": "",
+    "meaning": "I agree.",
+    "type": 0,
+    "originalOrder": 58
+  },
+  {
+    "id": "59",
+    "word": "こうしえん",
+    "kanji": "甲子園",
+    "meaning": "Koshien (city in Hyogo)",
+    "type": 1,
+    "originalOrder": 59
+  },
+  {
+    "id": "60",
     "word": "おおさかじょう",
     "kanji": "大阪城",
     "meaning": "Osaka Castle (famous castle in Osaka)",
     "type": 1,
-    "originalOrder": 57
+    "originalOrder": 60
   }
 ]

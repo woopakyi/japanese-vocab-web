@@ -19,7 +19,7 @@
     "id": "2",
     "word": "とります",
     "kanji": "取ります",
-    "meaning": "grow old (part of the expression (年を～)",
+    "meaning": "to grow old (年を～)",
     "type": 1,
     "originalOrder": 2
   },
@@ -91,15 +91,15 @@
     "id": "11",
     "word": "ひま",
     "kanji": "暇",
-    "meaning": "free time",
+    "meaning": "free, not busy",
     "type": 1,
     "originalOrder": 11
   },
   {
     "id": "12",
-    "word": "おせわ",
-    "kanji": "お世話",
-    "meaning": "kind assistance",
+    "word": "いろいろおせわになりました",
+    "kanji": "いろいろお世話になりました。",
+    "meaning": "Thank you for everything you have done for me.",
     "type": 1,
     "originalOrder": 12
   },
@@ -113,18 +113,26 @@
   },
   {
     "id": "14",
-    "word": "おげんきで",
-    "kanji": "お元気で",
+    "word": "どうぞおげんきで",
+    "kanji": "どうぞお元気で。",
     "meaning": "Best of luck.",
     "type": 1,
     "originalOrder": 14
   },
   {
     "id": "15",
+    "word": "もしもし",
+    "kanji": "",
+    "meaning": "Hello (used when speaking on the telephone)",
+    "type": 0,
+    "originalOrder": 15
+  },
+  {
+    "id": "16",
     "word": "ベトナム",
     "kanji": "",
     "meaning": "Vietnam",
     "type": 2,
-    "originalOrder": 15
+    "originalOrder": 16
   }
 ]

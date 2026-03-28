@@ -329,9 +329,9 @@
   },
   {
     "id": "41",
-    "word": "ひきだします",
-    "kanji": "引き出します",
-    "meaning": "withdrawal",
+    "word": "おひきだしですか",
+    "kanji": "お引き出しですか。",
+    "meaning": "Are you making a withdrawal?",
     "type": 1,
     "originalOrder": 41
   },
@@ -394,9 +394,9 @@
   {
     "id": "49",
     "word": "ジェーアール",
-    "kanji": "JR",
+    "kanji": "",
     "meaning": "JR",
-    "type": 1,
+    "type": 2,
     "originalOrder": 49
   },
   {
@@ -438,5 +438,13 @@
     "meaning": "Umeda (city in Osaka)",
     "type": 1,
     "originalOrder": 54
+  },
+  {
+    "id": "55",
+    "word": "だいがく",
+    "kanji": "大学",
+    "meaning": "university",
+    "type": 1,
+    "originalOrder": 55
   }
 ]

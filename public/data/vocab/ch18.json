@@ -185,9 +185,9 @@
   },
   {
     "id": "23",
-    "word": "おもしろい",
+    "word": "それはおもしろいですね。",
     "kanji": "",
-    "meaning": "interesting",
+    "meaning": "That must be interesting.",
     "type": 0,
     "originalOrder": 23
   },
@@ -201,34 +201,42 @@
   },
   {
     "id": "25",
-    "word": "ぜひ",
+    "word": "ほんとうですか。",
     "kanji": "",
-    "meaning": "by all means",
+    "meaning": "Really?",
     "type": 0,
     "originalOrder": 25
   },
   {
     "id": "26",
-    "word": "ふるさと",
-    "kanji": "故郷",
-    "meaning": "home town, birthplace",
-    "type": 1,
+    "word": "ぜひ",
+    "kanji": "",
+    "meaning": "by all means",
+    "type": 0,
     "originalOrder": 26
   },
   {
     "id": "27",
-    "word": "ビートルズ",
-    "kanji": "",
-    "meaning": "the Beatles, famous British music group",
-    "type": 2,
+    "word": "ふるさと",
+    "kanji": "故郷",
+    "meaning": "home town, birthplace",
+    "type": 1,
     "originalOrder": 27
   },
   {
     "id": "28",
+    "word": "ビートルズ",
+    "kanji": "",
+    "meaning": "the Beatles, famous British music group",
+    "type": 2,
+    "originalOrder": 28
+  },
+  {
+    "id": "29",
     "word": "あきはばら",
     "kanji": "秋葉原",
     "meaning": "Akihabara (city in Tokyo)",
     "type": 1,
-    "originalOrder": 28
+    "originalOrder": 29
   }
 ]

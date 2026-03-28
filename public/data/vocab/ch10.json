@@ -345,58 +345,66 @@
   },
   {
     "id": "43",
-    "word": "ナンプラー",
+    "word": "どうもすみません。",
     "kanji": "",
-    "meaning": "nam pla (Thai style fish sauce)",
-    "type": 2,
+    "meaning": "Sorry to bother you but thanks.",
+    "type": 0,
     "originalOrder": 43
   },
   {
     "id": "44",
-    "word": "コーナー",
+    "word": "ナンプラー",
     "kanji": "",
-    "meaning": "section, counter, booth",
+    "meaning": "nam pla (Thai style fish sauce)",
     "type": 2,
     "originalOrder": 44
   },
   {
     "id": "45",
-    "word": "いちばん",
+    "word": "コーナー",
     "kanji": "",
-    "meaning": "the most",
-    "type": 0,
+    "meaning": "section, counter, booth",
+    "type": 2,
     "originalOrder": 45
   },
   {
     "id": "46",
-    "word": "とうきょう",
-    "kanji": "東京",
-    "meaning": "Tokyo",
+    "word": "いちばんした",
+    "kanji": "いちばん下",
+    "meaning": "the lowest",
     "type": 1,
     "originalOrder": 46
   },
   {
     "id": "47",
-    "word": "ディズニーランド",
-    "kanji": "ディズニーランド",
-    "meaning": "Disneyland",
+    "word": "とうきょう",
+    "kanji": "東京",
+    "meaning": "Tokyo",
     "type": 1,
     "originalOrder": 47
   },
   {
     "id": "48",
-    "word": "アジア",
+    "word": "ディズニーランド",
     "kanji": "",
-    "meaning": "Asia",
+    "meaning": "Disneyland",
     "type": 2,
     "originalOrder": 48
   },
   {
     "id": "49",
+    "word": "アジア",
+    "kanji": "",
+    "meaning": "Asia",
+    "type": 2,
+    "originalOrder": 49
+  },
+  {
+    "id": "50",
     "word": "ストア",
     "kanji": "",
     "meaning": "store",
     "type": 2,
-    "originalOrder": 49
+    "originalOrder": 50
   }
 ]

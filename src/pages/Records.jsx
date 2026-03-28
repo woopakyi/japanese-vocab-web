@@ -7,31 +7,39 @@ import { getCachedValue, setCachedValue } from '../utils/cache';
 
 const USER_RECORDS_CACHE_TTL_MS = 5 * 60 * 1000;
 
-function formatCompletedAt(value) {
-  if (!value) return '--';
+function parseCompletedAtDate(value) {
+  if (!value) return null;
 
   if (typeof value === 'string') {
     const parsed = new Date(value);
-    return Number.isNaN(parsed.getTime()) ? '--' : parsed.toLocaleString();
+    return Number.isNaN(parsed.getTime()) ? null : parsed;
   }
 
   if (typeof value?.toDate === 'function') {
-    return value.toDate().toLocaleString();
+    const parsed = value.toDate();
+    return Number.isNaN(parsed.getTime()) ? null : parsed;
   }
 
-  return '--';
+  // Firestore Timestamp serialized through JSON cache becomes a plain object.
+  const seconds = Number(value?.seconds ?? value?._seconds);
+  const nanoseconds = Number(value?.nanoseconds ?? value?._nanoseconds ?? 0);
+  if (!Number.isFinite(seconds)) {
+    return null;
+  }
+
+  const millis = seconds * 1000 + Math.floor(nanoseconds / 1_000_000);
+  const parsed = new Date(millis);
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+}
+
+function formatCompletedAt(value) {
+  const parsed = parseCompletedAtDate(value);
+  return parsed ? parsed.toLocaleString() : '--';
 }
 
 function completedAtToMs(value) {
-  if (!value) return 0;
-  if (typeof value === 'string') {
-    const parsed = new Date(value).getTime();
-    return Number.isNaN(parsed) ? 0 : parsed;
-  }
-  if (typeof value?.toDate === 'function') {
-    return value.toDate().getTime();
-  }
-  return 0;
+  const parsed = parseCompletedAtDate(value);
+  return parsed ? parsed.getTime() : 0;
 }
 
 function chapterLabel(chapterId) {

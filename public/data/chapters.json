@@ -4,12 +4,12 @@
     "name": "Chapter 1",
     "chapterNumber": 1,
     "group": "Japanese I",
-    "type1Count": 24,
+    "type1Count": 26,
     "type2Count": 9,
-    "exercise1Max": 24,
+    "exercise1Max": 26,
     "exercise2Max": 9,
-    "chapterMaxScore": 33,
-    "totalVocabularyCount": 42
+    "chapterMaxScore": 35,
+    "totalVocabularyCount": 46
   },
   {
     "id": "ch2",
@@ -17,11 +17,11 @@
     "chapterNumber": 2,
     "group": "Japanese I",
     "type1Count": 19,
-    "type2Count": 10,
+    "type2Count": 11,
     "exercise1Max": 19,
-    "exercise2Max": 10,
-    "chapterMaxScore": 29,
-    "totalVocabularyCount": 39
+    "exercise2Max": 11,
+    "chapterMaxScore": 30,
+    "totalVocabularyCount": 46
   },
   {
     "id": "ch3",
@@ -33,7 +33,7 @@
     "exercise1Max": 23,
     "exercise2Max": 13,
     "chapterMaxScore": 36,
-    "totalVocabularyCount": 46
+    "totalVocabularyCount": 50
   },
   {
     "id": "ch4",
@@ -45,7 +45,7 @@
     "exercise1Max": 42,
     "exercise2Max": 6,
     "chapterMaxScore": 48,
-    "totalVocabularyCount": 58
+    "totalVocabularyCount": 60
   },
   {
     "id": "ch5",
@@ -57,55 +57,55 @@
     "exercise1Max": 53,
     "exercise2Max": 3,
     "chapterMaxScore": 56,
-    "totalVocabularyCount": 58
+    "totalVocabularyCount": 61
   },
   {
     "id": "ch6",
     "name": "Chapter 6",
     "chapterNumber": 6,
     "group": "Japanese I",
-    "type1Count": 33,
+    "type1Count": 35,
     "type2Count": 9,
-    "exercise1Max": 33,
+    "exercise1Max": 35,
     "exercise2Max": 9,
-    "chapterMaxScore": 42,
-    "totalVocabularyCount": 52
+    "chapterMaxScore": 44,
+    "totalVocabularyCount": 54
   },
   {
     "id": "ch7",
     "name": "Chapter 7",
     "chapterNumber": 7,
     "group": "Japanese II",
-    "type1Count": 19,
+    "type1Count": 20,
     "type2Count": 13,
-    "exercise1Max": 19,
+    "exercise1Max": 20,
     "exercise2Max": 13,
-    "chapterMaxScore": 32,
-    "totalVocabularyCount": 40
+    "chapterMaxScore": 33,
+    "totalVocabularyCount": 46
   },
   {
     "id": "ch8",
     "name": "Chapter 8",
     "chapterNumber": 8,
     "group": "Japanese II",
-    "type1Count": 38,
-    "type2Count": 4,
-    "exercise1Max": 38,
-    "exercise2Max": 4,
-    "chapterMaxScore": 42,
-    "totalVocabularyCount": 53
+    "type1Count": 40,
+    "type2Count": 3,
+    "exercise1Max": 40,
+    "exercise2Max": 3,
+    "chapterMaxScore": 43,
+    "totalVocabularyCount": 60
   },
   {
     "id": "ch9",
     "name": "Chapter 9",
     "chapterNumber": 9,
     "group": "Japanese II",
-    "type1Count": 33,
-    "type2Count": 8,
-    "exercise1Max": 33,
-    "exercise2Max": 8,
-    "chapterMaxScore": 41,
-    "totalVocabularyCount": 49
+    "type1Count": 31,
+    "type2Count": 9,
+    "exercise1Max": 31,
+    "exercise2Max": 9,
+    "chapterMaxScore": 40,
+    "totalVocabularyCount": 54
   },
   {
     "id": "ch10",
@@ -113,35 +113,35 @@
     "chapterNumber": 10,
     "group": "Japanese II",
     "type1Count": 31,
-    "type2Count": 13,
+    "type2Count": 14,
     "exercise1Max": 31,
-    "exercise2Max": 13,
-    "chapterMaxScore": 44,
-    "totalVocabularyCount": 50
+    "exercise2Max": 14,
+    "chapterMaxScore": 45,
+    "totalVocabularyCount": 51
   },
   {
     "id": "ch11",
     "name": "Chapter 11",
     "chapterNumber": 11,
     "group": "Japanese II",
-    "type1Count": 40,
+    "type1Count": 41,
     "type2Count": 6,
-    "exercise1Max": 40,
+    "exercise1Max": 41,
     "exercise2Max": 6,
-    "chapterMaxScore": 46,
-    "totalVocabularyCount": 55
+    "chapterMaxScore": 47,
+    "totalVocabularyCount": 59
   },
   {
     "id": "ch12",
     "name": "Chapter 12",
     "chapterNumber": 12,
     "group": "Japanese II",
-    "type1Count": 36,
+    "type1Count": 38,
     "type2Count": 5,
-    "exercise1Max": 36,
+    "exercise1Max": 38,
     "exercise2Max": 5,
-    "chapterMaxScore": 41,
-    "totalVocabularyCount": 48
+    "chapterMaxScore": 43,
+    "totalVocabularyCount": 51
   },
   {
     "id": "ch13",
@@ -160,12 +160,12 @@
     "name": "Chapter 14",
     "chapterNumber": 14,
     "group": "Japanese III",
-    "type1Count": 35,
+    "type1Count": 34,
     "type2Count": 3,
-    "exercise1Max": 35,
+    "exercise1Max": 34,
     "exercise2Max": 3,
-    "chapterMaxScore": 38,
-    "totalVocabularyCount": 45
+    "chapterMaxScore": 37,
+    "totalVocabularyCount": 46
   },
   {
     "id": "ch15",
@@ -177,7 +177,7 @@
     "exercise1Max": 19,
     "exercise2Max": 3,
     "chapterMaxScore": 22,
-    "totalVocabularyCount": 22
+    "totalVocabularyCount": 24
   },
   {
     "id": "ch16",
@@ -185,11 +185,11 @@
     "chapterNumber": 16,
     "group": "Japanese III",
     "type1Count": 42,
-    "type2Count": 8,
+    "type2Count": 9,
     "exercise1Max": 42,
-    "exercise2Max": 8,
-    "chapterMaxScore": 50,
-    "totalVocabularyCount": 55
+    "exercise2Max": 9,
+    "chapterMaxScore": 51,
+    "totalVocabularyCount": 56
   },
   {
     "id": "ch17",
@@ -201,7 +201,7 @@
     "exercise1Max": 26,
     "exercise2Max": 0,
     "chapterMaxScore": 26,
-    "totalVocabularyCount": 33
+    "totalVocabularyCount": 34
   },
   {
     "id": "ch18",
@@ -213,19 +213,19 @@
     "exercise1Max": 20,
     "exercise2Max": 4,
     "chapterMaxScore": 24,
-    "totalVocabularyCount": 29
+    "totalVocabularyCount": 30
   },
   {
     "id": "ch19",
     "name": "Chapter 19",
     "chapterNumber": 19,
     "group": "Japanese III",
-    "type1Count": 18,
+    "type1Count": 19,
     "type2Count": 3,
-    "exercise1Max": 18,
+    "exercise1Max": 19,
     "exercise2Max": 3,
-    "chapterMaxScore": 21,
-    "totalVocabularyCount": 26
+    "chapterMaxScore": 22,
+    "totalVocabularyCount": 27
   },
   {
     "id": "ch20",
@@ -237,19 +237,19 @@
     "exercise1Max": 9,
     "exercise2Max": 1,
     "chapterMaxScore": 10,
-    "totalVocabularyCount": 23
+    "totalVocabularyCount": 22
   },
   {
     "id": "ch21",
     "name": "Chapter 21",
     "chapterNumber": 21,
     "group": "Japanese IV",
-    "type1Count": 26,
-    "type2Count": 11,
-    "exercise1Max": 26,
-    "exercise2Max": 11,
-    "chapterMaxScore": 37,
-    "totalVocabularyCount": 48
+    "type1Count": 28,
+    "type2Count": 10,
+    "exercise1Max": 28,
+    "exercise2Max": 10,
+    "chapterMaxScore": 38,
+    "totalVocabularyCount": 50
   },
   {
     "id": "ch22",
@@ -261,19 +261,19 @@
     "exercise1Max": 12,
     "exercise2Max": 9,
     "chapterMaxScore": 21,
-    "totalVocabularyCount": 28
+    "totalVocabularyCount": 31
   },
   {
     "id": "ch23",
     "name": "Chapter 23",
     "chapterNumber": 23,
     "group": "Japanese IV",
-    "type1Count": 24,
+    "type1Count": 25,
     "type2Count": 1,
-    "exercise1Max": 24,
+    "exercise1Max": 25,
     "exercise2Max": 1,
-    "chapterMaxScore": 25,
-    "totalVocabularyCount": 25
+    "chapterMaxScore": 26,
+    "totalVocabularyCount": 26
   },
   {
     "id": "ch24",
@@ -297,18 +297,18 @@
     "exercise1Max": 12,
     "exercise2Max": 2,
     "chapterMaxScore": 14,
-    "totalVocabularyCount": 16
+    "totalVocabularyCount": 17
   },
   {
     "id": "ch26",
     "name": "Chapter 26",
     "chapterNumber": 26,
     "group": "Japanese V",
-    "type1Count": 33,
+    "type1Count": 34,
     "type2Count": 4,
-    "exercise1Max": 33,
+    "exercise1Max": 34,
     "exercise2Max": 4,
-    "chapterMaxScore": 37,
+    "chapterMaxScore": 38,
     "totalVocabularyCount": 47
   },
   {
@@ -328,12 +328,12 @@
     "name": "Chapter 28",
     "chapterNumber": 28,
     "group": "Japanese V",
-    "type1Count": 37,
+    "type1Count": 38,
     "type2Count": 6,
-    "exercise1Max": 37,
+    "exercise1Max": 38,
     "exercise2Max": 6,
-    "chapterMaxScore": 43,
-    "totalVocabularyCount": 51
+    "chapterMaxScore": 44,
+    "totalVocabularyCount": 52
   },
   {
     "id": "ch29",
@@ -345,18 +345,18 @@
     "exercise1Max": 41,
     "exercise2Max": 5,
     "chapterMaxScore": 46,
-    "totalVocabularyCount": 51
+    "totalVocabularyCount": 52
   },
   {
     "id": "ch30",
     "name": "Chapter 30",
     "chapterNumber": 30,
     "group": "Japanese V",
-    "type1Count": 36,
+    "type1Count": 34,
     "type2Count": 5,
-    "exercise1Max": 36,
+    "exercise1Max": 34,
     "exercise2Max": 5,
-    "chapterMaxScore": 41,
+    "chapterMaxScore": 39,
     "totalVocabularyCount": 48
   },
   {
@@ -400,11 +400,11 @@
     "name": "Chapter 34",
     "chapterNumber": 34,
     "group": "Japanese VI",
-    "type1Count": 34,
+    "type1Count": 33,
     "type2Count": 3,
-    "exercise1Max": 34,
+    "exercise1Max": 33,
     "exercise2Max": 3,
-    "chapterMaxScore": 37,
+    "chapterMaxScore": 36,
     "totalVocabularyCount": 49
   },
   {
@@ -424,12 +424,12 @@
     "name": "Chapter 36",
     "chapterNumber": 36,
     "group": "Japanese VI",
-    "type1Count": 29,
+    "type1Count": 30,
     "type2Count": 3,
-    "exercise1Max": 29,
+    "exercise1Max": 30,
     "exercise2Max": 3,
-    "chapterMaxScore": 32,
-    "totalVocabularyCount": 38
+    "chapterMaxScore": 33,
+    "totalVocabularyCount": 40
   },
   {
     "id": "ch37",

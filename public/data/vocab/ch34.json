@@ -177,7 +177,7 @@
   },
   {
     "id": "22",
-    "word": "おちゃく",
+    "word": "おちゃくさん",
     "kanji": "お客さん",
     "meaning": "guest, customer",
     "type": 1,
@@ -241,7 +241,7 @@
   },
   {
     "id": "30",
-    "word": "これでいいですか",
+    "word": "これでいいですか。",
     "kanji": "",
     "meaning": "Is this okay?",
     "type": 0,
@@ -249,7 +249,7 @@
   },
   {
     "id": "31",
-    "word": "いかがですか",
+    "word": "いかがですか。",
     "kanji": "",
     "meaning": "How is it? (polite)",
     "type": 0,
@@ -354,9 +354,9 @@
   {
     "id": "44",
     "word": "かけます",
-    "kanji": "かけます",
+    "kanji": "",
     "meaning": "put on (火に～)",
-    "type": 1,
+    "type": 0,
     "originalOrder": 44
   },
   {

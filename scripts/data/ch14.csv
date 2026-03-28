@@ -3,7 +3,7 @@
 けします,消します,,turn off
 あけます,開けます,,open
 しめます,閉めます,,"close, shut"
-いそぎます,急ぎます, ,hurry
+いそぎます,急ぎます,,hurry
 まちます,待ちます,,wait
 もちます,持ちます,,hold
 とります,取ります,,"take, pass"
@@ -39,8 +39,9 @@
 あとで,,,later
 もうすこし,もう少し,,"more, another"
 もう～,,,more～
-しんごう,信号,,traffic light
-みぎ,右,,right
-まがります,曲がります,,turn
+しんごうをみぎへまがってください,信号を右へまがってください。,,Turn right at the traffic light.
+これでおねがいします,これでお願いします。,,I’ll pay with this.
 おつり,お釣り,,"change, money"
+さあ,,,here we go
+あれ？,,,Huh?
 ちょう,町,,town

@@ -97,7 +97,7 @@
   },
   {
     "id": "12",
-    "word": "ちいさな～",
+    "word": "ちいさな",
     "kanji": "小さな～",
     "meaning": "small, little",
     "type": 1,
@@ -217,7 +217,7 @@
   },
   {
     "id": "27",
-    "word": "いけない",
+    "word": "いけない。",
     "kanji": "",
     "meaning": "exclamation of regret",
     "type": 0,
@@ -225,8 +225,8 @@
   },
   {
     "id": "28",
-    "word": "おさきに しつれいします",
-    "kanji": "お先に失礼します",
+    "word": "おさきにしつれいします",
+    "kanji": "お先に失礼します。",
     "meaning": "Excuse me for leaving before you.",
     "type": 1,
     "originalOrder": 28
@@ -409,7 +409,7 @@
   },
   {
     "id": "51",
-    "word": "きが つよい",
+    "word": "きがつよい",
     "kanji": "気が強い",
     "meaning": "strong-willed",
     "type": 1,

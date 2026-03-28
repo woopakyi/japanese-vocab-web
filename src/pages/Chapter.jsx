@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 import { getCachedValue, setCachedValue } from '../utils/cache';
 import { getUserBestScoreSummary } from '../utils/userSummary';
@@ -10,6 +10,7 @@ const USER_SUMMARY_CACHE_TTL_MS = 60 * 1000;
 
 export default function Chapter() {
   const { chapterId } = useParams();
+  const navigate = useNavigate();
   const { user } = useAuth();
   const [vocab, setVocab] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -95,6 +96,11 @@ export default function Chapter() {
 
   return (
     <div>
+      <div className="exercise-top-row">
+        <button type="button" className="go-back-btn" onClick={() => navigate(-1)}>
+          Go Back
+        </button>
+      </div>
       <h1>Vocabulary for {chapterId.replace('ch', 'Chapter ')}</h1>
 
       <div className="action-row">

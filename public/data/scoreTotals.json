@@ -1,50 +1,50 @@
 {
-  "totalExercise1Max": 1150,
-  "totalExercise2Max": 208,
-  "totalChapterMaxScore": 1358,
+  "totalExercise1Max": 1161,
+  "totalExercise2Max": 210,
+  "totalChapterMaxScore": 1371,
   "totalChapters": 38,
   "groupTotals": {
     "Japanese I": {
-      "exercise1Max": 194,
-      "exercise2Max": 50,
-      "chapterMaxScore": 244,
+      "exercise1Max": 198,
+      "exercise2Max": 51,
+      "chapterMaxScore": 249,
       "chapterCount": 6,
-      "shareOfTotalPct": 17.97
+      "shareOfTotalPct": 18.16
     },
     "Japanese II": {
-      "exercise1Max": 197,
-      "exercise2Max": 49,
-      "chapterMaxScore": 246,
+      "exercise1Max": 201,
+      "exercise2Max": 50,
+      "chapterMaxScore": 251,
       "chapterCount": 6,
-      "shareOfTotalPct": 18.11
+      "shareOfTotalPct": 18.31
     },
     "Japanese III": {
       "exercise1Max": 183,
-      "exercise2Max": 23,
-      "chapterMaxScore": 206,
+      "exercise2Max": 24,
+      "chapterMaxScore": 207,
       "chapterCount": 7,
-      "shareOfTotalPct": 15.17
+      "shareOfTotalPct": 15.1
     },
     "Japanese IV": {
-      "exercise1Max": 96,
-      "exercise2Max": 25,
-      "chapterMaxScore": 121,
+      "exercise1Max": 99,
+      "exercise2Max": 24,
+      "chapterMaxScore": 123,
       "chapterCount": 6,
-      "shareOfTotalPct": 8.91
+      "shareOfTotalPct": 8.97
     },
     "Japanese V": {
       "exercise1Max": 252,
       "exercise2Max": 35,
       "chapterMaxScore": 287,
       "chapterCount": 7,
-      "shareOfTotalPct": 21.13
+      "shareOfTotalPct": 20.93
     },
     "Japanese VI": {
       "exercise1Max": 228,
       "exercise2Max": 26,
       "chapterMaxScore": 254,
       "chapterCount": 6,
-      "shareOfTotalPct": 18.7
+      "shareOfTotalPct": 18.53
     }
   },
   "chapterTotals": {
@@ -52,19 +52,19 @@
       "chapterId": "ch1",
       "chapterNumber": 1,
       "group": "Japanese I",
-      "exercise1Max": 24,
+      "exercise1Max": 26,
       "exercise2Max": 9,
-      "chapterMaxScore": 33,
-      "shareOfTotalPct": 2.43
+      "chapterMaxScore": 35,
+      "shareOfTotalPct": 2.55
     },
     "ch2": {
       "chapterId": "ch2",
       "chapterNumber": 2,
       "group": "Japanese I",
       "exercise1Max": 19,
-      "exercise2Max": 10,
-      "chapterMaxScore": 29,
-      "shareOfTotalPct": 2.14
+      "exercise2Max": 11,
+      "chapterMaxScore": 30,
+      "shareOfTotalPct": 2.19
     },
     "ch3": {
       "chapterId": "ch3",
@@ -73,7 +73,7 @@
       "exercise1Max": 23,
       "exercise2Max": 13,
       "chapterMaxScore": 36,
-      "shareOfTotalPct": 2.65
+      "shareOfTotalPct": 2.63
     },
     "ch4": {
       "chapterId": "ch4",
@@ -82,7 +82,7 @@
       "exercise1Max": 42,
       "exercise2Max": 6,
       "chapterMaxScore": 48,
-      "shareOfTotalPct": 3.53
+      "shareOfTotalPct": 3.5
     },
     "ch5": {
       "chapterId": "ch5",
@@ -91,70 +91,70 @@
       "exercise1Max": 53,
       "exercise2Max": 3,
       "chapterMaxScore": 56,
-      "shareOfTotalPct": 4.12
+      "shareOfTotalPct": 4.08
     },
     "ch6": {
       "chapterId": "ch6",
       "chapterNumber": 6,
       "group": "Japanese I",
-      "exercise1Max": 33,
+      "exercise1Max": 35,
       "exercise2Max": 9,
-      "chapterMaxScore": 42,
-      "shareOfTotalPct": 3.09
+      "chapterMaxScore": 44,
+      "shareOfTotalPct": 3.21
     },
     "ch7": {
       "chapterId": "ch7",
       "chapterNumber": 7,
       "group": "Japanese II",
-      "exercise1Max": 19,
+      "exercise1Max": 20,
       "exercise2Max": 13,
-      "chapterMaxScore": 32,
-      "shareOfTotalPct": 2.36
+      "chapterMaxScore": 33,
+      "shareOfTotalPct": 2.41
     },
     "ch8": {
       "chapterId": "ch8",
       "chapterNumber": 8,
       "group": "Japanese II",
-      "exercise1Max": 38,
-      "exercise2Max": 4,
-      "chapterMaxScore": 42,
-      "shareOfTotalPct": 3.09
+      "exercise1Max": 40,
+      "exercise2Max": 3,
+      "chapterMaxScore": 43,
+      "shareOfTotalPct": 3.14
     },
     "ch9": {
       "chapterId": "ch9",
       "chapterNumber": 9,
       "group": "Japanese II",
-      "exercise1Max": 33,
-      "exercise2Max": 8,
-      "chapterMaxScore": 41,
-      "shareOfTotalPct": 3.02
+      "exercise1Max": 31,
+      "exercise2Max": 9,
+      "chapterMaxScore": 40,
+      "shareOfTotalPct": 2.92
     },
     "ch10": {
       "chapterId": "ch10",
       "chapterNumber": 10,
       "group": "Japanese II",
       "exercise1Max": 31,
-      "exercise2Max": 13,
-      "chapterMaxScore": 44,
-      "shareOfTotalPct": 3.24
+      "exercise2Max": 14,
+      "chapterMaxScore": 45,
+      "shareOfTotalPct": 3.28
     },
     "ch11": {
       "chapterId": "ch11",
       "chapterNumber": 11,
       "group": "Japanese II",
-      "exercise1Max": 40,
+      "exercise1Max": 41,
       "exercise2Max": 6,
-      "chapterMaxScore": 46,
-      "shareOfTotalPct": 3.39
+      "chapterMaxScore": 47,
+      "shareOfTotalPct": 3.43
     },
     "ch12": {
       "chapterId": "ch12",
       "chapterNumber": 12,
       "group": "Japanese II",
-      "exercise1Max": 36,
+      "exercise1Max": 38,
       "exercise2Max": 5,
-      "chapterMaxScore": 41,
-      "shareOfTotalPct": 3.02
+      "chapterMaxScore": 43,
+      "shareOfTotalPct": 3.14
     },
     "ch13": {
       "chapterId": "ch13",
@@ -163,16 +163,16 @@
       "exercise1Max": 23,
       "exercise2Max": 2,
       "chapterMaxScore": 25,
-      "shareOfTotalPct": 1.84
+      "shareOfTotalPct": 1.82
     },
     "ch14": {
       "chapterId": "ch14",
       "chapterNumber": 14,
       "group": "Japanese III",
-      "exercise1Max": 35,
+      "exercise1Max": 34,
       "exercise2Max": 3,
-      "chapterMaxScore": 38,
-      "shareOfTotalPct": 2.8
+      "chapterMaxScore": 37,
+      "shareOfTotalPct": 2.7
     },
     "ch15": {
       "chapterId": "ch15",
@@ -181,16 +181,16 @@
       "exercise1Max": 19,
       "exercise2Max": 3,
       "chapterMaxScore": 22,
-      "shareOfTotalPct": 1.62
+      "shareOfTotalPct": 1.6
     },
     "ch16": {
       "chapterId": "ch16",
       "chapterNumber": 16,
       "group": "Japanese III",
       "exercise1Max": 42,
-      "exercise2Max": 8,
-      "chapterMaxScore": 50,
-      "shareOfTotalPct": 3.68
+      "exercise2Max": 9,
+      "chapterMaxScore": 51,
+      "shareOfTotalPct": 3.72
     },
     "ch17": {
       "chapterId": "ch17",
@@ -199,7 +199,7 @@
       "exercise1Max": 26,
       "exercise2Max": 0,
       "chapterMaxScore": 26,
-      "shareOfTotalPct": 1.91
+      "shareOfTotalPct": 1.9
     },
     "ch18": {
       "chapterId": "ch18",
@@ -208,16 +208,16 @@
       "exercise1Max": 20,
       "exercise2Max": 4,
       "chapterMaxScore": 24,
-      "shareOfTotalPct": 1.77
+      "shareOfTotalPct": 1.75
     },
     "ch19": {
       "chapterId": "ch19",
       "chapterNumber": 19,
       "group": "Japanese III",
-      "exercise1Max": 18,
+      "exercise1Max": 19,
       "exercise2Max": 3,
-      "chapterMaxScore": 21,
-      "shareOfTotalPct": 1.55
+      "chapterMaxScore": 22,
+      "shareOfTotalPct": 1.6
     },
     "ch20": {
       "chapterId": "ch20",
@@ -226,16 +226,16 @@
       "exercise1Max": 9,
       "exercise2Max": 1,
       "chapterMaxScore": 10,
-      "shareOfTotalPct": 0.74
+      "shareOfTotalPct": 0.73
     },
     "ch21": {
       "chapterId": "ch21",
       "chapterNumber": 21,
       "group": "Japanese IV",
-      "exercise1Max": 26,
-      "exercise2Max": 11,
-      "chapterMaxScore": 37,
-      "shareOfTotalPct": 2.72
+      "exercise1Max": 28,
+      "exercise2Max": 10,
+      "chapterMaxScore": 38,
+      "shareOfTotalPct": 2.77
     },
     "ch22": {
       "chapterId": "ch22",
@@ -244,16 +244,16 @@
       "exercise1Max": 12,
       "exercise2Max": 9,
       "chapterMaxScore": 21,
-      "shareOfTotalPct": 1.55
+      "shareOfTotalPct": 1.53
     },
     "ch23": {
       "chapterId": "ch23",
       "chapterNumber": 23,
       "group": "Japanese IV",
-      "exercise1Max": 24,
+      "exercise1Max": 25,
       "exercise2Max": 1,
-      "chapterMaxScore": 25,
-      "shareOfTotalPct": 1.84
+      "chapterMaxScore": 26,
+      "shareOfTotalPct": 1.9
     },
     "ch24": {
       "chapterId": "ch24",
@@ -262,7 +262,7 @@
       "exercise1Max": 13,
       "exercise2Max": 1,
       "chapterMaxScore": 14,
-      "shareOfTotalPct": 1.03
+      "shareOfTotalPct": 1.02
     },
     "ch25": {
       "chapterId": "ch25",
@@ -271,16 +271,16 @@
       "exercise1Max": 12,
       "exercise2Max": 2,
       "chapterMaxScore": 14,
-      "shareOfTotalPct": 1.03
+      "shareOfTotalPct": 1.02
     },
     "ch26": {
       "chapterId": "ch26",
       "chapterNumber": 26,
       "group": "Japanese V",
-      "exercise1Max": 33,
+      "exercise1Max": 34,
       "exercise2Max": 4,
-      "chapterMaxScore": 37,
-      "shareOfTotalPct": 2.72
+      "chapterMaxScore": 38,
+      "shareOfTotalPct": 2.77
     },
     "ch27": {
       "chapterId": "ch27",
@@ -289,16 +289,16 @@
       "exercise1Max": 31,
       "exercise2Max": 7,
       "chapterMaxScore": 38,
-      "shareOfTotalPct": 2.8
+      "shareOfTotalPct": 2.77
     },
     "ch28": {
       "chapterId": "ch28",
       "chapterNumber": 28,
       "group": "Japanese V",
-      "exercise1Max": 37,
+      "exercise1Max": 38,
       "exercise2Max": 6,
-      "chapterMaxScore": 43,
-      "shareOfTotalPct": 3.17
+      "chapterMaxScore": 44,
+      "shareOfTotalPct": 3.21
     },
     "ch29": {
       "chapterId": "ch29",
@@ -307,16 +307,16 @@
       "exercise1Max": 41,
       "exercise2Max": 5,
       "chapterMaxScore": 46,
-      "shareOfTotalPct": 3.39
+      "shareOfTotalPct": 3.36
     },
     "ch30": {
       "chapterId": "ch30",
       "chapterNumber": 30,
       "group": "Japanese V",
-      "exercise1Max": 36,
+      "exercise1Max": 34,
       "exercise2Max": 5,
-      "chapterMaxScore": 41,
-      "shareOfTotalPct": 3.02
+      "chapterMaxScore": 39,
+      "shareOfTotalPct": 2.84
     },
     "ch31": {
       "chapterId": "ch31",
@@ -325,7 +325,7 @@
       "exercise1Max": 36,
       "exercise2Max": 2,
       "chapterMaxScore": 38,
-      "shareOfTotalPct": 2.8
+      "shareOfTotalPct": 2.77
     },
     "ch32": {
       "chapterId": "ch32",
@@ -334,7 +334,7 @@
       "exercise1Max": 38,
       "exercise2Max": 6,
       "chapterMaxScore": 44,
-      "shareOfTotalPct": 3.24
+      "shareOfTotalPct": 3.21
     },
     "ch33": {
       "chapterId": "ch33",
@@ -343,16 +343,16 @@
       "exercise1Max": 35,
       "exercise2Max": 3,
       "chapterMaxScore": 38,
-      "shareOfTotalPct": 2.8
+      "shareOfTotalPct": 2.77
     },
     "ch34": {
       "chapterId": "ch34",
       "chapterNumber": 34,
       "group": "Japanese VI",
-      "exercise1Max": 34,
+      "exercise1Max": 33,
       "exercise2Max": 3,
-      "chapterMaxScore": 37,
-      "shareOfTotalPct": 2.72
+      "chapterMaxScore": 36,
+      "shareOfTotalPct": 2.63
     },
     "ch35": {
       "chapterId": "ch35",
@@ -361,16 +361,16 @@
       "exercise1Max": 41,
       "exercise2Max": 7,
       "chapterMaxScore": 48,
-      "shareOfTotalPct": 3.53
+      "shareOfTotalPct": 3.5
     },
     "ch36": {
       "chapterId": "ch36",
       "chapterNumber": 36,
       "group": "Japanese VI",
-      "exercise1Max": 29,
+      "exercise1Max": 30,
       "exercise2Max": 3,
-      "chapterMaxScore": 32,
-      "shareOfTotalPct": 2.36
+      "chapterMaxScore": 33,
+      "shareOfTotalPct": 2.41
     },
     "ch37": {
       "chapterId": "ch37",
@@ -379,7 +379,7 @@
       "exercise1Max": 44,
       "exercise2Max": 8,
       "chapterMaxScore": 52,
-      "shareOfTotalPct": 3.83
+      "shareOfTotalPct": 3.79
     },
     "ch38": {
       "chapterId": "ch38",
@@ -388,8 +388,8 @@
       "exercise1Max": 45,
       "exercise2Max": 2,
       "chapterMaxScore": 47,
-      "shareOfTotalPct": 3.46
+      "shareOfTotalPct": 3.43
     }
   },
-  "generatedAt": "2026-03-26T18:15:40.383Z"
+  "generatedAt": "2026-03-28T16:16:19.322Z"
 }

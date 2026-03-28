@@ -107,7 +107,7 @@
     "id": "13",
     "word": "いい",
     "kanji": "",
-    "meaning": "prefer  (コーヒーが～)",
+    "meaning": "prefer (コーヒーが～)",
     "type": 0,
     "originalOrder": 13
   },
@@ -353,34 +353,58 @@
   },
   {
     "id": "44",
-    "word": "つかれます",
-    "kanji": "疲れます",
-    "meaning": "get tired",
-    "type": 1,
+    "word": "ただいま。",
+    "kanji": "",
+    "meaning": "I’m home.",
+    "type": 0,
     "originalOrder": 44
   },
   {
     "id": "45",
-    "word": "ぎおんまつり",
-    "kanji": "祇園祭",
-    "meaning": "Gion festival, the most famous festival in Japan.",
+    "word": "おかえりなさい",
+    "kanji": "お帰りなさい。",
+    "meaning": "Welcome home.",
     "type": 1,
     "originalOrder": 45
   },
   {
     "id": "46",
-    "word": "ホンコン",
-    "kanji": "",
-    "meaning": "Hong Kong",
-    "type": 2,
+    "word": "すごいひとですね",
+    "kanji": "すごい人ですね。",
+    "meaning": "So many people.",
+    "type": 1,
     "originalOrder": 46
   },
   {
     "id": "47",
+    "word": "つかれました",
+    "kanji": "疲れました。",
+    "meaning": "(I’m) tired.",
+    "type": 1,
+    "originalOrder": 47
+  },
+  {
+    "id": "48",
+    "word": "ぎおんまつり",
+    "kanji": "祇園祭",
+    "meaning": "Gion festival, the most famous festival in Japan.",
+    "type": 1,
+    "originalOrder": 48
+  },
+  {
+    "id": "49",
+    "word": "ホンコン",
+    "kanji": "",
+    "meaning": "Hong Kong",
+    "type": 2,
+    "originalOrder": 49
+  },
+  {
+    "id": "50",
     "word": "シンガポール",
     "kanji": "",
     "meaning": "Singapore",
     "type": 2,
-    "originalOrder": 47
+    "originalOrder": 50
   }
 ]

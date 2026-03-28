@@ -321,42 +321,50 @@
   },
   {
     "id": "40",
-    "word": "しんごう",
-    "kanji": "信号",
-    "meaning": "traffic light",
+    "word": "しんごうをみぎへまがってください",
+    "kanji": "信号を右へまがってください。",
+    "meaning": "Turn right at the traffic light.",
     "type": 1,
     "originalOrder": 40
   },
   {
     "id": "41",
-    "word": "みぎ",
-    "kanji": "右",
-    "meaning": "right",
+    "word": "これでおねがいします",
+    "kanji": "これでお願いします。",
+    "meaning": "I’ll pay with this.",
     "type": 1,
     "originalOrder": 41
   },
   {
     "id": "42",
-    "word": "まがります",
-    "kanji": "曲がります",
-    "meaning": "turn",
+    "word": "おつり",
+    "kanji": "お釣り",
+    "meaning": "change, money",
     "type": 1,
     "originalOrder": 42
   },
   {
     "id": "43",
-    "word": "おつり",
-    "kanji": "お釣り",
-    "meaning": "change, money",
-    "type": 1,
+    "word": "さあ",
+    "kanji": "",
+    "meaning": "here we go",
+    "type": 0,
     "originalOrder": 43
   },
   {
     "id": "44",
+    "word": "あれ？",
+    "kanji": "",
+    "meaning": "Huh?",
+    "type": 0,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
     "word": "ちょう",
     "kanji": "町",
     "meaning": "town",
     "type": 1,
-    "originalOrder": 44
+    "originalOrder": 45
   }
 ]

@@ -194,145 +194,177 @@
   {
     "id": "24",
     "word": "はじめまして",
-    "kanji": "初めまして",
+    "kanji": "初めまして。",
     "meaning": "I’m glad to meet you.",
     "type": 1,
     "originalOrder": 24
   },
   {
     "id": "25",
-    "word": "きます",
-    "kanji": "来ます",
-    "meaning": "come",
+    "word": "からきました",
+    "kanji": "～から来ました。",
+    "meaning": "I come from～.",
     "type": 1,
     "originalOrder": 25
   },
   {
     "id": "26",
-    "word": "おねがい",
-    "kanji": "お願い",
-    "meaning": "please",
+    "word": "どうぞよろしくおねがいします",
+    "kanji": "どうぞよろしくお願いします。",
+    "meaning": "Please be nice to me.",
     "type": 1,
     "originalOrder": 26
   },
   {
     "id": "27",
-    "word": "しつれい",
-    "kanji": "失礼",
-    "meaning": "impoliteness",
+    "word": "しつれいですが",
+    "kanji": "失礼ですが",
+    "meaning": "Sorry for impoliteness, but…",
     "type": 1,
     "originalOrder": 27
   },
   {
     "id": "28",
-    "word": "なまえ",
-    "kanji": "お名前",
-    "meaning": "name",
+    "word": "なまえは",
+    "kanji": "お名前は?",
+    "meaning": "May I have your name?",
     "type": 1,
     "originalOrder": 28
   },
   {
     "id": "29",
-    "word": "アメリカ",
+    "word": "こちらは～さんです。",
     "kanji": "",
-    "meaning": "America",
-    "type": 2,
+    "meaning": "This is Mr./Ms.~.",
+    "type": 0,
     "originalOrder": 29
   },
   {
     "id": "30",
-    "word": "イギリス",
+    "word": "アメリカ",
     "kanji": "",
-    "meaning": "England",
+    "meaning": "America",
     "type": 2,
     "originalOrder": 30
   },
   {
     "id": "31",
-    "word": "インド",
+    "word": "イギリス",
     "kanji": "",
-    "meaning": "India",
+    "meaning": "England",
     "type": 2,
     "originalOrder": 31
   },
   {
     "id": "32",
-    "word": "インドネシア",
+    "word": "インド",
     "kanji": "",
-    "meaning": "Indonesia",
+    "meaning": "India",
     "type": 2,
     "originalOrder": 32
   },
   {
     "id": "33",
-    "word": "かんこく",
-    "kanji": "韓国",
-    "meaning": "South Korea",
-    "type": 1,
+    "word": "インドネシア",
+    "kanji": "",
+    "meaning": "Indonesia",
+    "type": 2,
     "originalOrder": 33
   },
   {
     "id": "34",
-    "word": "タイ",
-    "kanji": "",
-    "meaning": "Thailand",
-    "type": 2,
+    "word": "かんこく",
+    "kanji": "韓国",
+    "meaning": "South Korea",
+    "type": 1,
     "originalOrder": 34
   },
   {
     "id": "35",
-    "word": "ちゅうごく",
-    "kanji": "中国",
-    "meaning": "China",
-    "type": 1,
+    "word": "タイ",
+    "kanji": "",
+    "meaning": "Thailand",
+    "type": 2,
     "originalOrder": 35
   },
   {
     "id": "36",
-    "word": "ドイツ",
-    "kanji": "",
-    "meaning": "Germany",
-    "type": 2,
+    "word": "ちゅうごく",
+    "kanji": "中国",
+    "meaning": "China",
+    "type": 1,
     "originalOrder": 36
   },
   {
     "id": "37",
-    "word": "にほん",
-    "kanji": "日本",
-    "meaning": "Japan",
-    "type": 1,
+    "word": "ドイツ",
+    "kanji": "",
+    "meaning": "Germany",
+    "type": 2,
     "originalOrder": 37
   },
   {
     "id": "38",
-    "word": "ブラジル",
-    "kanji": "",
-    "meaning": "Brazil",
-    "type": 2,
+    "word": "にほん",
+    "kanji": "日本",
+    "meaning": "Japan",
+    "type": 1,
     "originalOrder": 38
   },
   {
     "id": "39",
-    "word": "パワー",
+    "word": "ブラジル",
     "kanji": "",
-    "meaning": "power",
+    "meaning": "Brazil",
     "type": 2,
     "originalOrder": 39
   },
   {
     "id": "40",
-    "word": "でんき",
-    "kanji": "電気",
-    "meaning": "electricity",
-    "type": 1,
+    "word": "パワー",
+    "kanji": "",
+    "meaning": "power",
+    "type": 2,
     "originalOrder": 40
   },
   {
     "id": "41",
+    "word": "でんき",
+    "kanji": "電気",
+    "meaning": "electricity",
+    "type": 1,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
     "word": "エアー",
     "kanji": "",
     "meaning": "air",
     "type": 2,
-    "originalOrder": 41
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "こうべ",
+    "kanji": "神戸",
+    "meaning": "Kōbe (a location in Japan)",
+    "type": 1,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "さくら",
+    "kanji": "",
+    "meaning": "cherry blossoms",
+    "type": 0,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
+    "word": "ふじ",
+    "kanji": "富士",
+    "meaning": "Fuji (a location in Japan)",
+    "type": 1,
+    "originalOrder": 45
   }
 ]

@@ -225,42 +225,50 @@
   },
   {
     "id": "28",
-    "word": "のど",
+    "word": "どうしましたか。",
     "kanji": "",
-    "meaning": "throat",
+    "meaning": "What’s the matter?",
     "type": 0,
     "originalOrder": 28
   },
   {
     "id": "29",
-    "word": "いたい",
-    "kanji": "痛い",
-    "meaning": "pain",
-    "type": 1,
+    "word": "のど",
+    "kanji": "",
+    "meaning": "throat",
+    "type": 0,
     "originalOrder": 29
   },
   {
     "id": "30",
-    "word": "かぜ",
-    "kanji": "",
-    "meaning": "cold, flu",
-    "type": 0,
+    "word": "がいたいです",
+    "kanji": "～が痛いです。",
+    "meaning": "I’m in pain.",
+    "type": 1,
     "originalOrder": 30
   },
   {
     "id": "31",
-    "word": "それから",
+    "word": "かぜ",
     "kanji": "",
-    "meaning": "then",
+    "meaning": "cold, flu",
     "type": 0,
     "originalOrder": 31
   },
   {
     "id": "32",
+    "word": "それから",
+    "kanji": "",
+    "meaning": "then",
+    "type": 0,
+    "originalOrder": 32
+  },
+  {
+    "id": "33",
     "word": "おだいじに",
-    "kanji": "お大事に",
+    "kanji": "お大事に。",
     "meaning": "Take care of yourself (said to people who are ill)",
     "type": 1,
-    "originalOrder": 32
+    "originalOrder": 33
   }
 ]

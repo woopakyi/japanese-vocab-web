@@ -170,9 +170,9 @@
   {
     "id": "21",
     "word": "シーディー",
-    "kanji": "CD",
-    "meaning": "Compact Disk",
-    "type": 1,
+    "kanji": "",
+    "meaning": "CD",
+    "type": 2,
     "originalOrder": 21
   },
   {
@@ -297,18 +297,74 @@
   },
   {
     "id": "37",
-    "word": "おせわ",
-    "kanji": "お世話",
-    "meaning": "kind assistance",
+    "word": "これからおせわになります",
+    "kanji": "これからお世話になります。",
+    "meaning": "I hope for your kind assistance hereafter.",
     "type": 1,
     "originalOrder": 37
   },
   {
     "id": "38",
-    "word": "ちがいます",
-    "kanji": "違います",
-    "meaning": "No, it isn’t.",
+    "word": "こちらこそどうぞよろしくおねがいします",
+    "kanji": "こちらこそどうぞよろしくお願いします。",
+    "meaning": "I am also pleased to meet you. (response to どうぞよろしくお願いします)",
     "type": 1,
     "originalOrder": 38
+  },
+  {
+    "id": "39",
+    "word": "あのう",
+    "kanji": "",
+    "meaning": "well… (used to show hesitation)",
+    "type": 0,
+    "originalOrder": 39
+  },
+  {
+    "id": "40",
+    "word": "えっ",
+    "kanji": "",
+    "meaning": "eh? (used to show surprise)",
+    "type": 0,
+    "originalOrder": 40
+  },
+  {
+    "id": "41",
+    "word": "どうぞ。",
+    "kanji": "",
+    "meaning": "please",
+    "type": 0,
+    "originalOrder": 41
+  },
+  {
+    "id": "42",
+    "word": "どうもありがとうございます。",
+    "kanji": "",
+    "meaning": "Thank you very much.",
+    "type": 0,
+    "originalOrder": 42
+  },
+  {
+    "id": "43",
+    "word": "そうですか。",
+    "kanji": "",
+    "meaning": "I see.",
+    "type": 0,
+    "originalOrder": 43
+  },
+  {
+    "id": "44",
+    "word": "ちがいます",
+    "kanji": "違います。",
+    "meaning": "No, it isn’t.",
+    "type": 1,
+    "originalOrder": 44
+  },
+  {
+    "id": "45",
+    "word": "あ",
+    "kanji": "",
+    "meaning": "ah! (interjection used when noticing something)",
+    "type": 0,
+    "originalOrder": 45
   }
 ]

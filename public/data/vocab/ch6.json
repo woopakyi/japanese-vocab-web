@@ -377,7 +377,7 @@
   },
   {
     "id": "47",
-    "word": "いいですね",
+    "word": "いいですね。",
     "kanji": "",
     "meaning": "That’s good.",
     "type": 0,
@@ -385,7 +385,7 @@
   },
   {
     "id": "48",
-    "word": "わかりました",
+    "word": "わかりました。",
     "kanji": "",
     "meaning": "I see.",
     "type": 0,
@@ -394,7 +394,7 @@
   {
     "id": "49",
     "word": "なんですか",
-    "kanji": "何ですか",
+    "kanji": "何ですか。",
     "meaning": "What is it? What’s the matter?",
     "type": 1,
     "originalOrder": 49
@@ -414,5 +414,21 @@
     "meaning": "Osaka",
     "type": 1,
     "originalOrder": 51
+  },
+  {
+    "id": "52",
+    "word": "や",
+    "kanji": "...屋",
+    "meaning": "...shop",
+    "type": 1,
+    "originalOrder": 52
+  },
+  {
+    "id": "53",
+    "word": "まいにち",
+    "kanji": "毎日",
+    "meaning": "every day",
+    "type": 1,
+    "originalOrder": 53
   }
 ]

@@ -23,11 +23,12 @@
 おいくつ,,,polite expression equivalent of なんさい
 はい,,,yes
 いいえ,,,no
-はじめまして,初めまして,,I’m glad to meet you.
-きます,来ます,,come
-おねがい,お願い,,please
-しつれい,失礼,,impoliteness
-なまえ,お名前,,name
+はじめまして,初めまして。,,I’m glad to meet you.
+からきました,～から来ました。,,I come from～.
+どうぞよろしくおねがいします,どうぞよろしくお願いします。,,Please be nice to me.
+しつれいですが,失礼ですが,,"Sorry for impoliteness, but…"
+なまえは,お名前は?,,May I have your name?
+こちらは～さんです。,,,This is Mr./Ms.~.
 アメリカ,,1,America
 イギリス,,1,England
 インド,,1,India
@@ -41,3 +42,6 @@
 パワー,,1,power
 でんき,電気,,electricity
 エアー,,1,air
+こうべ,神戸,,Kōbe (a location in Japan)
+さくら,,,cherry blossoms
+ふじ,富士,,Fuji (a location in Japan)

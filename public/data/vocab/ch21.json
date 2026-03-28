@@ -289,98 +289,114 @@
   },
   {
     "id": "36",
-    "word": "ひさしぶり",
-    "kanji": "久しぶり",
-    "meaning": "a long time",
+    "word": "ひさしぶりですね",
+    "kanji": "久しぶりですね。",
+    "meaning": "It’s been a long time.",
     "type": 1,
     "originalOrder": 36
   },
   {
     "id": "37",
-    "word": "アインシュタイン",
-    "kanji": "",
-    "meaning": "Einstein",
-    "type": 2,
+    "word": "でものみませんか",
+    "kanji": "～でも飲みませんか。",
+    "meaning": "Would your like a (something to drink)?",
+    "type": 1,
     "originalOrder": 37
   },
   {
     "id": "38",
-    "word": "ガガーリン",
+    "word": "もちろん",
     "kanji": "",
-    "meaning": "Gagarin",
-    "type": 2,
+    "meaning": "Sure.",
+    "type": 0,
     "originalOrder": 38
   },
   {
     "id": "39",
-    "word": "ガリレオ",
-    "kanji": "",
-    "meaning": "Galileo",
-    "type": 2,
+    "word": "もうかえらないと",
+    "kanji": "もう帰らないと……。",
+    "meaning": "I have to go.",
+    "type": 1,
     "originalOrder": 39
   },
   {
     "id": "40",
-    "word": "キングぼくし",
-    "kanji": "キング牧師",
-    "meaning": "Martin Luther King Jr.",
-    "type": 1,
+    "word": "アインシュタイン",
+    "kanji": "",
+    "meaning": "Einstein",
+    "type": 2,
     "originalOrder": 40
   },
   {
     "id": "41",
-    "word": "フランクリン",
+    "word": "ガガーリン",
     "kanji": "",
-    "meaning": "Benjamin Franklin",
+    "meaning": "Gagarin",
     "type": 2,
     "originalOrder": 41
   },
   {
     "id": "42",
-    "word": "かぐやひめ",
-    "kanji": "かぐや姫",
-    "meaning": "Main character of the Tale of Taketori monogatari",
-    "type": 1,
+    "word": "ガリレオ",
+    "kanji": "",
+    "meaning": "Galileo",
+    "type": 2,
     "originalOrder": 42
   },
   {
     "id": "43",
-    "word": "てんじんまつり",
-    "kanji": "天神祭",
-    "meaning": "Tenjin Matsuri (festival)",
+    "word": "キングぼくし",
+    "kanji": "キング牧師",
+    "meaning": "Martin Luther King Jr.",
     "type": 1,
     "originalOrder": 43
   },
   {
     "id": "44",
-    "word": "よしのやま",
-    "kanji": "吉野山",
-    "meaning": "Yoshinoyama (place)",
-    "type": 1,
+    "word": "フランクリン",
+    "kanji": "",
+    "meaning": "Benjamin Franklin",
+    "type": 2,
     "originalOrder": 44
   },
   {
     "id": "45",
-    "word": "カンガルー",
-    "kanji": "",
-    "meaning": "kangaroo",
-    "type": 2,
+    "word": "かぐやひめ",
+    "kanji": "かぐや姫",
+    "meaning": "Main character of the Tale of Taketori monogatari",
+    "type": 1,
     "originalOrder": 45
   },
   {
     "id": "46",
-    "word": "キャプテン・クック",
-    "kanji": "",
-    "meaning": "Captain Cook",
-    "type": 2,
+    "word": "てんじんまつり",
+    "kanji": "天神祭",
+    "meaning": "Tenjin Matsuri (festival)",
+    "type": 1,
     "originalOrder": 46
   },
   {
     "id": "47",
-    "word": "ヨーネン",
-    "kanji": "",
-    "meaning": "Yohnen (fictitious company name)",
-    "type": 2,
+    "word": "よしのやま",
+    "kanji": "吉野山",
+    "meaning": "Yoshinoyama (place)",
+    "type": 1,
     "originalOrder": 47
+  },
+  {
+    "id": "48",
+    "word": "カンガルー",
+    "kanji": "",
+    "meaning": "kangaroo",
+    "type": 2,
+    "originalOrder": 48
+  },
+  {
+    "id": "49",
+    "word": "キャプテン・クック",
+    "kanji": "",
+    "meaning": "Captain Cook",
+    "type": 2,
+    "originalOrder": 49
   }
 ]
